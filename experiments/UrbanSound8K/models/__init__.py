@@ -1,0 +1,2 @@
+from experiments.UrbanSound8K.models.MNets_EtAl2016 import R_M3, R_M5, R_M11, R_M18, R_M34res, RRPlus_M3, RRPlus_M5, RRPlus_M11, RRPlus_M18, RRPlus_M34res
+from experiments.UrbanSound8K.models.OneDCNN_Abdoli2019 import OneDCNN, RRPlus_OneDCNN

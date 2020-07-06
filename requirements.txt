@@ -1,0 +1,17 @@
+conda update -n base -c defaults conda
+conda create -n eerie python=3.7
+conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
+conda install pandas
+conda install -c pytorch torchaudio
+#nonechucks~=0.4.0
+conda install -c conda-forge python-dotenv
+conda install -c anaconda pydot -y
+conda install -c anaconda requests -y
+conda install -c conda-forge pydub -y
+conda install -c conda-forge audioread -y
+conda install -c conda-forge librosa -y
+conda install -c conda-forge tqdm
+conda install -c anaconda h5py
+conda install -c conda-forge musdb
+conda install -c conda-forge sortedcontainers
+pip install museval

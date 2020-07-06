@@ -1,0 +1,15 @@
+.idea/*
+data/*
+*.DS_STORE
+*.pyc
+
+eerie/groups/SE2.py
+eerie/nn/layers.py
+eerie/nn/functional/bconv.py
+eerie/nn/functional/sconv.py
+
+experiments/UrbanSound8K/data/*
+experiments/UrbanSound8K/saved/*
+experiments/MagnaTagATune/data/
+experiments/MagnaTagATune/saved/*
+experiments/MagnaTagATune/model/*
