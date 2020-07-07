@@ -1,6 +1,8 @@
 # torch
 import torch
 import torch.nn as nn
+# built-in
+import functools
 # project
 import eerie
 
@@ -173,4 +175,4 @@ if __name__ == '__main__':
     print('RR+_OneDCNN')
     model = RRPlus_OneDCNN()
     num_params(model)
-    model(torch.rand([2, 1, 64000]))
+    #model(torch.rand([2, 1, 50999]))

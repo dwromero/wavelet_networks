@@ -35,7 +35,7 @@ def main(args):
         args.epochs = 400
         args.weight_decay = 1e-4
         args.optim = 'adam'
-        args.lr = 1e-3
+        args.lr = 1e-3  # 1e-3 for RR+ variants, 1e-2 for R variants.
 
         if args.model == 'R_M3':
             model = models.R_M3()

@@ -1,6 +1,8 @@
 # torch
 import torch
 import torch.nn as nn
+# built-in
+import functools
 # project
 import eerie
 
@@ -365,12 +367,16 @@ class RRPlus_M3(torch.nn.Module):
         h_grid = group.h_grid_global(N_h, base ** (N_h - 1))
         print(h_grid.grid)
         n_channels_G = int(n_channels / 1.7) #int(n_channels / 1.75 * (N_h / N_h))  # For Nh=6 use 2.45, For Nh = 7, use 2.65, For Nh=8, use 2.85, For Nh=9, use 3.0,
-        print("G_CH", n_channels_G)
+
 
 
         self.c1 = eerie.nn.GConvRdG(group, in_channels=1, out_channels=n_channels_G, kernel_size=79, h_grid=h_grid_RdG, bias=use_bias, stride=1)
         self.c2 = eerie.nn.GConvGG(group, in_channels=n_channels_G, out_channels=n_channels_G, kernel_size=3, h_grid=h_grid, bias=use_bias, stride=1, h_crop=True)
         self.c3 = eerie.nn.GConvGG(group, in_channels=n_channels_G, out_channels=n_classes, kernel_size=1, h_grid=h_grid, bias=use_bias, stride=1, h_crop=True)
+        # Conv Layers
+        #self.c1 = torch.nn.Conv1d(in_channels=1,          out_channels=n_channels, kernel_size=80, stride=4, padding=(80 // 2), dilation=1, bias=use_bias)
+        #self.c2 = torch.nn.Conv1d(in_channels=n_channels, out_channels=n_channels, kernel_size=3,  stride=1, padding=(3 // 2),  dilation=1, bias=use_bias)
+        #self.c3 = torch.nn.Conv1d(in_channels=n_channels, out_channels=n_classes,  kernel_size=1,  stride=1, padding=0,         dilation=1, bias=use_bias)
         # BatchNorm Layers
         self.bn1 = torch.nn.BatchNorm2d(num_features=n_channels_G, eps=eps)
         self.bn2 = torch.nn.BatchNorm2d(num_features=n_channels_G, eps=eps)
@@ -421,6 +427,13 @@ class RRPlus_M5(torch.nn.Module):
         h_grid_RdG = group.h_grid_global(N_h_RdG, base ** (N_h_RdG - 1))
         print(h_grid_RdG.grid)
 
+        # For subsequent layers:
+        # N_h = 1
+        # base = 2
+        # h_grid = group.h_grid_global(N_h, base ** (N_h - 1))
+        # print(h_grid.grid)
+        # n_channels_G = int(n_channels / (N_h / N_h))   #  For Nh=6 use 2.45, For Nh = 7, use 2.65, For Nh=8, use 2.85, For Nh=9, use 3.0,
+
         # Multi-scale interactions (@Erik)
         # For subsequent layers:
         N_h = 3  # <--- TODO: not sure if this is the most optimal though, but it reduces the h_axis nicely to size 1 in the last layer
@@ -428,7 +441,6 @@ class RRPlus_M5(torch.nn.Module):
         h_grid = group.h_grid_global(N_h, base ** (N_h - 1))
         print(h_grid.grid)
         n_channels_G = 74 #int(n_channels / 1.75 * (N_h / N_h))  # For Nh=6 use 2.45, For Nh = 7, use 2.65, For Nh=8, use 2.85, For Nh=9, use 3.0,
-        print("G_CH", n_channels_G)
 
         # Conv Layers
         self.c1 = eerie.nn.GConvRdG(group, in_channels=1,              out_channels=n_channels_G,     kernel_size=79, h_grid=h_grid_RdG, bias=use_bias, stride=1)
@@ -505,12 +517,12 @@ class RRPlus_M11(torch.nn.Module):
         h_grid = group.h_grid_global(N_h, base ** (N_h - 1))
         print(h_grid.grid)
         n_channels_G = int(n_channels / 1.25)  #  For Nh=6 use 2.45, For Nh = 7, use 2.65, For Nh=8, use 2.85, For Nh=9, use 3.0,
-        print("G_CH", n_channels_G)
 
         N_h_crop = 3  # <--- TODO: not sure if this is the most optimal though, but it reduces the h_axis nicely to size 1 in the last layer
         base = 2
         h_grid_crop = group.h_grid_global(N_h_crop, base ** (N_h_crop - 1))
         print(h_grid_crop.grid)
+        #n_channels_G = int(n_channels / 1.75 * (N_h / N_h))  # For Nh=6 use 2.45, For Nh = 7, use 2.65, For Nh=8, use 2.85, For Nh=9, use 3.0,
 
         # Conv Layers
         self.c1 = eerie.nn.GConvRdG(group, in_channels=1,              out_channels=n_channels_G,     kernel_size=79, h_grid=h_grid_RdG, bias=use_bias, stride=1)
@@ -597,7 +609,6 @@ class RRPlus_M18(torch.nn.Module):
         h_grid = group.h_grid_global(N_h, base ** (N_h - 1))
         print(h_grid.grid)
         n_channels_G = int(n_channels / 1.12)  #  For Nh=6 use 2.45, For Nh = 7, use 2.65, For Nh=8, use 2.85, For Nh=9, use 3.0,
-        print("G_CH", n_channels_G)
 
         N_h_crop = 3  # <--- TODO: not sure if this is the most optimal though, but it reduces the h_axis nicely to size 1 in the last layer
         base = 2
@@ -756,7 +767,6 @@ class RRPlus_M34res(torch.nn.Module):
         h_grid = group.h_grid_global(N_h, base ** (N_h - 1))
         print(h_grid.grid)
         n_channels_G = int(45)  # For Nh=6 use 2.45, For Nh = 7, use 2.65, For Nh=8, use 2.85, For Nh=9, use 3.0,
-        print("G_CH", n_channels_G)
 
         N_h_crop = 3  # <--- TODO: not sure if this is the most optimal though, but it reduces the h_axis nicely to size 1 in the last layer
         base = 2
