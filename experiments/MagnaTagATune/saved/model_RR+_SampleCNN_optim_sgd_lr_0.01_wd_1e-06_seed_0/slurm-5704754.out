@@ -1,0 +1,3548 @@
+Starting ...demo   experiments  Observations_Experiments.md  requirements.txt
+eerie  LICENSE	    README.md
+tensor([[  1.],
+        [  2.],
+        [  4.],
+        [  8.],
+        [ 16.],
+        [ 32.],
+        [ 64.],
+        [128.],
+        [256.]])
+tensor([[1.]])
+tensor([[1.],
+        [2.],
+        [4.]])
+Let's use 2 GPUs!
+dataset mode:  train
+dataset mode:  valid
+dataset mode:  test
+Namespace(batch_size=23, device='cuda:0', epochs=100, extra_comment='', lr=0.01, model='RR+_SampleCNN', optim='sgd', path='./saved/model_RR+_SampleCNN_optim_sgd_lr_0.01_wd_1e-06_seed_0/model.pth', pretrained=False, seed=0, weight_decay=1e-06)
+2020-05-28 16:44:49.264304
+Epoch 1/100
+------------------------------
+Learning Rate: 0.01
+------------------------------
+Epoch [1/100], Iter [100/5943] loss : 0.2493
+Epoch [1/100], Iter [200/5943] loss : 0.2235
+Epoch [1/100], Iter [300/5943] loss : 0.2213
+Epoch [1/100], Iter [400/5943] loss : 0.1612
+Epoch [1/100], Iter [500/5943] loss : 0.1658
+Epoch [1/100], Iter [600/5943] loss : 0.1833
+Epoch [1/100], Iter [700/5943] loss : 0.2095
+Epoch [1/100], Iter [800/5943] loss : 0.1984
+Epoch [1/100], Iter [900/5943] loss : 0.1899
+Epoch [1/100], Iter [1000/5943] loss : 0.1753
+Epoch [1/100], Iter [1100/5943] loss : 0.1712
+Epoch [1/100], Iter [1200/5943] loss : 0.1827
+Epoch [1/100], Iter [1300/5943] loss : 0.2038
+Epoch [1/100], Iter [1400/5943] loss : 0.1617
+Epoch [1/100], Iter [1500/5943] loss : 0.1853
+Epoch [1/100], Iter [1600/5943] loss : 0.1910
+Epoch [1/100], Iter [1700/5943] loss : 0.2058
+Epoch [1/100], Iter [1800/5943] loss : 0.2111
+Epoch [1/100], Iter [1900/5943] loss : 0.1884
+Epoch [1/100], Iter [2000/5943] loss : 0.2031
+Epoch [1/100], Iter [2100/5943] loss : 0.1813
+Epoch [1/100], Iter [2200/5943] loss : 0.1860
+Epoch [1/100], Iter [2300/5943] loss : 0.1639
+Epoch [1/100], Iter [2400/5943] loss : 0.1601
+Epoch [1/100], Iter [2500/5943] loss : 0.1637
+Epoch [1/100], Iter [2600/5943] loss : 0.2133
+Epoch [1/100], Iter [2700/5943] loss : 0.1600
+Epoch [1/100], Iter [2800/5943] loss : 0.1742
+Epoch [1/100], Iter [2900/5943] loss : 0.1693
+Epoch [1/100], Iter [3000/5943] loss : 0.1973
+Epoch [1/100], Iter [3100/5943] loss : 0.1512
+Epoch [1/100], Iter [3200/5943] loss : 0.1724
+Epoch [1/100], Iter [3300/5943] loss : 0.1930
+Epoch [1/100], Iter [3400/5943] loss : 0.2273
+Epoch [1/100], Iter [3500/5943] loss : 0.1785
+Epoch [1/100], Iter [3600/5943] loss : 0.1597
+Epoch [1/100], Iter [3700/5943] loss : 0.2070
+Epoch [1/100], Iter [3800/5943] loss : 0.1776
+Epoch [1/100], Iter [3900/5943] loss : 0.1896
+Epoch [1/100], Iter [4000/5943] loss : 0.2063
+Epoch [1/100], Iter [4100/5943] loss : 0.1800
+Epoch [1/100], Iter [4200/5943] loss : 0.1731
+Epoch [1/100], Iter [4300/5943] loss : 0.1897
+Epoch [1/100], Iter [4400/5943] loss : 0.2125
+Epoch [1/100], Iter [4500/5943] loss : 0.1533
+Epoch [1/100], Iter [4600/5943] loss : 0.1602
+Epoch [1/100], Iter [4700/5943] loss : 0.1722
+Epoch [1/100], Iter [4800/5943] loss : 0.2192
+Epoch [1/100], Iter [4900/5943] loss : 0.2096
+Epoch [1/100], Iter [5000/5943] loss : 0.1630
+Epoch [1/100], Iter [5100/5943] loss : 0.1878
+Epoch [1/100], Iter [5200/5943] loss : 0.1687
+Epoch [1/100], Iter [5300/5943] loss : 0.1774
+Epoch [1/100], Iter [5400/5943] loss : 0.1599
+Epoch [1/100], Iter [5500/5943] loss : 0.1559
+Epoch [1/100], Iter [5600/5943] loss : 0.1568
+Epoch [1/100], Iter [5700/5943] loss : 0.1699
+Epoch [1/100], Iter [5800/5943] loss : 0.1568
+Epoch [1/100], Iter [5900/5943] loss : 0.2077
+Retrieval : AROC = 0.747, AP = 0.180 /  Annotation : AROC = 0.842, AP = 0.456
+Average loss: 0.1922 
+
+2020-05-28 17:56:53.884211
+Epoch [1/100], Iter [100/1485] loss : 0.2247
+Epoch [1/100], Iter [200/1485] loss : 0.1198
+Epoch [1/100], Iter [300/1485] loss : 0.1251
+Epoch [1/100], Iter [400/1485] loss : 0.1128
+Epoch [1/100], Iter [500/1485] loss : 0.1009
+Epoch [1/100], Iter [600/1485] loss : 0.1554
+Epoch [1/100], Iter [700/1485] loss : 0.1147
+Epoch [1/100], Iter [800/1485] loss : 0.1490
+Epoch [1/100], Iter [900/1485] loss : 0.2169
+Epoch [1/100], Iter [1000/1485] loss : 0.2275
+Epoch [1/100], Iter [1100/1485] loss : 0.0885
+Epoch [1/100], Iter [1200/1485] loss : 0.1557
+Epoch [1/100], Iter [1300/1485] loss : 0.2187
+Epoch [1/100], Iter [1400/1485] loss : 0.1463
+Retrieval : AROC = 0.809, AP = 0.247 /  Annotation : AROC = 0.871, AP = 0.507
+Average loss: 0.1766 
+
+2020-05-28 18:03:29.362146
+Learning rate : 0.01
+
+Epoch 2/100
+------------------------------
+Learning Rate: 0.01
+------------------------------
+Epoch [2/100], Iter [100/5943] loss : 0.1465
+Epoch [2/100], Iter [200/5943] loss : 0.2013
+Epoch [2/100], Iter [300/5943] loss : 0.2018
+Epoch [2/100], Iter [400/5943] loss : 0.1866
+Epoch [2/100], Iter [500/5943] loss : 0.1703
+Epoch [2/100], Iter [600/5943] loss : 0.1639
+Epoch [2/100], Iter [700/5943] loss : 0.1772
+Epoch [2/100], Iter [800/5943] loss : 0.1764
+Epoch [2/100], Iter [900/5943] loss : 0.1884
+Epoch [2/100], Iter [1000/5943] loss : 0.2048
+Epoch [2/100], Iter [1100/5943] loss : 0.1975
+Epoch [2/100], Iter [1200/5943] loss : 0.2031
+Epoch [2/100], Iter [1300/5943] loss : 0.1322
+Epoch [2/100], Iter [1400/5943] loss : 0.1762
+Epoch [2/100], Iter [1500/5943] loss : 0.2044
+Epoch [2/100], Iter [1600/5943] loss : 0.1520
+Epoch [2/100], Iter [1700/5943] loss : 0.1280
+Epoch [2/100], Iter [1800/5943] loss : 0.1771
+Epoch [2/100], Iter [1900/5943] loss : 0.1831
+Epoch [2/100], Iter [2000/5943] loss : 0.1752
+Epoch [2/100], Iter [2100/5943] loss : 0.2110
+Epoch [2/100], Iter [2200/5943] loss : 0.1559
+Epoch [2/100], Iter [2300/5943] loss : 0.1330
+Epoch [2/100], Iter [2400/5943] loss : 0.1923
+Epoch [2/100], Iter [2500/5943] loss : 0.1854
+Epoch [2/100], Iter [2600/5943] loss : 0.1559
+Epoch [2/100], Iter [2700/5943] loss : 0.2041
+Epoch [2/100], Iter [2800/5943] loss : 0.1420
+Epoch [2/100], Iter [2900/5943] loss : 0.1718
+Epoch [2/100], Iter [3000/5943] loss : 0.1579
+Epoch [2/100], Iter [3100/5943] loss : 0.2197
+Epoch [2/100], Iter [3200/5943] loss : 0.2020
+Epoch [2/100], Iter [3300/5943] loss : 0.1485
+Epoch [2/100], Iter [3400/5943] loss : 0.1590
+Epoch [2/100], Iter [3500/5943] loss : 0.1816
+Epoch [2/100], Iter [3600/5943] loss : 0.1717
+Epoch [2/100], Iter [3700/5943] loss : 0.1827
+Epoch [2/100], Iter [3800/5943] loss : 0.1742
+Epoch [2/100], Iter [3900/5943] loss : 0.1726
+Epoch [2/100], Iter [4000/5943] loss : 0.1692
+Epoch [2/100], Iter [4100/5943] loss : 0.1794
+Epoch [2/100], Iter [4200/5943] loss : 0.1627
+Epoch [2/100], Iter [4300/5943] loss : 0.2209
+Epoch [2/100], Iter [4400/5943] loss : 0.1860
+Epoch [2/100], Iter [4500/5943] loss : 0.1858
+Epoch [2/100], Iter [4600/5943] loss : 0.1678
+Epoch [2/100], Iter [4700/5943] loss : 0.1694
+Epoch [2/100], Iter [4800/5943] loss : 0.1853
+Epoch [2/100], Iter [4900/5943] loss : 0.1799
+Epoch [2/100], Iter [5000/5943] loss : 0.1873
+Epoch [2/100], Iter [5100/5943] loss : 0.1779
+Epoch [2/100], Iter [5200/5943] loss : 0.1468
+Epoch [2/100], Iter [5300/5943] loss : 0.1632
+Epoch [2/100], Iter [5400/5943] loss : 0.1570
+Epoch [2/100], Iter [5500/5943] loss : 0.1783
+Epoch [2/100], Iter [5600/5943] loss : 0.1680
+Epoch [2/100], Iter [5700/5943] loss : 0.1850
+Epoch [2/100], Iter [5800/5943] loss : 0.1719
+Epoch [2/100], Iter [5900/5943] loss : 0.1784
+Retrieval : AROC = 0.812, AP = 0.265 /  Annotation : AROC = 0.880, AP = 0.535
+Average loss: 0.1733 
+
+2020-05-28 19:16:19.542821
+Epoch [2/100], Iter [100/1485] loss : 0.2249
+Epoch [2/100], Iter [200/1485] loss : 0.1287
+Epoch [2/100], Iter [300/1485] loss : 0.1065
+Epoch [2/100], Iter [400/1485] loss : 0.1245
+Epoch [2/100], Iter [500/1485] loss : 0.1026
+Epoch [2/100], Iter [600/1485] loss : 0.1426
+Epoch [2/100], Iter [700/1485] loss : 0.1213
+Epoch [2/100], Iter [800/1485] loss : 0.1307
+Epoch [2/100], Iter [900/1485] loss : 0.2027
+Epoch [2/100], Iter [1000/1485] loss : 0.2355
+Epoch [2/100], Iter [1100/1485] loss : 0.0941
+Epoch [2/100], Iter [1200/1485] loss : 0.1602
+Epoch [2/100], Iter [1300/1485] loss : 0.2212
+Epoch [2/100], Iter [1400/1485] loss : 0.1461
+Retrieval : AROC = 0.836, AP = 0.289 /  Annotation : AROC = 0.888, AP = 0.550
+Average loss: 0.1680 
+
+2020-05-28 19:22:55.989194
+Learning rate : 0.01
+
+Epoch 3/100
+------------------------------
+Learning Rate: 0.01
+------------------------------
+Epoch [3/100], Iter [100/5943] loss : 0.1708
+Epoch [3/100], Iter [200/5943] loss : 0.1833
+Epoch [3/100], Iter [300/5943] loss : 0.1735
+Epoch [3/100], Iter [400/5943] loss : 0.1839
+Epoch [3/100], Iter [500/5943] loss : 0.1329
+Epoch [3/100], Iter [600/5943] loss : 0.1623
+Epoch [3/100], Iter [700/5943] loss : 0.2083
+Epoch [3/100], Iter [800/5943] loss : 0.2089
+Epoch [3/100], Iter [900/5943] loss : 0.1601
+Epoch [3/100], Iter [1000/5943] loss : 0.1552
+Epoch [3/100], Iter [1100/5943] loss : 0.1877
+Epoch [3/100], Iter [1200/5943] loss : 0.1642
+Epoch [3/100], Iter [1300/5943] loss : 0.1607
+Epoch [3/100], Iter [1400/5943] loss : 0.1911
+Epoch [3/100], Iter [1500/5943] loss : 0.1517
+Epoch [3/100], Iter [1600/5943] loss : 0.1724
+Epoch [3/100], Iter [1700/5943] loss : 0.1503
+Epoch [3/100], Iter [1800/5943] loss : 0.1884
+Epoch [3/100], Iter [1900/5943] loss : 0.1675
+Epoch [3/100], Iter [2000/5943] loss : 0.2075
+Epoch [3/100], Iter [2100/5943] loss : 0.1714
+Epoch [3/100], Iter [2200/5943] loss : 0.1879
+Epoch [3/100], Iter [2300/5943] loss : 0.1806
+Epoch [3/100], Iter [2400/5943] loss : 0.1809
+Epoch [3/100], Iter [2500/5943] loss : 0.1616
+Epoch [3/100], Iter [2600/5943] loss : 0.1754
+Epoch [3/100], Iter [2700/5943] loss : 0.1527
+Epoch [3/100], Iter [2800/5943] loss : 0.1681
+Epoch [3/100], Iter [2900/5943] loss : 0.1636
+Epoch [3/100], Iter [3000/5943] loss : 0.1619
+Epoch [3/100], Iter [3100/5943] loss : 0.1597
+Epoch [3/100], Iter [3200/5943] loss : 0.1853
+Epoch [3/100], Iter [3300/5943] loss : 0.1745
+Epoch [3/100], Iter [3400/5943] loss : 0.1901
+Epoch [3/100], Iter [3500/5943] loss : 0.1675
+Epoch [3/100], Iter [3600/5943] loss : 0.1629
+Epoch [3/100], Iter [3700/5943] loss : 0.1827
+Epoch [3/100], Iter [3800/5943] loss : 0.2023
+Epoch [3/100], Iter [3900/5943] loss : 0.1694
+Epoch [3/100], Iter [4000/5943] loss : 0.1533
+Epoch [3/100], Iter [4100/5943] loss : 0.1589
+Epoch [3/100], Iter [4200/5943] loss : 0.1843
+Epoch [3/100], Iter [4300/5943] loss : 0.1686
+Epoch [3/100], Iter [4400/5943] loss : 0.1433
+Epoch [3/100], Iter [4500/5943] loss : 0.2166
+Epoch [3/100], Iter [4600/5943] loss : 0.1666
+Epoch [3/100], Iter [4700/5943] loss : 0.1799
+Epoch [3/100], Iter [4800/5943] loss : 0.1478
+Epoch [3/100], Iter [4900/5943] loss : 0.1891
+Epoch [3/100], Iter [5000/5943] loss : 0.1519
+Epoch [3/100], Iter [5100/5943] loss : 0.1615
+Epoch [3/100], Iter [5200/5943] loss : 0.1493
+Epoch [3/100], Iter [5300/5943] loss : 0.1790
+Epoch [3/100], Iter [5400/5943] loss : 0.1423
+Epoch [3/100], Iter [5500/5943] loss : 0.1675
+Epoch [3/100], Iter [5600/5943] loss : 0.1961
+Epoch [3/100], Iter [5700/5943] loss : 0.1644
+Epoch [3/100], Iter [5800/5943] loss : 0.1625
+Epoch [3/100], Iter [5900/5943] loss : 0.1461
+Retrieval : AROC = 0.835, AP = 0.305 /  Annotation : AROC = 0.894, AP = 0.573
+Average loss: 0.1655 
+
+2020-05-28 20:35:48.483128
+Epoch [3/100], Iter [100/1485] loss : 0.2110
+Epoch [3/100], Iter [200/1485] loss : 0.1299
+Epoch [3/100], Iter [300/1485] loss : 0.1070
+Epoch [3/100], Iter [400/1485] loss : 0.1297
+Epoch [3/100], Iter [500/1485] loss : 0.1022
+Epoch [3/100], Iter [600/1485] loss : 0.1384
+Epoch [3/100], Iter [700/1485] loss : 0.1123
+Epoch [3/100], Iter [800/1485] loss : 0.1077
+Epoch [3/100], Iter [900/1485] loss : 0.2011
+Epoch [3/100], Iter [1000/1485] loss : 0.2230
+Epoch [3/100], Iter [1100/1485] loss : 0.0859
+Epoch [3/100], Iter [1200/1485] loss : 0.1589
+Epoch [3/100], Iter [1300/1485] loss : 0.2184
+Epoch [3/100], Iter [1400/1485] loss : 0.1308
+Retrieval : AROC = 0.852, AP = 0.315 /  Annotation : AROC = 0.896, AP = 0.577
+Average loss: 0.1625 
+
+2020-05-28 20:42:24.521348
+Learning rate : 0.01
+
+Epoch 4/100
+------------------------------
+Learning Rate: 0.01
+------------------------------
+Epoch [4/100], Iter [100/5943] loss : 0.1610
+Epoch [4/100], Iter [200/5943] loss : 0.1428
+Epoch [4/100], Iter [300/5943] loss : 0.1387
+Epoch [4/100], Iter [400/5943] loss : 0.1355
+Epoch [4/100], Iter [500/5943] loss : 0.1767
+Epoch [4/100], Iter [600/5943] loss : 0.1559
+Epoch [4/100], Iter [700/5943] loss : 0.1789
+Epoch [4/100], Iter [800/5943] loss : 0.1849
+Epoch [4/100], Iter [900/5943] loss : 0.1589
+Epoch [4/100], Iter [1000/5943] loss : 0.1431
+Epoch [4/100], Iter [1100/5943] loss : 0.1542
+Epoch [4/100], Iter [1200/5943] loss : 0.1368
+Epoch [4/100], Iter [1300/5943] loss : 0.1986
+Epoch [4/100], Iter [1400/5943] loss : 0.1712
+Epoch [4/100], Iter [1500/5943] loss : 0.1546
+Epoch [4/100], Iter [1600/5943] loss : 0.1744
+Epoch [4/100], Iter [1700/5943] loss : 0.1504
+Epoch [4/100], Iter [1800/5943] loss : 0.1495
+Epoch [4/100], Iter [1900/5943] loss : 0.1726
+Epoch [4/100], Iter [2000/5943] loss : 0.1577
+Epoch [4/100], Iter [2100/5943] loss : 0.1341
+Epoch [4/100], Iter [2200/5943] loss : 0.1353
+Epoch [4/100], Iter [2300/5943] loss : 0.1472
+Epoch [4/100], Iter [2400/5943] loss : 0.1631
+Epoch [4/100], Iter [2500/5943] loss : 0.1737
+Epoch [4/100], Iter [2600/5943] loss : 0.1908
+Epoch [4/100], Iter [2700/5943] loss : 0.1453
+Epoch [4/100], Iter [2800/5943] loss : 0.1584
+Epoch [4/100], Iter [2900/5943] loss : 0.1848
+Epoch [4/100], Iter [3000/5943] loss : 0.1750
+Epoch [4/100], Iter [3100/5943] loss : 0.1634
+Epoch [4/100], Iter [3200/5943] loss : 0.1472
+Epoch [4/100], Iter [3300/5943] loss : 0.1587
+Epoch [4/100], Iter [3400/5943] loss : 0.1858
+Epoch [4/100], Iter [3500/5943] loss : 0.1641
+Epoch [4/100], Iter [3600/5943] loss : 0.1376
+Epoch [4/100], Iter [3700/5943] loss : 0.1488
+Epoch [4/100], Iter [3800/5943] loss : 0.1529
+Epoch [4/100], Iter [3900/5943] loss : 0.1696
+Epoch [4/100], Iter [4000/5943] loss : 0.1520
+Epoch [4/100], Iter [4100/5943] loss : 0.1520
+Epoch [4/100], Iter [4200/5943] loss : 0.1669
+Epoch [4/100], Iter [4300/5943] loss : 0.1651
+Epoch [4/100], Iter [4400/5943] loss : 0.1986
+Epoch [4/100], Iter [4500/5943] loss : 0.1846
+Epoch [4/100], Iter [4600/5943] loss : 0.1929
+Epoch [4/100], Iter [4700/5943] loss : 0.1480
+Epoch [4/100], Iter [4800/5943] loss : 0.1899
+Epoch [4/100], Iter [4900/5943] loss : 0.1559
+Epoch [4/100], Iter [5000/5943] loss : 0.1372
+Epoch [4/100], Iter [5100/5943] loss : 0.1424
+Epoch [4/100], Iter [5200/5943] loss : 0.1535
+Epoch [4/100], Iter [5300/5943] loss : 0.2041
+Epoch [4/100], Iter [5400/5943] loss : 0.1563
+Epoch [4/100], Iter [5500/5943] loss : 0.1408
+Epoch [4/100], Iter [5600/5943] loss : 0.1401
+Epoch [4/100], Iter [5700/5943] loss : 0.1648
+Epoch [4/100], Iter [5800/5943] loss : 0.1561
+Epoch [4/100], Iter [5900/5943] loss : 0.1535
+Retrieval : AROC = 0.849, AP = 0.329 /  Annotation : AROC = 0.903, AP = 0.597
+Average loss: 0.1603 
+
+2020-05-28 21:55:20.433891
+Epoch [4/100], Iter [100/1485] loss : 0.2117
+Epoch [4/100], Iter [200/1485] loss : 0.1240
+Epoch [4/100], Iter [300/1485] loss : 0.1019
+Epoch [4/100], Iter [400/1485] loss : 0.1147
+Epoch [4/100], Iter [500/1485] loss : 0.1070
+Epoch [4/100], Iter [600/1485] loss : 0.1294
+Epoch [4/100], Iter [700/1485] loss : 0.1127
+Epoch [4/100], Iter [800/1485] loss : 0.1201
+Epoch [4/100], Iter [900/1485] loss : 0.2002
+Epoch [4/100], Iter [1000/1485] loss : 0.1950
+Epoch [4/100], Iter [1100/1485] loss : 0.0909
+Epoch [4/100], Iter [1200/1485] loss : 0.1627
+Epoch [4/100], Iter [1300/1485] loss : 0.1957
+Epoch [4/100], Iter [1400/1485] loss : 0.1279
+Retrieval : AROC = 0.860, AP = 0.334 /  Annotation : AROC = 0.905, AP = 0.600
+Average loss: 0.1572 
+
+2020-05-28 22:01:55.945966
+Learning rate : 0.01
+
+Epoch 5/100
+------------------------------
+Learning Rate: 0.01
+------------------------------
+Epoch [5/100], Iter [100/5943] loss : 0.1485
+Epoch [5/100], Iter [200/5943] loss : 0.1493
+Epoch [5/100], Iter [300/5943] loss : 0.1790
+Epoch [5/100], Iter [400/5943] loss : 0.1575
+Epoch [5/100], Iter [500/5943] loss : 0.1664
+Epoch [5/100], Iter [600/5943] loss : 0.1435
+Epoch [5/100], Iter [700/5943] loss : 0.2188
+Epoch [5/100], Iter [800/5943] loss : 0.1521
+Epoch [5/100], Iter [900/5943] loss : 0.1849
+Epoch [5/100], Iter [1000/5943] loss : 0.1691
+Epoch [5/100], Iter [1100/5943] loss : 0.1467
+Epoch [5/100], Iter [1200/5943] loss : 0.1608
+Epoch [5/100], Iter [1300/5943] loss : 0.1472
+Epoch [5/100], Iter [1400/5943] loss : 0.1753
+Epoch [5/100], Iter [1500/5943] loss : 0.1219
+Epoch [5/100], Iter [1600/5943] loss : 0.1651
+Epoch [5/100], Iter [1700/5943] loss : 0.1544
+Epoch [5/100], Iter [1800/5943] loss : 0.1503
+Epoch [5/100], Iter [1900/5943] loss : 0.1681
+Epoch [5/100], Iter [2000/5943] loss : 0.1510
+Epoch [5/100], Iter [2100/5943] loss : 0.1456
+Epoch [5/100], Iter [2200/5943] loss : 0.2007
+Epoch [5/100], Iter [2300/5943] loss : 0.1787
+Epoch [5/100], Iter [2400/5943] loss : 0.1498
+Epoch [5/100], Iter [2500/5943] loss : 0.1474
+Epoch [5/100], Iter [2600/5943] loss : 0.1434
+Epoch [5/100], Iter [2700/5943] loss : 0.1470
+Epoch [5/100], Iter [2800/5943] loss : 0.1637
+Epoch [5/100], Iter [2900/5943] loss : 0.1552
+Epoch [5/100], Iter [3000/5943] loss : 0.1628
+Epoch [5/100], Iter [3100/5943] loss : 0.1546
+Epoch [5/100], Iter [3200/5943] loss : 0.1767
+Epoch [5/100], Iter [3300/5943] loss : 0.1415
+Epoch [5/100], Iter [3400/5943] loss : 0.1923
+Epoch [5/100], Iter [3500/5943] loss : 0.1493
+Epoch [5/100], Iter [3600/5943] loss : 0.1310
+Epoch [5/100], Iter [3700/5943] loss : 0.1493
+Epoch [5/100], Iter [3800/5943] loss : 0.1486
+Epoch [5/100], Iter [3900/5943] loss : 0.1823
+Epoch [5/100], Iter [4000/5943] loss : 0.1529
+Epoch [5/100], Iter [4100/5943] loss : 0.1356
+Epoch [5/100], Iter [4200/5943] loss : 0.1371
+Epoch [5/100], Iter [4300/5943] loss : 0.1692
+Epoch [5/100], Iter [4400/5943] loss : 0.1526
+Epoch [5/100], Iter [4500/5943] loss : 0.1608
+Epoch [5/100], Iter [4600/5943] loss : 0.1385
+Epoch [5/100], Iter [4700/5943] loss : 0.1694
+Epoch [5/100], Iter [4800/5943] loss : 0.1649
+Epoch [5/100], Iter [4900/5943] loss : 0.1765
+Epoch [5/100], Iter [5000/5943] loss : 0.1679
+Epoch [5/100], Iter [5100/5943] loss : 0.1342
+Epoch [5/100], Iter [5200/5943] loss : 0.1428
+Epoch [5/100], Iter [5300/5943] loss : 0.1752
+Epoch [5/100], Iter [5400/5943] loss : 0.1612
+Epoch [5/100], Iter [5500/5943] loss : 0.1509
+Epoch [5/100], Iter [5600/5943] loss : 0.1707
+Epoch [5/100], Iter [5700/5943] loss : 0.1199
+Epoch [5/100], Iter [5800/5943] loss : 0.1596
+Epoch [5/100], Iter [5900/5943] loss : 0.1426
+Retrieval : AROC = 0.857, AP = 0.346 /  Annotation : AROC = 0.908, AP = 0.612
+Average loss: 0.1569 
+
+2020-05-28 23:14:45.539113
+Epoch [5/100], Iter [100/1485] loss : 0.2220
+Epoch [5/100], Iter [200/1485] loss : 0.1304
+Epoch [5/100], Iter [300/1485] loss : 0.0948
+Epoch [5/100], Iter [400/1485] loss : 0.1174
+Epoch [5/100], Iter [500/1485] loss : 0.1009
+Epoch [5/100], Iter [600/1485] loss : 0.1289
+Epoch [5/100], Iter [700/1485] loss : 0.1188
+Epoch [5/100], Iter [800/1485] loss : 0.1234
+Epoch [5/100], Iter [900/1485] loss : 0.2164
+Epoch [5/100], Iter [1000/1485] loss : 0.1941
+Epoch [5/100], Iter [1100/1485] loss : 0.0872
+Epoch [5/100], Iter [1200/1485] loss : 0.1609
+Epoch [5/100], Iter [1300/1485] loss : 0.2229
+Epoch [5/100], Iter [1400/1485] loss : 0.1295
+Retrieval : AROC = 0.861, AP = 0.339 /  Annotation : AROC = 0.905, AP = 0.603
+Average loss: 0.1577 
+
+2020-05-28 23:21:21.438529
+Learning rate : 0.01
+
+Epoch 6/100
+------------------------------
+Learning Rate: 0.01
+------------------------------
+Epoch [6/100], Iter [100/5943] loss : 0.1193
+Epoch [6/100], Iter [200/5943] loss : 0.1852
+Epoch [6/100], Iter [300/5943] loss : 0.1477
+Epoch [6/100], Iter [400/5943] loss : 0.2215
+Epoch [6/100], Iter [500/5943] loss : 0.1896
+Epoch [6/100], Iter [600/5943] loss : 0.1533
+Epoch [6/100], Iter [700/5943] loss : 0.1928
+Epoch [6/100], Iter [800/5943] loss : 0.1707
+Epoch [6/100], Iter [900/5943] loss : 0.1558
+Epoch [6/100], Iter [1000/5943] loss : 0.1775
+Epoch [6/100], Iter [1100/5943] loss : 0.1524
+Epoch [6/100], Iter [1200/5943] loss : 0.1681
+Epoch [6/100], Iter [1300/5943] loss : 0.1346
+Epoch [6/100], Iter [1400/5943] loss : 0.1460
+Epoch [6/100], Iter [1500/5943] loss : 0.1270
+Epoch [6/100], Iter [1600/5943] loss : 0.1378
+Epoch [6/100], Iter [1700/5943] loss : 0.1733
+Epoch [6/100], Iter [1800/5943] loss : 0.1512
+Epoch [6/100], Iter [1900/5943] loss : 0.2041
+Epoch [6/100], Iter [2000/5943] loss : 0.2189
+Epoch [6/100], Iter [2100/5943] loss : 0.1552
+Epoch [6/100], Iter [2200/5943] loss : 0.1432
+Epoch [6/100], Iter [2300/5943] loss : 0.1764
+Epoch [6/100], Iter [2400/5943] loss : 0.1450
+Epoch [6/100], Iter [2500/5943] loss : 0.1536
+Epoch [6/100], Iter [2600/5943] loss : 0.1501
+Epoch [6/100], Iter [2700/5943] loss : 0.1702
+Epoch [6/100], Iter [2800/5943] loss : 0.1401
+Epoch [6/100], Iter [2900/5943] loss : 0.1347
+Epoch [6/100], Iter [3000/5943] loss : 0.1432
+Epoch [6/100], Iter [3100/5943] loss : 0.1476
+Epoch [6/100], Iter [3200/5943] loss : 0.1546
+Epoch [6/100], Iter [3300/5943] loss : 0.2131
+Epoch [6/100], Iter [3400/5943] loss : 0.1507
+Epoch [6/100], Iter [3500/5943] loss : 0.1250
+Epoch [6/100], Iter [3600/5943] loss : 0.1126
+Epoch [6/100], Iter [3700/5943] loss : 0.1358
+Epoch [6/100], Iter [3800/5943] loss : 0.1545
+Epoch [6/100], Iter [3900/5943] loss : 0.1565
+Epoch [6/100], Iter [4000/5943] loss : 0.1200
+Epoch [6/100], Iter [4100/5943] loss : 0.1447
+Epoch [6/100], Iter [4200/5943] loss : 0.1502
+Epoch [6/100], Iter [4300/5943] loss : 0.1491
+Epoch [6/100], Iter [4400/5943] loss : 0.1609
+Epoch [6/100], Iter [4500/5943] loss : 0.1880
+Epoch [6/100], Iter [4600/5943] loss : 0.1633
+Epoch [6/100], Iter [4700/5943] loss : 0.1643
+Epoch [6/100], Iter [4800/5943] loss : 0.1650
+Epoch [6/100], Iter [4900/5943] loss : 0.1542
+Epoch [6/100], Iter [5000/5943] loss : 0.1291
+Epoch [6/100], Iter [5100/5943] loss : 0.1742
+Epoch [6/100], Iter [5200/5943] loss : 0.1434
+Epoch [6/100], Iter [5300/5943] loss : 0.1153
+Epoch [6/100], Iter [5400/5943] loss : 0.1803
+Epoch [6/100], Iter [5500/5943] loss : 0.1272
+Epoch [6/100], Iter [5600/5943] loss : 0.1555
+Epoch [6/100], Iter [5700/5943] loss : 0.1439
+Epoch [6/100], Iter [5800/5943] loss : 0.1432
+Epoch [6/100], Iter [5900/5943] loss : 0.1560
+Retrieval : AROC = 0.864, AP = 0.360 /  Annotation : AROC = 0.913, AP = 0.624
+Average loss: 0.1539 
+
+2020-05-29 00:34:15.252074
+Epoch [6/100], Iter [100/1485] loss : 0.2183
+Epoch [6/100], Iter [200/1485] loss : 0.1191
+Epoch [6/100], Iter [300/1485] loss : 0.1048
+Epoch [6/100], Iter [400/1485] loss : 0.1099
+Epoch [6/100], Iter [500/1485] loss : 0.1013
+Epoch [6/100], Iter [600/1485] loss : 0.1116
+Epoch [6/100], Iter [700/1485] loss : 0.1192
+Epoch [6/100], Iter [800/1485] loss : 0.1148
+Epoch [6/100], Iter [900/1485] loss : 0.1793
+Epoch [6/100], Iter [1000/1485] loss : 0.1659
+Epoch [6/100], Iter [1100/1485] loss : 0.0761
+Epoch [6/100], Iter [1200/1485] loss : 0.1662
+Epoch [6/100], Iter [1300/1485] loss : 0.2045
+Epoch [6/100], Iter [1400/1485] loss : 0.1144
+Retrieval : AROC = 0.867, AP = 0.354 /  Annotation : AROC = 0.915, AP = 0.626
+Average loss: 0.1521 
+
+2020-05-29 00:40:51.110314
+Learning rate : 0.01
+
+Epoch 7/100
+------------------------------
+Learning Rate: 0.01
+------------------------------
+Epoch [7/100], Iter [100/5943] loss : 0.1386
+Epoch [7/100], Iter [200/5943] loss : 0.1551
+Epoch [7/100], Iter [300/5943] loss : 0.1628
+Epoch [7/100], Iter [400/5943] loss : 0.1631
+Epoch [7/100], Iter [500/5943] loss : 0.1327
+Epoch [7/100], Iter [600/5943] loss : 0.1525
+Epoch [7/100], Iter [700/5943] loss : 0.1476
+Epoch [7/100], Iter [800/5943] loss : 0.1438
+Epoch [7/100], Iter [900/5943] loss : 0.1635
+Epoch [7/100], Iter [1000/5943] loss : 0.1911
+Epoch [7/100], Iter [1100/5943] loss : 0.1761
+Epoch [7/100], Iter [1200/5943] loss : 0.1451
+Epoch [7/100], Iter [1300/5943] loss : 0.1308
+Epoch [7/100], Iter [1400/5943] loss : 0.1566
+Epoch [7/100], Iter [1500/5943] loss : 0.1460
+Epoch [7/100], Iter [1600/5943] loss : 0.1679
+Epoch [7/100], Iter [1700/5943] loss : 0.1890
+Epoch [7/100], Iter [1800/5943] loss : 0.1452
+Epoch [7/100], Iter [1900/5943] loss : 0.1401
+Epoch [7/100], Iter [2000/5943] loss : 0.1660
+Epoch [7/100], Iter [2100/5943] loss : 0.1238
+Epoch [7/100], Iter [2200/5943] loss : 0.1406
+Epoch [7/100], Iter [2300/5943] loss : 0.1375
+Epoch [7/100], Iter [2400/5943] loss : 0.1513
+Epoch [7/100], Iter [2500/5943] loss : 0.1679
+Epoch [7/100], Iter [2600/5943] loss : 0.1163
+Epoch [7/100], Iter [2700/5943] loss : 0.1511
+Epoch [7/100], Iter [2800/5943] loss : 0.1346
+Epoch [7/100], Iter [2900/5943] loss : 0.1346
+Epoch [7/100], Iter [3000/5943] loss : 0.1777
+Epoch [7/100], Iter [3100/5943] loss : 0.1596
+Epoch [7/100], Iter [3200/5943] loss : 0.1921
+Epoch [7/100], Iter [3300/5943] loss : 0.1560
+Epoch [7/100], Iter [3400/5943] loss : 0.1543
+Epoch [7/100], Iter [3500/5943] loss : 0.1523
+Epoch [7/100], Iter [3600/5943] loss : 0.1374
+Epoch [7/100], Iter [3700/5943] loss : 0.1503
+Epoch [7/100], Iter [3800/5943] loss : 0.1524
+Epoch [7/100], Iter [3900/5943] loss : 0.1192
+Epoch [7/100], Iter [4000/5943] loss : 0.1636
+Epoch [7/100], Iter [4100/5943] loss : 0.1533
+Epoch [7/100], Iter [4200/5943] loss : 0.1245
+Epoch [7/100], Iter [4300/5943] loss : 0.1279
+Epoch [7/100], Iter [4400/5943] loss : 0.1562
+Epoch [7/100], Iter [4500/5943] loss : 0.1548
+Epoch [7/100], Iter [4600/5943] loss : 0.1721
+Epoch [7/100], Iter [4700/5943] loss : 0.1320
+Epoch [7/100], Iter [4800/5943] loss : 0.1355
+Epoch [7/100], Iter [4900/5943] loss : 0.1803
+Epoch [7/100], Iter [5000/5943] loss : 0.1533
+Epoch [7/100], Iter [5100/5943] loss : 0.1590
+Epoch [7/100], Iter [5200/5943] loss : 0.1514
+Epoch [7/100], Iter [5300/5943] loss : 0.1535
+Epoch [7/100], Iter [5400/5943] loss : 0.1617
+Epoch [7/100], Iter [5500/5943] loss : 0.1539
+Epoch [7/100], Iter [5600/5943] loss : 0.1447
+Epoch [7/100], Iter [5700/5943] loss : 0.1221
+Epoch [7/100], Iter [5800/5943] loss : 0.1475
+Epoch [7/100], Iter [5900/5943] loss : 0.1413
+Retrieval : AROC = 0.870, AP = 0.371 /  Annotation : AROC = 0.916, AP = 0.634
+Average loss: 0.1517 
+
+2020-05-29 01:53:54.914537
+Epoch [7/100], Iter [100/1485] loss : 0.2230
+Epoch [7/100], Iter [200/1485] loss : 0.1229
+Epoch [7/100], Iter [300/1485] loss : 0.0963
+Epoch [7/100], Iter [400/1485] loss : 0.1080
+Epoch [7/100], Iter [500/1485] loss : 0.0968
+Epoch [7/100], Iter [600/1485] loss : 0.1281
+Epoch [7/100], Iter [700/1485] loss : 0.1158
+Epoch [7/100], Iter [800/1485] loss : 0.1209
+Epoch [7/100], Iter [900/1485] loss : 0.1808
+Epoch [7/100], Iter [1000/1485] loss : 0.1759
+Epoch [7/100], Iter [1100/1485] loss : 0.0826
+Epoch [7/100], Iter [1200/1485] loss : 0.1596
+Epoch [7/100], Iter [1300/1485] loss : 0.2036
+Epoch [7/100], Iter [1400/1485] loss : 0.1149
+Retrieval : AROC = 0.867, AP = 0.357 /  Annotation : AROC = 0.912, AP = 0.624
+Average loss: 0.1534 
+
+2020-05-29 02:00:31.431937
+Learning rate : 0.01
+
+Epoch 8/100
+------------------------------
+Learning Rate: 0.01
+------------------------------
+Epoch [8/100], Iter [100/5943] loss : 0.1287
+Epoch [8/100], Iter [200/5943] loss : 0.1192
+Epoch [8/100], Iter [300/5943] loss : 0.1660
+Epoch [8/100], Iter [400/5943] loss : 0.1580
+Epoch [8/100], Iter [500/5943] loss : 0.1580
+Epoch [8/100], Iter [600/5943] loss : 0.1449
+Epoch [8/100], Iter [700/5943] loss : 0.1490
+Epoch [8/100], Iter [800/5943] loss : 0.1500
+Epoch [8/100], Iter [900/5943] loss : 0.1690
+Epoch [8/100], Iter [1000/5943] loss : 0.1579
+Epoch [8/100], Iter [1100/5943] loss : 0.1368
+Epoch [8/100], Iter [1200/5943] loss : 0.1778
+Epoch [8/100], Iter [1300/5943] loss : 0.1427
+Epoch [8/100], Iter [1400/5943] loss : 0.1431
+Epoch [8/100], Iter [1500/5943] loss : 0.1240
+Epoch [8/100], Iter [1600/5943] loss : 0.1208
+Epoch [8/100], Iter [1700/5943] loss : 0.1451
+Epoch [8/100], Iter [1800/5943] loss : 0.1354
+Epoch [8/100], Iter [1900/5943] loss : 0.1668
+Epoch [8/100], Iter [2000/5943] loss : 0.1662
+Epoch [8/100], Iter [2100/5943] loss : 0.1403
+Epoch [8/100], Iter [2200/5943] loss : 0.1248
+Epoch [8/100], Iter [2300/5943] loss : 0.1408
+Epoch [8/100], Iter [2400/5943] loss : 0.1602
+Epoch [8/100], Iter [2500/5943] loss : 0.1897
+Epoch [8/100], Iter [2600/5943] loss : 0.1563
+Epoch [8/100], Iter [2700/5943] loss : 0.1680
+Epoch [8/100], Iter [2800/5943] loss : 0.1458
+Epoch [8/100], Iter [2900/5943] loss : 0.1331
+Epoch [8/100], Iter [3000/5943] loss : 0.1285
+Epoch [8/100], Iter [3100/5943] loss : 0.1349
+Epoch [8/100], Iter [3200/5943] loss : 0.1610
+Epoch [8/100], Iter [3300/5943] loss : 0.1638
+Epoch [8/100], Iter [3400/5943] loss : 0.1487
+Epoch [8/100], Iter [3500/5943] loss : 0.1206
+Epoch [8/100], Iter [3600/5943] loss : 0.1609
+Epoch [8/100], Iter [3700/5943] loss : 0.1414
+Epoch [8/100], Iter [3800/5943] loss : 0.1609
+Epoch [8/100], Iter [3900/5943] loss : 0.1298
+Epoch [8/100], Iter [4000/5943] loss : 0.1383
+Epoch [8/100], Iter [4100/5943] loss : 0.1320
+Epoch [8/100], Iter [4200/5943] loss : 0.1107
+Epoch [8/10Epoch [16/100], Iter [100/5943] loss : 0.1411
+Epoch [16/100], Iter [200/5943] loss : 0.1568
+Epoch [16/100], Iter [300/5943] loss : 0.1048
+Epoch [16/100], Iter [400/5943] loss : 0.1332
+Epoch [16/100], Iter [500/5943] loss : 0.1383
+Epoch [16/100], Iter [600/5943] loss : 0.1137
+Epoch [16/100], Iter [700/5943] loss : 0.1719
+Epoch [16/100], Iter [800/5943] loss : 0.1224
+Epoch [16/100], Iter [900/5943] loss : 0.1474
+Epoch [16/100], Iter [1000/5943] loss : 0.1327
+Epoch [16/100], Iter [1100/5943] loss : 0.1463
+Epoch [16/100], Iter [1200/5943] loss : 0.1587
+Epoch [16/100], Iter [1300/5943] loss : 0.1481
+Epoch [16/100], Iter [1400/5943] loss : 0.1294
+Epoch [16/100], Iter [1500/5943] loss : 0.1390
+Epoch [16/100], Iter [1600/5943] loss : 0.1116
+Epoch [16/100], Iter [1700/5943] loss : 0.1314
+Epoch [16/100], Iter [1800/5943] loss : 0.1592
+Epoch [16/100], Iter [1900/5943] loss : 0.1446
+Epoch [16/100], Iter [2000/5943] loss : 0.1419
+Epoch [16/100], Iter [2100/5943] loss : 0.1591
+Epoch [16/100], Iter [2200/5943] loss : 0.1437
+Epoch [16/100], Iter [2300/5943] loss : 0.1062
+Epoch [16/100], Iter [2400/5943] loss : 0.1366
+Epoch [16/100], Iter [2500/5943] loss : 0.1695
+Epoch [16/100], Iter [2600/5943] loss : 0.1170
+Epoch [16/100], Iter [2700/5943] loss : 0.1349
+Epoch [16/100], Iter [2800/5943] loss : 0.1568
+Epoch [16/100], Iter [2900/5943] loss : 0.1350
+Epoch [16/100], Iter [3000/5943] loss : 0.1234
+Epoch [16/100], Iter [3100/5943] loss : 0.1423
+Epoch [16/100], Iter [3200/5943] loss : 0.1470
+Epoch [16/100], Iter [3300/5943] loss : 0.1246
+Epoch [16/100], Iter [3400/5943] loss : 0.1408
+Epoch [16/100], Iter [3500/5943] loss : 0.1378
+Epoch [16/100], Iter [3600/5943] loss : 0.1626
+Epoch [16/100], Iter [3700/5943] loss : 0.1535
+Epoch [16/100], Iter [3800/5943] loss : 0.1224
+Epoch [16/100], Iter [3900/5943] loss : 0.1861
+Epoch [16/100], Iter [4000/5943] loss : 0.1502
+Epoch [16/100], Iter [4100/5943] loss : 0.1476
+Epoch [16/100], Iter [4200/5943] loss : 0.1118
+Epoch [16/100], Iter [4300/5943] loss : 0.1744
+Epoch [16/100], Iter [4400/5943] loss : 0.1508
+Epoch [16/100], Iter [4500/5943] loss : 0.1322
+Epoch [16/100], Iter [4600/5943] loss : 0.1467
+Epoch [16/100], Iter [4700/5943] loss : 0.1725
+Epoch [16/100], Iter [4800/5943] loss : 0.1662
+Epoch [16/100], Iter [4900/5943] loss : 0.1619
+Epoch [16/100], Iter [5000/5943] loss : 0.1533
+Epoch [16/100], Iter [5100/5943] loss : 0.1525
+Epoch [16/100], Iter [5200/5943] loss : 0.1066
+Epoch [16/100], Iter [5300/5943] loss : 0.1267
+Epoch [16/100], Iter [5400/5943] loss : 0.1615
+Epoch [16/100], Iter [5500/5943] loss : 0.1607
+Epoch [16/100], Iter [5600/5943] loss : 0.1418
+Epoch [16/100], Iter [5700/5943] loss : 0.1388
+Epoch [16/100], Iter [5800/5943] loss : 0.1398
+Epoch [16/100], Iter [5900/5943] loss : 0.1537
+Retrieval : AROC = 0.895, AP = 0.426 /  Annotation : AROC = 0.932, AP = 0.681
+Average loss: 0.1401 
+
+2020-05-29 13:46:33.218675
+Epoch [16/100], Iter [100/1485] loss : 0.2183
+Epoch [16/100], Iter [200/1485] loss : 0.1267
+Epoch [16/100], Iter [300/1485] loss : 0.0980
+Epoch [16/100], Iter [400/1485] loss : 0.1070
+Epoch [16/100], Iter [500/1485] loss : 0.1101
+Epoch [16/100], Iter [600/1485] loss : 0.1108
+Epoch [16/100], Iter [700/1485] loss : 0.1169
+Epoch [16/100], Iter [800/1485] loss : 0.1048
+Epoch [16/100], Iter [900/1485] loss : 0.2065
+Epoch [16/100], Iter [1000/1485] loss : 0.1572
+Epoch [16/100], Iter [1100/1485] loss : 0.0822
+Epoch [16/100], Iter [1200/1485] loss : 0.1648
+Epoch [16/100], Iter [1300/1485] loss : 0.2048
+Epoch [16/100], Iter [1400/1485] loss : 0.1043
+Retrieval : AROC = 0.880, AP = 0.384 /  Annotation : AROC = 0.921, AP = 0.649
+Average loss: 0.1478 
+
+2020-05-29 13:53:01.521047
+Learning rate : 0.01
+
+Epoch 17/100
+------------------------------
+Learning Rate: 0.01
+------------------------------
+Epoch [17/100], Iter [100/5943] loss : 0.1614
+Epoch [17/100], Iter [200/5943] loss : 0.1498
+Epoch [17/100], Iter [300/5943] loss : 0.1318
+Epoch [17/100], Iter [400/5943] loss : 0.1473
+Epoch [17/100], Iter [500/5943] loss : 0.1735
+Epoch [17/100], Iter [600/5943] loss : 0.1367
+Epoch [17/100], Iter [700/5943] loss : 0.1549
+Epoch [17/100], Iter [800/5943] loss : 0.1356
+Epoch [17/100], Iter [900/5943] loss : 0.1340
+Epoch [17/100], Iter [1000/5943] loss : 0.1776
+Epoch [17/100], Iter [1100/5943] loss : 0.1196
+Epoch [17/100], Iter [1200/5943] loss : 0.1385
+Epoch [17/100], Iter [1300/5943] loss : 0.1498
+Epoch [17/100], Iter [1400/5943] loss : 0.1613
+Epoch [17/100], Iter [1500/5943] loss : 0.1498
+Epoch [17/100], Iter [1600/5943] loss : 0.1243
+Epoch [17/100], Iter [1700/5943] loss : 0.1180
+Epoch [17/100], Iter [1800/5943] loss : 0.1328
+Epoch [17/100], Iter [1900/5943] loss : 0.1261
+Epoch [17/100], Iter [2000/5943] loss : 0.1432
+Epoch [17/100], Iter [2100/5943] loss : 0.1697
+Epoch [17/100], Iter [2200/5943] loss : 0.1557
+Epoch [17/100], Iter [2300/5943] loss : 0.1260
+Epoch [17/100], Iter [2400/5943] loss : 0.1207
+Epoch [17/100], Iter [2500/5943] loss : 0.1571
+Epoch [17/100], Iter [2600/5943] loss : 0.1113
+Epoch [17/100], Iter [2700/5943] loss : 0.1717
+Epoch [17/100], Iter [2800/5943] loss : 0.1643
+Epoch [17/100], Iter [2900/5943] loss : 0.1625
+Epoch [17/100], Iter [3000/5943] loss : 0.1400
+Epoch [17/100], Iter [3100/5943] loss : 0.1330
+Epoch [17/100], Iter [3200/5943] loss : 0.1322
+Epoch [17/100], Iter [3300/5943] loss : 0.1609
+Epoch [17/100], Iter [3400/5943] loss : 0.1342
+Epoch [17/100], Iter [3500/5943] loss : 0.1721
+Epoch [17/100], Iter [3600/5943] loss : 0.1631
+Epoch [17/100], Iter [3700/5943] loss : 0.1411
+Epoch [17/100], Iter [3800/5943] loss : 0.1304
+Epoch [17/100], Iter [3900/5943] loss : 0.1474
+Epoch [17/100], Iter [4000/5943] loss : 0.1429
+Epoch [17/100], Iter [4100/5943] loss : 0.1560
+Epoch [17/100], Iter [4200/5943] loss : 0.1054
+Epoch [17/100], Iter [4300/5943] loss : 0.1498
+Epoch [17/100], Iter [4400/5943] loss : 0.1536
+Epoch [17/100], Iter [4500/5943] loss : 0.1030
+Epoch [17/100], Iter [4600/5943] loss : 0.1564
+Epoch [17/100], Iter [4700/5943] loss : 0.1603
+Epoch [17/100], Iter [4800/5943] loss : 0.1254
+Epoch [17/100], Iter [4900/5943] loss : 0.1334
+Epoch [17/100], Iter [5000/5943] loss : 0.1166
+Epoch [17/100], Iter [5100/5943] loss : 0.1452
+Epoch [17/100], Iter [5200/5943] loss : 0.1299
+Epoch [17/100], Iter [5300/5943] loss : 0.1357
+Epoch [17/100], Iter [5400/5943] loss : 0.1612
+Epoch [17/100], Iter [5500/5943] loss : 0.1287
+Epoch [17/100], Iter [5600/5943] loss : 0.1212
+Epoch [17/100], Iter [5700/5943] loss : 0.1318
+Epoch [17/100], Iter [5800/5943] loss : 0.1196
+Epoch [17/100], Iter [5900/5943] loss : 0.1702
+Retrieval : AROC = 0.896, AP = 0.431 /  Annotation : AROC = 0.933, AP = 0.685
+Average loss: 0.1392 
+
+2020-05-29 15:03:47.668679
+Epoch [17/100], Iter [100/1485] loss : 0.2649
+Epoch [17/100], Iter [200/1485] loss : 0.1244
+Epoch [17/100], Iter [300/1485] loss : 0.0965
+Epoch [17/100], Iter [400/1485] loss : 0.0960
+Epoch [17/100], Iter [500/1485] loss : 0.1060
+Epoch [17/100], Iter [600/1485] loss : 0.1204
+Epoch [17/100], Iter [700/1485] loss : 0.1206
+Epoch [17/100], Iter [800/1485] loss : 0.1104
+Epoch [17/100], Iter [900/1485] loss : 0.1809
+Epoch [17/100], Iter [1000/1485] loss : 0.1314
+Epoch [17/100], Iter [1100/1485] loss : 0.0805
+Epoch [17/100], Iter [1200/1485] loss : 0.1497
+Epoch [17/100], Iter [1300/1485] loss : 0.2023
+Epoch [17/100], Iter [1400/1485] loss : 0.1050
+Retrieval : AROC = 0.881, AP = 0.385 /  Annotation : AROC = 0.922, AP = 0.655
+Average loss: 0.1468 
+
+2020-05-29 15:10:16.258471
+Learning rate : 0.01
+
+Epoch 18/100
+------------------------------
+Learning Rate: 0.01
+------------------------------
+Epoch [18/100], Iter [100/5943] loss : 0.1587
+Epoch [18/100], Iter [200/5943] loss : 0.1336
+Epoch [18/100], Iter [300/5943] loss : 0.1258
+Epoch [18/100], Iter [400/5943] loss : 0.1594
+Epoch [18/100], Iter [500/5943] loss : 0.1269
+Epoch [18/100], Iter [600/5943] loss : 0.1453
+Epoch [18/100], Iter [700/5943] loss : 0.1560
+Epoch [18/100], Iter [800/5943] loss : 0.1407
+Epoch [18/100], Iter [900/5943] loss : 0.1112
+Epoch [18/100], Iter [1000/5943] loss : 0.1481
+Epoch [18/100], Iter [1100/5943] loss : 0.1306
+Epoch [18/100], Iter [1200/5943] loss : 0.1528
+Epoch [18/100], Iter [1300/5943] loss : 0.1507
+Epoch [18/100], Iter [1400/5943] loss : 0.1386
+Epoch [18/100], Iter [1500/5943] loss : 0.1338
+Epoch [18/100], Iter [1600/5943] loss : 0.1313
+Epoch [18/100], Iter [1700/5943] loss : 0.1382
+Epoch [18/100], Iter [1800/5943] loss : 0.1321
+Epoch [18/100], Iter [1900/5943] loss : 0.1225
+Epoch [18/100], Iter [2000/5943] loss : 0.1545
+Epoch [18/100], Iter [2100/5943] loss : 0.1308
+Epoch [18/100], Iter [2200/5943] loss : 0.1441
+Epoch [18/100], Iter [2300/5943] loss : 0.1267
+Epoch [18/100], Iter [2400/5943] loss : 0.1363
+Epoch [18/100], Iter [2500/5943] loss : 0.1465
+Epoch [18/100], Iter [2600/5943] loss : 0.1629
+Epoch [18/100], Iter [2700/5943] loss : 0.1050
+Epoch [18/100], Iter [2800/5943] loss : 0.1682
+Epoch [18/100], Iter [2900/5943] loss : 0.1700
+Epoch [18/100], Iter [3000/5943] loss : 0.1462
+Epoch [18/100], Iter [3100/5943] loss : 0.1382
+Epoch [18/100], Iter [3200/5943] loss : 0.1274
+Epoch [18/100], Iter [3300/5943] loss : 0.1124
+Epoch [18/100], Iter [3400/5943] loss : 0.1395
+Epoch [18/100], Iter [3500/5943] loss : 0.1536
+Epoch [18/100], Iter [3600/5943] loss : 0.1250
+Epoch [18/100], Iter [3700/5943] loss : 0.1431
+Epoch [18/100], Iter [3800/5943] loss : 0.1070
+Epoch [18/100], Iter [3900/5943] loss : 0.1638
+Epoch [18/100], Iter [4000/5943] loss : 0.1601
+Epoch [18/100], Iter [4100/5943] loss : 0.1866
+Epoch [18/100], Iter [4200/5943] loss : 0.1471
+Epoch [18/100], Iter [4300/5943] loss : 0.1369
+Epoch [18/100], Iter [4400/5943] loss : 0.0998
+Epoch [18/100], Iter [4500/5943] loss : 0.1256
+Epoch [18/100], Iter [4600/5943] loss : 0.1356
+Epoch [18/100], Iter [4700/5943] loss : 0.1435
+Epoch [18/100], Iter [4800/5943] loss : 0.1562
+Epoch [18/100], Iter [4900/5943] loss : 0.1153
+Epoch [18/100], Iter [5000/5943] loss : 0.1214
+Epoch [18/100], Iter [5100/5943] loss : 0.1925
+Epoch [18/100], Iter [5200/5943] loss : 0.1345
+Epoch [18/100], Iter [5300/5943] loss : 0.1766
+Epoch [18/100], Iter [5400/5943] loss : 0.1683
+Epoch [18/100], Iter [5500/5943] loss : 0.1257
+Epoch [18/100], Iter [5600/5943] loss : 0.1541
+Epoch [18/100], Iter [5700/5943] loss : 0.1451
+Epoch [18/100], Iter [5800/5943] loss : 0.1591
+Epoch [18/100], Iter [5900/5943] loss : 0.1532
+Retrieval : AROC = 0.898, AP = 0.433 /  Annotation : AROC = 0.934, AP = 0.687
+Average loss: 0.1385 
+
+2020-05-29 16:21:01.656208
+Epoch [18/100], Iter [100/1485] loss : 0.2474
+Epoch [18/100], Iter [200/1485] loss : 0.1238
+Epoch [18/100], Iter [300/1485] loss : 0.0962
+Epoch [18/100], Iter [400/1485] loss : 0.1099
+Epoch [18/100], Iter [500/1485] loss : 0.0969
+Epoch [18/100], Iter [600/1485] loss : 0.1104
+Epoch [18/100], Iter [700/1485] loss : 0.1052
+Epoch [18/100], Iter [800/1485] loss : 0.1162
+Epoch [18/100], Iter [900/1485] loss : 0.2066
+Epoch [18/100], Iter [1000/1485] loss : 0.1637
+Epoch [18/100], Iter [1100/1485] loss : 0.0772
+Epoch [18/100], Iter [1200/1485] loss : 0.1621
+Epoch [18/100], Iter [1300/1485] loss : 0.2004
+Epoch [18/100], Iter [1400/1485] loss : 0.0955
+Retrieval : AROC = 0.881, AP = 0.387 /  Annotation : AROC = 0.922, AP = 0.652
+Average loss: 0.1474 
+
+2020-05-29 16:27:29.729870
+Learning rate : 0.002
+
+Epoch 19/100
+------------------------------
+Learning Rate: 0.002
+------------------------------
+Epoch [19/100], Iter [100/5943] loss : 0.1447
+Epoch [19/100], Iter [200/5943] loss : 0.1166
+Epoch [19/100], Iter [300/5943] loss : 0.1093
+Epoch [19/100], Iter [400/5943] loss : 0.1150
+Epoch [19/100], Iter [500/5943] loss : 0.1103
+Epoch [19/100], Iter [600/5943] loss : 0.1255
+Epoch [19/100], Iter [700/5943] loss : 0.1539
+Epoch [19/100], Iter [800/5943] loss : 0.1607
+Epoch [19/100], Iter [900/5943] loss : 0.1362
+Epoch [19/100], Iter [1000/5943] loss : 0.1658
+Epoch [19/100], Iter [1100/5943] loss : 0.1368
+Epoch [19/100], Iter [1200/5943] loss : 0.1153
+Epoch [19/100], Iter [1300/5943] loss : 0.1224
+Epoch [19/100], Iter [1400/5943] loss : 0.1291
+Epoch [19/100], Iter [1500/5943] loss : 0.1408
+Epoch [19/100], Iter [1600/5943] loss : 0.1287
+Epoch [19/100], Iter [1700/5943] loss : 0.1485
+Epoch [19/100], Iter [1800/5943] loss : 0.1248
+Epoch [19/100], Iter [1900/5943] loss : 0.1550
+Epoch [19/100], Iter [2000/5943] loss : 0.1263
+Epoch [19/100], Iter [2100/5943] loss : 0.1173
+Epoch [19/100], Iter [2200/5943] loss : 0.1348
+Epoch [19/100], Iter [2300/5943] loss : 0.1312
+Epoch [19/100], Iter [2400/5943] loss : 0.1192
+Epoch [19/100], Iter [2500/5943] loss : 0.1848
+Epoch [19/100], Iter [2600/5943] loss : 0.1524
+Epoch [19/100], Iter [2700/5943] loss : 0.1377
+Epoch [19/100], Iter [2800/5943] loss : 0.1284
+Epoch [19/100], Iter [2900/5943] loss : 0.1169
+Epoch [19/100], Iter [3000/5943] loss : 0.1127
+Epoch [19/100], Iter [3100/5943] loss : 0.1161
+Epoch [19/100], Iter [3200/5943] loss : 0.1470
+Epoch [19/100], Iter [3300/5943] loss : 0.1353
+Epoch [19/100], Iter [3400/5943] loss : 0.1315
+Epoch [19/100], Iter [3500/5943] loss : 0.1989
+Epoch [19/100], Iter [3600/5943] loss : 0.1310
+Epoch [19/100], Iter [3700/5943] loss : 0.1346
+Epoch [19/100], Iter [3800/5943] loss : 0.1592
+Epoch [19/100], Iter [3900/5943] loss : 0.1184
+Epoch [19/100], Iter [4000/5943] loss : 0.1224
+Epoch [19/100], Iter [4100/5943] loss : 0.1280
+Epoch [19/100], Iter [4200/5943] loss : 0.1306
+Epoch [19/100], Iter [4300/5943] loss : 0.1546
+Epoch [19/100], Iter [4400/5943] loss : 0.1069
+Epoch [19/100], Iter [4500/5943] loss : 0.1453
+Epoch [19/100], Iter [4600/5943] loss : 0.1264
+Epoch [19/100], Iter [4700/5943] loss : 0.1188
+Epoch [19/100], Iter [4800/5943] loss : 0.1328
+Epoch [19/100], Iter [4900/5943] loss : 0.1402
+Epoch [19/100], Iter [5000/5943] loss : 0.1430
+Epoch [19/100], Iter [5100/5943] loss : 0.1577
+Epoch [19/100], Iter [5200/5943] loss : 0.1364
+Epoch [19/100], Iter [5300/5943] loss : 0.1857
+Epoch [19/100], Iter [5400/5943] loss : 0.1259
+Epoch [19/100], Iter [5500/5943] loss : 0.1239
+Epoch [19/100], Iter [5600/5943] loss : 0.1341
+Epoch [19/100], Iter [5700/5943] loss : 0.1062
+Epoch [19/100], Iter [5800/5943] loss : 0.1439
+Epoch [19/100], Iter [5900/5943] loss : 0.1818
+Retrieval : AROC = 0.903, AP = 0.448 /  Annotation : AROC = 0.938, AP = 0.700
+Average loss: 0.1352 
+
+2020-05-29 17:38:16.619770
+Epoch [19/100], Iter [100/1485] loss : 0.2409
+Epoch [19/100], Iter [200/1485] loss : 0.1170
+Epoch [19/100], Iter [300/1485] loss : 0.0948
+Epoch [19/100], Iter [400/1485] loss : 0.0990
+Epoch [19/100], Iter [500/1485] loss : 0.1038
+Epoch [19/100], Iter [600/1485] loss : 0.1084
+Epoch [19/100], Iter [700/1485] loss : 0.1162
+Epoch [19/100], Iter [800/1485] loss : 0.1134
+Epoch [19/100], Iter [900/1485] loss : 0.1873
+Epoch [19/100], Iter [1000/1485] loss : 0.1406
+Epoch [19/100], Iter [1100/1485] loss : 0.0804
+Epoch [19/100], Iter [1200/1485] loss : 0.1535
+Epoch [19/100], Iter [1300/1485] loss : 0.1954
+Epoch [19/100], Iter [1400/1485] loss : 0.1004
+Retrieval : AROC = 0.884, AP = 0.394 /  Annotation : AROC = 0.925, AP = 0.662
+Average loss: 0.1449 
+
+2020-05-29 17:44:45.006886
+Learning rate : 0.002
+
+Epoch 20/100
+------------------------------
+Learning Rate: 0.002
+------------------------------
+Epoch [20/100], Iter [100/5943] loss : 0.1359
+Epoch [20/100], Iter [200/5943] loss : 0.1051
+Epoch [20/100], Iter [300/5943] loss : 0.1454
+Epoch [20/100], Iter [400/5943] loss : 0.1468
+Epoch [20/100], Iter [500/5943] loss : 0.1745
+Epoch [20/100], Iter [600/5943] loss : 0.1432
+Epoch [20/100], Iter [700/5943] loss : 0.1130
+Epoch [20/100], Iter [800/5943] loss : 0.1096
+Epoch [20/100], Iter [900/5943] loss : 0.1418
+Epoch [20/100], Iter [1000/5943] loss : 0.1462
+Epoch [20/100], Iter [1100/5943] loss : 0.1059
+Epoch [20/100], Iter [1200/5943] loss : 0.1396
+Epoch [20/100], Iter [1300/5943] loss : 0.1526
+Epoch [20/100], Iter [1400/5943] loss : 0.1560
+Epoch [20/100], Iter [1500/5943] loss : 0.1710
+Epoch [20/100], Iter [1600/5943] loss : 0.1364
+Epoch [20/100], Iter [1700/5943] loss : 0.1264
+Epoch [20/100], Iter [1800/5943] loss : 0.1350
+Epoch [20/100], Iter [1900/5943] loss : 0.1220
+Epoch [20/100], Iter [2000/5943] loss : 0.1108
+Epoch [20/100], Iter [2100/5943] loss : 0.1587
+Epoch [20/100], Iter [2200/5943] loss : 0.1322
+Epoch [20/100], Iter [2300/5943] loss : 0.1289
+Epoch [20/100], Iter [2400/5943] loss : 0.1273
+Epoch [20/100], Iter [2500/5943] loss : 0.1138
+Epoch [20/100], Iter [2600/5943] loss : 0.1259
+Epoch [20/100], Iter [2700/5943] loss : 0.1654
+Epoch [20/100], Iter [2800/5943] loss : 0.1154
+Epoch [20/100], Iter [2900/5943] loss : 0.1336
+Epoch [20/100], Iter [3000/5943] loss : 0.1497
+Epoch [20/100], Iter [3100/5943] loss : 0.1156
+Epoch [20/100], Iter [3200/5943] loss : 0.1313
+Epoch [20/100], Iter [3300/5943] loss : 0.1309
+Epoch [20/100], Iter [3400/5943] loss : 0.1296
+Epoch [20/100], Iter [3500/5943] loss : 0.1061
+Epoch [20/100], Iter [3600/5943] loss : 0.1644
+Epoch [20/100], Iter [3700/5943] loss : 0.1582
+Epoch [20/100], Iter [3800/5943] loss : 0.1291
+Epoch [20/100], Iter [3900/5943] loss : 0.1689
+Epoch [20/100], Iter [4000/5943] loss : 0.1537
+Epoch [20/100], Iter [4100/5943] loss : 0.1349
+Epoch [20/100], Iter [4200/5943] loss : 0.1453
+Epoch [20/100], Iter [4300/5943] loss : 0.1234
+Epoch [20/100], Iter [4400/5943] loss : 0.1486
+Epoch [20/100], Iter [4500/5943] loss : 0.1215
+Epoch [20/100], Iter [4600/5943] loss : 0.1242
+Epoch [20/100], Iter [4700/5943] loss : 0.1373
+Epoch [20/100], Iter [4800/5943] loss : 0.1348
+Epoch [20/100], Iter [4900/5943] loss : 0.1792
+Epoch [20/100], Iter [5000/5943] loss : 0.1309
+Epoch [20/100], Iter [5100/5943] loss : 0.1354
+Epoch [20/100], Iter [5200/5943] loss : 0.1238
+Epoch [20/100], Iter [5300/5943] loss : 0.0957
+Epoch [20/100], Iter [5400/5943] loss : 0.1386
+Epoch [20/100], Iter [5500/5943] loss : 0.1464
+Epoch [20/100], Iter [5600/5943] loss : 0.1565
+Epoch [20/100], Iter [5700/5943] loss : 0.1343
+Epoch [20/100], Iter [5800/5943] loss : 0.1290
+Epoch [20/100], Iter [5900/5943] loss : 0.1474
+Retrieval : AROC = 0.905, AP = 0.452 /  Annotation : AROC = 0.939, AP = 0.702
+Average loss: 0.1346 
+
+2020-05-29 18:56:12.214786
+Epoch [20/100], Iter [100/1485] loss : 0.2349
+Epoch [20/100], Iter [200/1485] loss : 0.1217
+Epoch [20/100], Iter [300/1485] loss : 0.0931
+Epoch [20/100], Iter [400/1485] loss : 0.1008
+Epoch [20/100], Iter [500/1485] loss : 0.1042
+Epoch [20/100], Iter [600/1485] loss : 0.1114
+Epoch [20/100], Iter [700/1485] loss : 0.1134
+Epoch [20/100], Iter [800/1485] loss : 0.1077
+Epoch [20/100], Iter [900/1485] loss : 0.2023
+Epoch [20/100], Iter [1000/1485] loss : 0.1481
+Epoch [20/100], Iter [1100/1485] loss : 0.0786
+Epoch [20/100], Iter [1200/1485] loss : 0.1554
+Epoch [20/100], Iter [1300/1485] loss : 0.1950
+Epoch [20/100], Iter [1400/1485] loss : 0.1043
+Retrieval : AROC = 0.883, AP = 0.392 /  Annotation : AROC = 0.924, AP = 0.659
+Average loss: 0.1459 
+
+2020-05-29 19:02:49.523450
+Learning rate : 0.002
+
+Epoch 21/100
+------------------------------
+Learning Rate: 0.002
+------------------------------
+Epoch [21/100], Iter [100/5943] loss : 0.1121
+Epoch [21/100], Iter [200/5943] loss : 0.1413
+Epoch [21/100], Iter [300/5943] loss : 0.1179
+Epoch [21/100], Iter [400/5943] loss : 0.1268
+Epoch [21/100], Iter [500/5943] loss : 0.1517
+Epoch [21/100], Iter [600/5943] loss : 0.1118
+Epoch [21/100], Iter [700/5943] loss : 0.1987
+Epoch [21/100], Iter [800/5943] loss : 0.1212
+Epoch [21/100], Iter [900/5943] loss : 0.1408
+Epoch [21/100], Iter [1000/5943] loss : 0.1435
+Epoch [21/100], Iter [1100/5943] loss : 0.1181
+Epoch [21/100], Iter [1200/5943] loss : 0.1199
+Epoch [21/100], Iter [1300/5943] loss : 0.1305
+Epoch [21/100], Iter [1400/5943] loss : 0.1411
+Epoch [21/100], Iter [1500/5943] loss : 0.1493
+Epoch [21/100], Iter [1600/5943] loss : 0.1436
+Epoch [21/100], Iter [1700/5943] loss : 0.1514
+Epoch [21/100], Iter [1800/5943] loss : 0.1403
+Epoch [21/100], Iter [1900/5943] loss : 0.1209
+Epoch [21/100], Iter [2000/5943] loss : 0.1257
+Epoch [21/100], Iter [2100/5943] loss : 0.1561
+Epoch [21/100], Iter [2200/5943] loss : 0.1323
+Epoch [21/100], Iter [2300/5943] loss : 0.1153
+Epoch [21/100], Iter [2400/5943] loss : 0.1389
+Epoch [21/100], Iter [2500/5943] loss : 0.1227
+Epoch [21/100], Iter [2600/5943] loss : 0.1273
+Epoch [21/100], Iter [2700/5943] loss : 0.1398
+Epoch [21/100], Iter [2800/5943] loss : 0.1789
+Epoch [21/100], Iter [2900/5943] loss : 0.1499
+Epoch [21/100], Iter [3000/5943] loss : 0.1428
+Epoch [21/100], Iter [3100/5943] loss : 0.1475
+Epoch [21/100], Iter [3200/5943] loss : 0.1139
+Epoch [21/100], Iter [3300/5943] loss : 0.1751
+Epoch [21/100], Iter [3400/5943] loss : 0.1095
+Epoch [21/100], Iter [3500/5943] loss : 0.1490
+Epoch [21/100], Iter [3600/5943] loss : 0.1069
+Epoch [21/100], Iter [3700/5943] loss : 0.1284
+Epoch [21/100], Iter [3800/5943] loss : 0.1390
+Epoch [21/100], Iter [3900/5943] loss : 0.1442
+Epoch [21/100], Iter [4000/5943] loss : 0.1418
+Epoch [21/100], Iter [4100/5943] loss : 0.1259
+Epoch [21/100], Iter [4200/5943] loss : 0.1358
+Epoch [21/100], Iter [4300/5943] loss : 0.1114
+Epoch [21/100], Iter [4400/5943] loss : 0.1115
+Epoch [21/100], Iter [4500/5943] loss : 0.1437
+Epoch [21/100], Iter [4600/5943] loss : 0.1424
+Epoch [21/100], Iter [4700/5943] loss : 0.1126
+Epoch [21/100], Iter [4800/5943] loss : 0.1144
+Epoch [21/100], Iter [4900/5943] loss : 0.1675
+Epoch [21/100], Iter [5000/5943] loss : 0.1286
+Epoch [21/100], Iter [5100/5943] loss : 0.1209
+Epoch [21/100], Iter [5200/5943] loss : 0.1481
+Epoch [21/100], Iter [5300/5943] loss : 0.1273
+Epoch [21/100], Iter [5400/5943] loss : 0.1322
+Epoch [21/100], Iter [5500/5943] loss : 0.1261
+Epoch [21/100], Iter [5600/5943] loss : 0.1520
+Epoch [21/100], Iter [5700/5943] loss : 0.1403
+Epoch [21/100], Iter [5800/5943] loss : 0.1268
+Epoch [21/100], Iter [5900/5943] loss : 0.1533
+Retrieval : AROC = 0.906, AP = 0.454 /  Annotation : AROC = 0.939, AP = 0.703
+Average loss: 0.1341 
+
+2020-05-29 20:16:01.330107
+Epoch [21/100], Iter [100/1485] loss : 0.2332
+Epoch [21/100], Iter [200/1485] loss : 0.1190
+Epoch [21/100], Iter [300/1485] loss : 0.0959
+Epoch [21/100], Iter [400/1485] loss : 0.1034
+Epoch [21/100], Iter [500/1485] loss : 0.1037
+Epoch [21/100], Iter [600/1485] loss : 0.1081
+Epoch [21/100], Iter [700/1485] loss : 0.1142
+Epoch [21/100], Iter [800/1485] loss : 0.1123
+Epoch [21/100], Iter [900/1485] loss : 0.1943
+Epoch [21/100], Iter [1000/1485] loss : 0.1505
+Epoch [21/100], Iter [1100/1485] loss : 0.0826
+Epoch [21/100], Iter [1200/1485] loss : 0.1486
+Epoch [21/100], Iter [1300/1485] loss : 0.1978
+Epoch [21/100], Iter [1400/1485] loss : 0.0945
+Retrieval : AROC = 0.884, AP = 0.393 /  Annotation : AROC = 0.925, AP = 0.661
+Average loss: 0.1451 
+
+2020-05-29 20:22:39.410785
+Learning rate : 0.002
+
+Epoch 22/100
+------------------------------
+Learning Rate: 0.002
+------------------------------
+Epoch [22/100], Iter [100/5943] loss : 0.1584
+Epoch [22/100], Iter [200/5943] loss : 0.1543
+Epoch [22/100], Iter [300/5943] loss : 0.1372
+Epoch [22/100], Iter [400/5943] loss : 0.1471
+Epoch [22/100], Iter [500/5943] loss : 0.1518
+Epoch [22/100], Iter [600/5943] loss : 0.1019
+Epoch [22/100], Iter [700/5943] loss : 0.1481
+Epoch [22/100], Iter [800/5943] loss : 0.1150
+Epoch [22/100], Iter [900/5943] loss : 0.1407
+Epoch [22/100], Iter [1000/5943] loss : 0.1169
+Epoch [22/100], Iter [1100/5943] loss : 0.1120
+Epoch [22/100], Iter [1200/5943] loss : 0.1141
+Epoch [22/100], Iter [1300/5943] loss : 0.1560
+Epoch [22/100], Iter [1400/5943] loss : 0.1659
+Epoch [22/100], Iter [1500/5943] loss : 0.1292
+Epoch [22/100], Iter [1600/5943] loss : 0.1210
+Epoch [22/100], Iter [1700/5943] loss : 0.1120
+Epoch [22/100], Iter [1800/5943] loss : 0.1513
+Epoch [22/100], Iter [1900/5943] loss : 0.1280
+Epoch [22/100], Iter [2000/5943] loss : 0.1299
+Epoch [22/100], Iter [2100/5943] loss : 0.1583
+Epoch [22/100], Iter [2200/5943] loss : 0.0940
+Epoch [22/100], Iter [2300/5943] loss : 0.1278
+Epoch [22/100], Iter [2400/5943] loss : 0.1780
+Epoch [22/100], Iter [2500/5943] loss : 0.1218
+Epoch [22/100], Iter [2600/5943] loss : 0.1229
+Epoch [22/100], Iter [2700/5943] loss : 0.1215
+Epoch [22/100], Iter [2800/5943] loss : 0.1260
+Epoch [22/100], Iter [2900/5943] loss : 0.1347
+Epoch [22/100], Iter [3000/5943] loss : 0.1374
+Epoch [22/100], Iter [3100/5943] loss : 0.1653
+Epoch [22/100], Iter [3200/5943] loss : 0.1310
+Epoch [22/100], Iter [3300/5943] loss : 0.1149
+Epoch [22/100], Iter [3400/5943] loss : 0.2010
+Epoch [22/100], Iter [3500/5943] loss : 0.1336
+Epoch [22/100], Iter [3600/5943] loss : 0.1284
+Epoch [22/100], Iter [3700/5943] loss : 0.1381
+Epoch [22/100], Iter [3800/5943] loss : 0.1233
+Epoch [22/100], Iter [3900/5943] loss : 0.1494
+Epoch [22/100], Iter [4000/5943] loss : 0.1098
+Epoch [22/100], Iter [4100/5943] loss : 0.1129
+Epoch [22/100], Iter [4200/5943] loss : 0.1097
+Epoch [22/100], Iter [4300/5943] loss : 0.1629
+Epoch [22/100], Iter [4400/5943] loss : 0.1317
+Epoch [22/100], Iter [4500/5943] loss : 0.1219
+Epoch [22/100], Iter [4600/5943] loss : 0.1449
+Epoch [22/100], Iter [4700/5943] loss : 0.1230
+Epoch [22/100], Iter [4800/5943] loss : 0.1194
+Epoch [22/100], Iter [4900/5943] loss : 0.1293
+Epoch [22/100], Iter [5000/5943] loss : 0.1381
+Epoch [22/100], Iter [5100/5943] loss : 0.1593
+Epoch [22/100], Iter [5200/5943] loss : 0.1162
+Epoch [22/100], Iter [5300/5943] loss : 0.1712
+Epoch [22/100], Iter [5400/5943] loss : 0.1139
+Epoch [22/100], Iter [5500/5943] loss : 0.1243
+Epoch [22/100], Iter [5600/5943] loss : 0.1422
+Epoch [22/100], Iter [5700/5943] loss : 0.1341
+Epoch [22/100], Iter [5800/5943] loss : 0.1373
+Epoch [22/100], Iter [5900/5943] loss : 0.1219
+Retrieval : AROC = 0.906, AP = 0.456 /  Annotation : AROC = 0.940, AP = 0.705
+Average loss: 0.1337 
+
+2020-05-29 21:35:51.285270
+Epoch [22/100], Iter [100/1485] loss : 0.2293
+Epoch [22/100], Iter [200/1485] loss : 0.1185
+Epoch [22/100], Iter [300/1485] loss : 0.0928
+Epoch [22/100], Iter [400/1485] loss : 0.0977
+Epoch [22/100], Iter [500/1485] loss : 0.1006
+Epoch [22/100], Iter [600/1485] loss : 0.1094
+Epoch [22/100], Iter [700/1485] loss : 0.1187
+Epoch [22/100], Iter [800/1485] loss : 0.1107
+Epoch [22/100], Iter [900/1485] loss : 0.1910
+Epoch [22/100], Iter [1000/1485] loss : 0.1388
+Epoch [22/100], Iter [1100/1485] loss : 0.0776
+Epoch [22/100], Iter [1200/1485] loss : 0.1563
+Epoch [22/100], Iter [1300/1485] loss : 0.2029
+Epoch [22/100], Iter [1400/1485] loss : 0.1097
+Retrieval : AROC = 0.884, AP = 0.393 /  Annotation : AROC = 0.924, AP = 0.662
+Average loss: 0.1456 
+
+2020-05-29 21:42:28.789385
+Learning rate : 0.0004
+
+Epoch 23/100
+------------------------------
+Learning Rate: 0.0004
+------------------------------
+Epoch [23/100], Iter [100/5943] loss : 0.1165
+Epoch [23/100], Iter [200/5943] loss : 0.1439
+Epoch [23/100], Iter [300/5943] loss : 0.1221
+Epoch [23/100], Iter [400/5943] loss : 0.1228
+Epoch [23/100], Iter [500/5943] loss : 0.1392
+Epoch [23/100], Iter [600/5943] loss : 0.1079
+Epoch [23/100], Iter [700/5943] loss : 0.1372
+Epoch [23/100], Iter [800/5943] loss : 0.1361
+Epoch [23/100], Iter [900/5943] loss : 0.1206
+Epoch [23/100], Iter [1000/5943] loss : 0.1583
+Epoch [23/100], Iter [1100/5943] loss : 0.1189
+Epoch [23/100], Iter [1200/5943] loss : 0.1447
+Epoch [23/100], Iter [1300/5943] loss : 0.1265
+Epoch [23/100], Iter [1400/5943] loss : 0.1565
+Epoch [23/100], Iter [1500/5943] loss : 0.1139
+Epoch [23/100], Iter [1600/5943] loss : 0.1305
+Epoch [23/100], Iter [1700/5943] loss : 0.1384
+Epoch [23/100], Iter [1800/5943] loss : 0.1184
+Epoch [23/100], Iter [1900/5943] loss : 0.1362
+Epoch [23/100], Iter [2000/5943] loss : 0.1193
+Epoch [23/100], Iter [2100/5943] loss : 0.1543
+Epoch [23/100], Iter [2200/5943] loss : 0.1115
+Epoch [23/100], Iter [2300/5943] loss : 0.1284
+Epoch [23/100], Iter [2400/5943] loss : 0.1235
+Epoch [23/100], Iter [2500/5943] loss : 0.1540
+Epoch [23/100], Iter [2600/5943] loss : 0.1239
+Epoch [23/100], Iter [2700/5943] loss : 0.1295
+Epoch [23/100], Iter [2800/5943] loss : 0.1424
+Epoch [23/100], Iter [2900/5943] loss : 0.1400
+Epoch [23/100], Iter [3000/5943] loss : 0.1318
+Epoch [23/100], Iter [3100/5943] loss : 0.1135
+Epoch [23/100], Iter [3200/5943] loss : 0.1209
+Epoch [23/100], Iter [3300/5943] loss : 0.1254
+Epoch [23/100], Iter [3400/5943] loss : 0.1437
+Epoch [23/100], Iter [3500/5943] loss : 0.1331
+Epoch [23/100], Iter [3600/5943] loss : 0.1226
+Epoch [23/100], Iter [3700/5943] loss : 0.1326
+Epoch [23/100], Iter [3800/5943] loss : 0.1041
+Epoch [23/100], Iter [3900/5943] loss : 0.1649
+Epoch [23/100], Iter [4000/5943] loss : 0.1295
+Epoch [23/100], Iter [4100/5943] loss : 0.1109
+Epoch [23/100], Iter [4200/5943] loss : 0.1091
+Epoch [23/100], Iter [4300/5943] loss : 0.1229
+Epoch [23/100], Iter [4400/5943] loss : 0.1597
+Epoch [23/100], Iter [4500/5943] loss : 0.1340
+Epoch [23/100], Iter [4600/5943] loss : 0.1054
+Epoch [23/100], Iter [4700/5943] loss : 0.1579
+Epoch [23/100], Iter [4800/5943] loss : 0.1868
+Epoch [23/100], Iter [4900/5943] loss : 0.1168
+Epoch [23/100], Iter [5000/5943] loss : 0.1565
+Epoch [23/100], Iter [5100/5943] loss : 0.1306
+Epoch [23/100], Iter [5200/5943] loss : 0.1192
+Epoch [23/100], Iter [5300/5943] loss : 0.1265
+Epoch [23/100], Iter [5400/5943] loss : 0.1469
+Epoch [23/100], Iter [5500/5943] loss : 0.1319
+Epoch [23/100], Iter [5600/5943] loss : 0.1285
+Epoch [23/100], Iter [5700/5943] loss : 0.1117
+Epoch [23/100], Iter [5800/5943] loss : 0.1555
+Epoch [23/100], Iter [5900/5943] loss : 0.1203
+Retrieval : AROC = 0.907, AP = 0.458 /  Annotation : AROC = 0.941, AP = 0.706
+Average loss: 0.1332 
+
+2020-05-29 22:55:37.534721
+Epoch [23/100], Iter [100/1485] loss : 0.2387
+Epoch [23/100], Iter [200/1485] loss : 0.1226
+Epoch [23/100], Iter [300/1485] loss : 0.0937
+Epoch [23/100], Iter [400/1485] loss : 0.0973
+Epoch [23/100], Iter [500/1485] loss : 0.1004
+Epoch [23/100], Iter [600/1485] loss : 0.1077
+Epoch [23/100], Iter [700/1485] loss : 0.1183
+Epoch [23/100], Iter [800/1485] loss : 0.1112
+Epoch [23/100], Iter [900/1485] loss : 0.1939
+Epoch [23/100], Iter [1000/1485] loss : 0.1467
+Epoch [23/100], Iter [1100/1485] loss : 0.0796
+Epoch [23/100], Iter [1200/1485] loss : 0.1530
+Epoch [23/100], Iter [1300/1485] loss : 0.2091
+Epoch [23/100], Iter [1400/1485] loss : 0.1014
+Retrieval : AROC = 0.884, AP = 0.395 /  Annotation : AROC = 0.924, AP = 0.661
+Average loss: 0.1457 
+
+2020-05-29 23:02:14.362820
+Learning rate : 0.0004
+
+Epoch 24/100
+------------------------------
+Learning Rate: 0.0004
+------------------------------
+Epoch [24/100], Iter [100/5943] loss : 0.1429
+Epoch [24/100], Iter [200/5943] loss : 0.1519
+Epoch [24/100], Iter [300/5943] loss : 0.1100
+Epoch [24/100], Iter [400/5943] loss : 0.1280
+Epoch [24/100], Iter [500/5943] loss : 0.1434
+Epoch [24/100], Iter [600/5943] loss : 0.1264
+Epoch [24/100], Iter [700/5943] loss : 0.1282
+Epoch [24/100], Iter [800/5943] loss : 0.1273
+Epoch [24/100], Iter [900/5943] loss : 0.1873
+Epoch [24/100], Iter [1000/5943] loss : 0.1318
+Epoch [24/100], Iter [1100/5943] loss : 0.1672
+Epoch [24/100], Iter [1200/5943] loss : 0.1515
+Epoch [24/100], Iter [1300/5943] loss : 0.1318
+Epoch [24/100], Iter [1400/5943] loss : 0.1343
+Epoch [24/100], Iter [1500/5943] loss : 0.1262
+Epoch [24/100], Iter [1600/5943] loss : 0.1443
+Epoch [24/100], Iter [1700/5943] loss : 0.1293
+Epoch [24/100], Iter [1800/5943] loss : 0.1532
+Epoch [24/100], Iter [1900/5943] loss : 0.1154
+Epoch [24/100], Iter [2000/5943] loss : 0.1458
+Epoch [24/100], Iter [2100/5943] loss : 0.1406
+Epoch [24/100], Iter [2200/5943] loss : 0.1477
+Epoch [24/100], Iter [2300/5943] loss : 0.1524
+Epoch [24/100], Iter [2400/5943] loss : 0.1468
+Epoch [24/100], Iter [2500/5943] loss : 0.1364
+Epoch [24/100], Iter [2600/5943] loss : 0.1648
+Epoch [24/100], Iter [2700/5943] loss : 0.1320
+Epoch [24/100], Iter [2800/5943] loss : 0.1261
+Epoch [24/100], Iter [2900/5943] loss : 0.1198
+Epoch [24/100], Iter [3000/5943] loss : 0.1406
+Epoch [24/100], Iter [3100/5943] loss : 0.1319
+Epoch [24/100], Iter [3200/5943] loss : 0.1488
+Epoch [24/100], Iter [3300/5943] loss : 0.1111
+Epoch [24/100], Iter [3400/5943] loss : 0.1189
+Epoch [24/100], Iter [3500/5943] loss : 0.1447
+Epoch [24/100], Iter [3600/5943] loss : 0.1485
+Epoch [24/100], Iter [3700/5943] loss : 0.1084
+Epoch [24/100], Iter [3800/5943] loss : 0.1551
+Epoch [24/100], Iter [3900/5943] loss : 0.1446
+Epoch [24/100], Iter [4000/5943] loss : 0.1455
+Epoch [24/100], Iter [4100/5943] loss : 0.1316
+Epoch [24/100], Iter [4200/5943] loss : 0.1084
+Epoch [24/100], Iter [4300/5943] loss : 0.1229
+Epoch [24/100], Iter [4400/5943] loss : 0.1245
+Epoch [24/100], Iter [4500/5943] loss : 0.1405
+Epoch [24/100], Iter [4600/5943] loss : 0.1333
+Epoch [24/100], Iter [4700/5943] loss : 0.1438
+Epoch [24/100], Iter [4800/5943] loss : 0.1520
+Epoch [24/100], Iter [4900/5943] loss : 0.1511
+Epoch [24/100], Iter [5000/5943] loss : 0.1396
+Epoch [24/100], Iter [5100/5943] loss : 0.1188
+Epoch [24/100], Iter [5200/5943] loss : 0.1247
+Epoch [24/100], Iter [5300/5943] loss : 0.1088
+Epoch [24/100], Iter [5400/5943] loss : 0.1452
+Epoch [24/100], Iter [5500/5943] loss : 0.1289
+Epoch [24/100], Iter [5600/5943] loss : 0.1516
+Epoch [24/100], Iter [5700/5943] loss : 0.1654
+Epoch [24/100], Iter [5800/5943] loss : 0.1219
+Epoch [24/100], Iter [5900/5943] loss : 0.1079
+Retrieval : AROC = 0.907, AP = 0.460 /  Annotation : AROC = 0.941, AP = 0.707
+Average loss: 0.1330 
+
+2020-05-30 00:14:36.972573
+Epoch [24/100], Iter [100/1485] loss : 0.2409
+Epoch [24/100], Iter [200/1485] loss : 0.1214
+Epoch [24/100], Iter [300/1485] loss : 0.0952
+Epoch [24/100], Iter [400/1485] loss : 0.0992
+Epoch [24/100], Iter [500/1485] loss : 0.1042
+Epoch [24/100], Iter [600/1485] loss : 0.1052
+Epoch [24/100], Iter [700/1485] loss : 0.1174
+Epoch [24/100], Iter [800/1485] loss : 0.1098
+Epoch [24/100], Iter [900/1485] loss : 0.1927
+Epoch [24/100], Iter [1000/1485] loss : 0.1440
+Epoch [24/100], Iter [1100/1485] loss : 0.0787
+Epoch [24/100], Iter [1200/1485] loss : 0.1582
+Epoch [24/100], Iter [1300/1485] loss : 0.1963
+Epoch [24/100], Iter [1400/1485] loss : 0.1014
+Retrieval : AROC = 0.885, AP = 0.395 /  Annotation : AROC = 0.926, AP = 0.662
+Average loss: 0.1448 
+
+2020-05-30 00:21:08.426016
+Learning rate : 0.0004
+
+Epoch 25/100
+------------------------------
+Learning Rate: 0.0004
+------------------------------
+Epoch [25/100], Iter [100/5943] loss : 0.1540
+Epoch [25/100], Iter [200/5943] loss : 0.1438
+Epoch [25/100], Iter [300/5943] loss : 0.1317
+Epoch [25/100], Iter [400/5943] loss : 0.1489
+Epoch [25/100], Iter [500/5943] loss : 0.1461
+Epoch [25/100], Iter [600/5943] loss : 0.1557
+Epoch [25/100], Iter [700/5943] loss : 0.1247
+Epoch [25/100], Iter [800/5943] loss : 0.1251
+Epoch [25/100], Iter [900/5943] loss : 0.1191
+Epoch [25/100], Iter [1000/5943] loss : 0.1463
+Epoch [25/100], Iter [1100/5943] loss : 0.1405
+Epoch [25/100], Iter [1200/5943] loss : 0.1461
+Epoch [25/100], Iter [1300/5943] loss : 0.1366
+Epoch [25/100], Iter [1400/5943] loss : 0.1222
+Epoch [25/100], Iter [1500/5943] loss : 0.1317
+Epoch [25/100], Iter [1600/5943] loss : 0.1318
+Epoch [25/100], Iter [1700/5943] loss : 0.1057
+Epoch [25/100], Iter [1800/5943] loss : 0.1273
+Epoch [25/100], Iter [1900/5943] loss : 0.1274
+Epoch [25/100], Iter [2000/5943] loss : 0.1400
+Epoch [25/100], Iter [2100/5943] loss : 0.1354
+Epoch [25/100], Iter [2200/5943] loss : 0.1376
+Epoch [25/100], Iter [2300/5943] loss : 0.1258
+Epoch [25/100], Iter [2400/5943] loss : 0.1254
+Epoch [25/100], Iter [2500/5943] loss : 0.1185
+Epoch [25/100], Iter [2600/5943] loss : 0.1330
+Epoch [25/100], Iter [2700/5943] loss : 0.1422
+Epoch [25/100], Iter [2800/5943] loss : 0.1289
+Epoch [25/100], Iter [2900/5943] loss : 0.1367
+Epoch [25/100], Iter [3000/5943] loss : 0.1398
+Epoch [25/100], Iter [3100/5943] loss : 0.1286
+Epoch [25/100], Iter [3200/5943] loss : 0.1249
+Epoch [25/100], Iter [3300/5943] loss : 0.1340
+Epoch [25/100], Iter [3400/5943] loss : 0.1390
+Epoch [25/100], Iter [3500/5943] loss : 0.1752
+Epoch [25/100], Iter [3600/5943] loss : 0.1085
+Epoch [25/100], Iter [3700/5943] loss : 0.1415
+Epoch [25/100], Iter [3800/5943] loss : 0.1542
+Epoch [25/100], Iter [3900/5943] loss : 0.1192
+Epoch [25/100], Iter [4000/5943] loss : 0.1151
+Epoch [25/100], Iter [4100/5943] loss : 0.1458
+Epoch [25/100], Iter [4200/5943] loss : 0.1228
+Epoch [25/100], Iter [4300/5943] loss : 0.1319
+Epoch [25/100], Iter [4400/5943] loss : 0.1209
+Epoch [25/100], Iter [4500/5943] loss : 0.1509
+Epoch [25/100], Iter [4600/5943] loss : 0.1162
+Epoch [25/100], Iter [4700/5943] loss : 0.1230
+Epoch [25/100], Iter [4800/5943] loss : 0.1575
+Epoch [25/100], Iter [4900/5943] loss : 0.1335
+Epoch [25/100], Iter [5000/5943] loss : 0.1454
+Epoch [25/100], Iter [5100/5943] loss : 0.1206
+Epoch [25/100], Iter [5200/5943] loss : 0.1224
+Epoch [25/100], Iter [5300/5943] loss : 0.1222
+Epoch [25/100], Iter [5400/5943] loss : 0.1387
+Epoch [25/100], Iter [5500/5943] loss : 0.1287
+Epoch [25/100], Iter [5600/5943] loss : 0.1145
+Epoch [25/100], Iter [5700/5943] loss : 0.1236
+Epoch [25/100], Iter [5800/5943] loss : 0.1384
+Epoch [25/100], Iter [5900/5943] loss : 0.1151
+Retrieval : AROC = 0.908, AP = 0.459 /  Annotation : AROC = 0.941, AP = 0.708
+Average loss: 0.1329 
+
+2020-05-30 01:32:21.939983
+Epoch [25/100], Iter [100/1485] loss : 0.2459
+Epoch [25/100], Iter [200/1485] loss : 0.1234
+Epoch [25/100], Iter [300/1485] loss : 0.0948
+Epoch [25/100], Iter [400/1485] loss : 0.0948
+Epoch [25/100], Iter [500/1485] loss : 0.1021
+Epoch [25/100], Iter [600/1485] loss : 0.1119
+Epoch [25/100], Iter [700/1485] loss : 0.1182
+Epoch [25/100], Iter [800/1485] loss : 0.1107
+Epoch [25/100], Iter [900/1485] loss : 0.1920
+Epoch [25/100], Iter [1000/1485] loss : 0.1462
+Epoch [25/100], Iter [1100/1485] loss : 0.0788
+Epoch [25/100], Iter [1200/1485] loss : 0.1540
+Epoch [25/100], Iter [1300/1485] loss : 0.2027
+Epoch [25/100], Iter [1400/1485] loss : 0.1048
+Retrieval : AROC = 0.885, AP = 0.396 /  Annotation : AROC = 0.926, AP = 0.663
+Average loss: 0.1447 
+
+2020-05-30 01:38:53.407878
+Learning rate : 0.0004
+
+Epoch 26/100
+------------------------------
+Learning Rate: 0.0004
+------------------------------
+Epoch [26/100], Iter [100/5943] loss : 0.1441
+Epoch [26/100], Iter [200/5943] loss : 0.1514
+Epoch [26/100], Iter [300/5943] loss : 0.1141
+Epoch [26/100], Iter [400/5943] loss : 0.1192
+Epoch [26/100], Iter [500/5943] loss : 0.1142
+Epoch [26/100], Iter [600/5943] loss : 0.1103
+Epoch [26/100], Iter [700/5943] loss : 0.1422
+Epoch [26/100], Iter [800/5943] loss : 0.1264
+Epoch [26/100], Iter [900/5943] loss : 0.1181
+Epoch [26/100], Iter [1000/5943] loss : 0.1228
+Epoch [26/100], Iter [1100/5943] loss : 0.1417
+Epoch [26/100], Iter [1200/5943] loss : 0.1251
+Epoch [26/100], Iter [1300/5943] loss : 0.1455
+Epoch [26/100], Iter [1400/5943] loss : 0.1376
+Epoch [26/100], Iter [1500/5943] loss : 0.1412
+Epoch [26/100], Iter [1600/5943] loss : 0.1079
+Epoch [26/100], Iter [1700/5943] loss : 0.1570
+Epoch [26/100], Iter [1800/5943] loss : 0.1252
+Epoch [26/100], Iter [1900/5943] loss : 0.1549
+Epoch [26/100], Iter [2000/5943] loss : 0.1159
+Epoch [26/100], Iter [2100/5943] loss : 0.1172
+Epoch [26/100], Iter [2200/5943] loss : 0.1257
+Epoch [26/100], Iter [2300/5943] loss : 0.1263
+Epoch [26/100], Iter [2400/5943] loss : 0.1409
+Epoch [26/100], Iter [2500/5943] loss : 0.1302
+Epoch [26/100], Iter [2600/5943] loss : 0.1225
+Epoch [26/100], Iter [2700/5943] loss : 0.1460
+Epoch [26/100], Iter [2800/5943] loss : 0.1344
+Epoch [26/100], Iter [2900/5943] loss : 0.1296
+Epoch [26/100], Iter [3000/5943] loss : 0.1423
+Epoch [26/100], Iter [3100/5943] loss : 0.1239
+Epoch [26/100], Iter [3200/5943] loss : 0.1803
+Epoch [26/100], Iter [3300/5943] loss : 0.1287
+Epoch [26/100], Iter [3400/5943] loss : 0.1288
+Epoch [26/100], Iter [3500/5943] loss : 0.1356
+Epoch [26/100], Iter [3600/5943] loss : 0.1313
+Epoch [26/100], Iter [3700/5943] loss : 0.1521
+Epoch [26/100], Iter [3800/5943] loss : 0.1380
+Epoch [26/100], Iter [3900/5943] loss : 0.1755
+Epoch [26/100], Iter [4000/5943] loss : 0.1218
+Epoch [26/100], Iter [4100/5943] loss : 0.1245
+Epoch [26/100], Iter [4200/5943] loss : 0.1297
+Epoch [26/100], Iter [4300/5943] loss : 0.1149
+Epoch [26/100], Iter [4400/5943] loss : 0.1237
+Epoch [26/100], Iter [4500/5943] loss : 0.1157
+Epoch [26/100], Iter [4600/5943] loss : 0.1024
+Epoch [26/100], Iter [4700/5943] loss : 0.1321
+Epoch [26/100], Iter [4800/5943] loss : 0.1268
+Epoch [26/100], Iter [4900/5943] loss : 0.1448
+Epoch [26/100], Iter [5000/5943] loss : 0.1394
+Epoch [26/100], Iter [5100/5943] loss : 0.1276
+Epoch [26/100], Iter [5200/5943] loss : 0.1032
+Epoch [26/100], Iter [5300/5943] loss : 0.1465
+Epoch [26/100], Iter [5400/5943] loss : 0.1271
+Epoch [26/100], Iter [5500/5943] loss : 0.1339
+Epoch [26/100], Iter [5600/5943] loss : 0.1770
+Epoch [26/100], Iter [5700/5943] loss : 0.1530
+Epoch [26/100], Iter [5800/5943] loss : 0.1405
+Epoch [26/100], Iter [5900/5943] loss : 0.1396
+Retrieval : AROC = 0.907, AP = 0.460 /  Annotation : AROC = 0.941, AP = 0.708
+Average loss: 0.1328 
+
+2020-05-30 02:50:05.072102
+Epoch [26/100], Iter [100/1485] loss : 0.2447
+Epoch [26/100], Iter [200/1485] loss : 0.1211
+Epoch [26/100], Iter [300/1485] loss : 0.0942
+Epoch [26/100], Iter [400/1485] loss : 0.0948
+Epoch [26/100], Iter [500/1485] loss : 0.1027
+Epoch [26/100], Iter [600/1485] loss : 0.1094
+Epoch [26/100], Iter [700/1485] loss : 0.1194
+Epoch [26/100], Iter [800/1485] loss : 0.1103
+Epoch [26/100], Iter [900/1485] loss : 0.1936
+Epoch [26/100], Iter [1000/1485] loss : 0.1399
+Epoch [26/100], Iter [1100/1485] loss : 0.0805
+Epoch [26/100], Iter [1200/1485] loss : 0.1560
+Epoch [26/100], Iter [1300/1485] loss : 0.2033
+Epoch [26/100], Iter [1400/1485] loss : 0.1041
+Retrieval : AROC = 0.885, AP = 0.396 /  Annotation : AROC = 0.925, AP = 0.663
+Average loss: 0.1449 
+
+2020-05-30 02:56:36.637573
+Learning rate : 0.0004
+
+Epoch 27/100
+------------------------------
+Learning Rate: 0.0004
+------------------------------
+Epoch [27/100], Iter [100/5943] loss : 0.1057
+Epoch [27/100], Iter [200/5943] loss : 0.1297
+Epoch [27/100], Iter [300/5943] loss : 0.1272
+Epoch [27/100], Iter [400/5943] loss : 0.1143
+Epoch [27/100], Iter [500/5943] loss : 0.1267
+Epoch [27/100], Iter [600/5943] loss : 0.1424
+Epoch [27/100], Iter [700/5943] loss : 0.1269
+Epoch [27/100], Iter [800/5943] loss : 0.1383
+Epoch [27/100], Iter [900/5943] loss : 0.1457
+Epoch [27/100], Iter [1000/5943] loss : 0.1223
+Epoch [27/100], Iter [1100/5943] loss : 0.1359
+Epoch [27/100], Iter [1200/5943] loss : 0.1407
+Epoch [27/100], Iter [1300/5943] loss : 0.1948
+Epoch [27/100], Iter [1400/5943] loss : 0.1368
+Epoch [27/100], Iter [1500/5943] loss : 0.1277
+Epoch [27/100], Iter [1600/5943] loss : 0.1445
+Epoch [27/100], Iter [1700/5943] loss : 0.1266
+Epoch [27/100], Iter [1800/5943] loss : 0.1171
+Epoch [27/100], Iter [1900/5943] loss : 0.1407
+Epoch [27/100], Iter [2000/5943] loss : 0.1510
+Epoch [27/100], Iter [2100/5943] loss : 0.0994
+Epoch [27/100], Iter [2200/5943] loss : 0.1237
+Epoch [27/100], Iter [2300/5943] loss : 0.1138
+Epoch [27/100], Iter [2400/5943] loss : 0.1113
+Epoch [27/100], Iter [2500/5943] loss : 0.1211
+Epoch [27/100], Iter [2600/5943] loss : 0.1235
+Epoch [27/100], Iter [2700/5943] loss : 0.1518
+Epoch [27/100], Iter [2800/5943] loss : 0.1286
+Epoch [27/100], Iter [2900/5943] loss : 0.1252
+Epoch [27/100], Iter [3000/5943] loss : 0.1295
+Epoch [27/100], Iter [3100/5943] loss : 0.1245
+Epoch [27/100], Iter [3200/5943] loss : 0.1438
+Epoch [27/100], Iter [3300/5943] loss : 0.1345
+Epoch [27/100], Iter [3400/5943] loss : 0.1160
+Epoch [27/100], Iter [3500/5943] loss : 0.1419
+Epoch [27/100], Iter [3600/5943] loss : 0.1374
+Epoch [27/100], Iter [3700/5943] loss : 0.1119
+Epoch [27/100], Iter [3800/5943] loss : 0.1070
+Epoch [27/100], Iter [3900/5943] loss : 0.1355
+Epoch [27/100], Iter [4000/5943] loss : 0.1149
+Epoch [27/100], Iter [4100/5943] loss : 0.1376
+Epoch [27/100], Iter [4200/5943] loss : 0.1305
+Epoch [27/100], Iter [4300/5943] loss : 0.1421
+Epoch [27/100], Iter [4400/5943] loss : 0.1363
+Epoch [27/100], Iter [4500/5943] loss : 0.1568
+Epoch [27/100], Iter [4600/5943] loss : 0.1255
+Epoch [27/100], Iter [4700/5943] loss : 0.1418
+Epoch [27/100], Iter [4800/5943] loss : 0.1410
+Epoch [27/100], Iter [4900/5943] loss : 0.1342
+Epoch [27/100], Iter [5000/5943] loss : 0.1548
+Epoch [27/100], Iter [5100/5943] loss : 0.0968
+Epoch [27/100], Iter [5200/5943] loss : 0.1360
+Epoch [27/100], Iter [5300/5943] loss : 0.1355
+Epoch [27/100], Iter [5400/5943] loss : 0.1164
+Epoch [27/100], Iter [5500/5943] loss : 0.1628
+Epoch [27/100], Iter [5600/5943] loss : 0.1154
+Epoch [27/100], Iter [5700/5943] loss : 0.1112
+Epoch [27/100], Iter [5800/5943] loss : 0.1361
+Epoch [27/100], Iter [5900/5943] loss : 0.1299
+Retrieval : AROC = 0.908, AP = 0.460 /  Annotation : AROC = 0.941, AP = 0.708
+Average loss: 0.1327 
+
+2020-05-30 04:07:53.855349
+Epoch [27/100], Iter [100/1485] loss : 0.2480
+Epoch [27/100], Iter [200/1485] loss : 0.1235
+Epoch [27/100], Iter [300/1485] loss : 0.0958
+Epoch [27/100], Iter [400/1485] loss : 0.0974
+Epoch [27/100], Iter [500/1485] loss : 0.1053
+Epoch [27/100], Iter [600/1485] loss : 0.1083
+Epoch [27/100], Iter [700/1485] loss : 0.1165
+Epoch [27/100], Iter [800/1485] loss : 0.1104
+Epoch [27/100], Iter [900/1485] loss : 0.1938
+Epoch [27/100], Iter [1000/1485] loss : 0.1494
+Epoch [27/100], Iter [1100/1485] loss : 0.0800
+Epoch [27/100], Iter [1200/1485] loss : 0.1556
+Epoch [27/100], Iter [1300/1485] loss : 0.2018
+Epoch [27/100], Iter [1400/1485] loss : 0.1021
+Retrieval : AROC = 0.885, AP = 0.396 /  Annotation : AROC = 0.925, AP = 0.662
+Average loss: 0.1451 
+
+2020-05-30 04:14:25.813248
+Learning rate : 0.0004
+
+Epoch 28/100
+------------------------------
+Learning Rate: 0.0004
+------------------------------
+Epoch [28/100], Iter [100/5943] loss : 0.1222
+Epoch [28/100], Iter [200/5943] loss : 0.1312
+Epoch [28/100], Iter [300/5943] loss : 0.1755
+Epoch [28/100], Iter [400/5943] loss : 0.1045
+Epoch [28/100], Iter [500/5943] loss : 0.1446
+Epoch [28/100], Iter [600/5943] loss : 0.1493
+Epoch [28/100], Iter [700/5943] loss : 0.1371
+Epoch [28/100], Iter [800/5943] loss : 0.1137
+Epoch [28/100], Iter [900/5943] loss : 0.1233
+Epoch [28/100], Iter [1000/5943] loss : 0.1402
+Epoch [28/100], Iter [1100/5943] loss : 0.1467
+Epoch [28/100], Iter [1200/5943] loss : 0.1344
+Epoch [28/100], Iter [1300/5943] loss : 0.1090
+Epoch [28/100], Iter [1400/5943] loss : 0.1415
+Epoch [28/100], Iter [1500/5943] loss : 0.1371
+Epoch [28/100], Iter [1600/5943] loss : 0.1143
+Epoch [28/100], Iter [1700/5943] loss : 0.1411
+Epoch [28/100], Iter [1800/5943] loss : 0.1187
+Epoch [28/100], Iter [1900/5943] loss : 0.1460
+Epoch [28/100], Iter [2000/5943] loss : 0.1380
+Epoch [28/100], Iter [2100/5943] loss : 0.1149
+Epoch [28/100], Iter [2200/5943] loss : 0.1428
+Epoch [28/100], Iter [2300/5943] loss : 0.1274
+Epoch [28/100], Iter [2400/5943] loss : 0.1357
+Epoch [28/100], Iter [2500/5943] loss : 0.1261
+Epoch [28/100], Iter [2600/5943] loss : 0.1483
+Epoch [28/100], Iter [2700/5943] loss : 0.1231
+Epoch [28/100], Iter [2800/5943] loss : 0.1494
+Epoch [28/100], Iter [2900/5943] loss : 0.1257
+Epoch [28/100], Iter [3000/5943] loss : 0.1302
+Epoch [28/100], Iter [3100/5943] loss : 0.1392
+Epoch [28/100], Iter [3200/5943] loss : 0.1645
+Epoch [28/100], Iter [3300/5943] loss : 0.1680
+Epoch [28/100], Iter [3400/5943] loss : 0.1206
+Epoch [28/100], Iter [3500/5943] loss : 0.1391
+Epoch [28/100], Iter [3600/5943] loss : 0.1389
+Epoch [28/100], Iter [3700/5943] loss : 0.1396
+Epoch [28/100], Iter [3800/5943] loss : 0.1175
+Epoch [28/100], Iter [3900/5943] loss : 0.1333
+Epoch [28/100], Iter [4000/5943] loss : 0.1357
+Epoch [28/100], Iter [4100/5943] loss : 0.1267
+Epoch [28/100], Iter [4200/5943] loss : 0.1409
+Epoch [28/100], Iter [4300/5943] loss : 0.1265
+Epoch [28/100], Iter [4400/5943] loss : 0.1207
+Epoch [28/100], Iter [4500/5943] loss : 0.1171
+Epoch [28/100], Iter [4600/5943] loss : 0.1666
+Epoch [28/100], Iter [4700/5943] loss : 0.1044
+Epoch [28/100], Iter [4800/5943] loss : 0.1551
+Epoch [28/100], Iter [4900/5943] loss : 0.1522
+Epoch [28/100], Iter [5000/5943] loss : 0.1374
+Epoch [28/100], Iter [5100/5943] loss : 0.1189
+Epoch [28/100], Iter [5200/5943] loss : 0.1455
+Epoch [28/100], Iter [5300/5943] loss : 0.1403
+Epoch [28/100], Iter [5400/5943] loss : 0.1100
+Epoch [28/100], Iter [5500/5943] loss : 0.1125
+Epoch [28/100], Iter [5600/5943] loss : 0.1223
+Epoch [28/100], Iter [5700/5943] loss : 0.1419
+Epoch [28/100], Iter [5800/5943] loss : 0.1309
+Epoch [28/100], Iter [5900/5943] loss : 0.1430
+Retrieval : AROC = 0.908, AP = 0.461 /  Annotation : AROC = 0.941, AP = 0.709
+Average loss: 0.1326 
+
+2020-05-30 05:25:42.875609
+Epoch [28/100], Iter [100/1485] loss : 0.2425
+Epoch [28/100], Iter [200/1485] loss : 0.1210
+Epoch [28/100], Iter [300/1485] loss : 0.0958
+Epoch [28/100], Iter [400/1485] loss : 0.0971
+Epoch [28/100], Iter [500/1485] loss : 0.1051
+Epoch [28/100], Iter [600/1485] loss : 0.1089
+Epoch [28/100], Iter [700/1485] loss : 0.1181
+Epoch [28/100], Iter [800/1485] loss : 0.1065
+Epoch [28/100], Iter [900/1485] loss : 0.1955
+Epoch [28/100], Iter [1000/1485] loss : 0.1449
+Epoch [28/100], Iter [1100/1485] loss : 0.0811
+Epoch [28/100], Iter [1200/1485] loss : 0.1570
+Epoch [28/100], Iter [1300/1485] loss : 0.2039
+Epoch [28/100], Iter [1400/1485] loss : 0.1039
+Retrieval : AROC = 0.884, AP = 0.395 /  Annotation : AROC = 0.925, AP = 0.660
+Average loss: 0.1455 
+
+2020-05-30 05:32:14.020667
+Learning rate : 8e-05
+
+Epoch 29/100
+------------------------------
+Learning Rate: 8e-05
+------------------------------
+Epoch [29/100], Iter [100/5943] loss : 0.1310
+Epoch [29/100], Iter [200/5943] loss : 0.1263
+Epoch [29/100], Iter [300/5943] loss : 0.1365
+Epoch [29/100], Iter [400/5943] loss : 0.1508
+Epoch [29/100], Iter [500/5943] loss : 0.1605
+Epoch [29/100], Iter [600/5943] loss : 0.0976
+Epoch [29/100], Iter [700/5943] loss : 0.1435
+Epoch [29/100], Iter [800/5943] loss : 0.1184
+Epoch [29/100], Iter [900/5943] loss : 0.1514
+Epoch [29/100], Iter [1000/5943] loss : 0.1430
+Epoch [29/100], Iter [1100/5943] loss : 0.1461
+Epoch [29/100], Iter [1200/5943] loss : 0.1323
+Epoch [29/100], Iter [1300/5943] loss : 0.1624
+Epoch [29/100], Iter [1400/5943] loss : 0.1304
+Epoch [29/100], Iter [1500/5943] loss : 0.1308
+Epoch [29/100], Iter [1600/5943] loss : 0.1575
+Epoch [29/100], Iter [1700/5943] loss : 0.0951
+Epoch [29/100], Iter [1800/5943] loss : 0.1236
+Epoch [29/100], Iter [1900/5943] loss : 0.1230
+Epoch [29/100], Iter [2000/5943] loss : 0.1466
+Epoch [29/100], Iter [2100/5943] loss : 0.1392
+Epoch [29/100], Iter [2200/5943] loss : 0.1260
+Epoch [29/100], Iter [2300/5943] loss : 0.1572
+Epoch [29/100], Iter [2400/5943] loss : 0.1175
+Epoch [29/100], Iter [2500/5943] loss : 0.1498
+Epoch [29/100], Iter [2600/5943] loss : 0.1185
+Epoch [29/100], Iter [2700/5943] loss : 0.1393
+Epoch [29/100], Iter [2800/5943] loss : 0.1406
+Epoch [29/100], Iter [2900/5943] loss : 0.1185
+Epoch [29/100], Iter [3000/5943] loss : 0.1336
+Epoch [29/100], Iter [3100/5943] loss : 0.1450
+Epoch [29/100], Iter [3200/5943] loss : 0.1329
+Epoch [29/100], Iter [3300/5943] loss : 0.1197
+Epoch [29/100], Iter [3400/5943] loss : 0.1251
+Epoch [29/100], Iter [3500/5943] loss : 0.1225
+Epoch [29/100], Iter [3600/5943] loss : 0.1530
+Epoch [29/100], Iter [3700/5943] loss : 0.1088
+Epoch [29/100], Iter [3800/5943] loss : 0.1460
+Epoch [29/100], Iter [3900/5943] loss : 0.1481
+Epoch [29/100], Iter [4000/5943] loss : 0.1181
+Epoch [29/100], Iter [4100/5943] loss : 0.1460
+Epoch [29/100], Iter [4200/5943] loss : 0.1298
+Epoch [29/100], Iter [4300/5943] loss : 0.1558
+Epoch [29/100], Iter [4400/5943] loss : 0.1317
+Epoch [29/100], Iter [4500/5943] loss : 0.1690
+Epoch [29/100], Iter [4600/5943] loss : 0.1377
+Epoch [29/100], Iter [4700/5943] loss : 0.1719
+Epoch [29/100], Iter [4800/5943] loss : 0.1351
+Epoch [29/100], Iter [4900/5943] loss : 0.1484
+Epoch [29/100], Iter [5000/5943] loss : 0.1426
+Epoch [29/100], Iter [5100/5943] loss : 0.1423
+Epoch [29/100], Iter [5200/5943] loss : 0.1282
+Epoch [29/100], Iter [5300/5943] loss : 0.1171
+Epoch [29/100], Iter [5400/5943] loss : 0.1367
+Epoch [29/100], Iter [5500/5943] loss : 0.1047
+Epoch [29/100], Iter [5600/5943] loss : 0.1183
+Epoch [29/100], Iter [5700/5943] loss : 0.1209
+Epoch [29/100], Iter [5800/5943] loss : 0.1178
+Epoch [29/100], Iter [5900/5943] loss : 0.1091
+Retrieval : AROC = 0.908, AP = 0.461 /  Annotation : AROC = 0.941, AP = 0.709
+Average loss: 0.1324 
+
+2020-05-30 06:43:31.710800
+Epoch [29/100], Iter [100/1485] loss : 0.2362
+Epoch [29/100], Iter [200/1485] loss : 0.1225
+Epoch [29/100], Iter [300/1485] loss : 0.0942
+Epoch [29/100], Iter [400/1485] loss : 0.0983
+Epoch [29/100], Iter [500/1485] loss : 0.1063
+Epoch [29/100], Iter [600/1485] loss : 0.1088
+Epoch [29/100], Iter [700/1485] loss : 0.1159
+Epoch [29/100], Iter [800/1485] loss : 0.1055
+Epoch [29/100], Iter [900/1485] loss : 0.2042
+Epoch [29/100], Iter [1000/1485] loss : 0.1548
+Epoch [29/100], Iter [1100/1485] loss : 0.0808
+Epoch [29/100], Iter [1200/1485] loss : 0.1547
+Epoch [29/100], Iter [1300/1485] loss : 0.1989
+Epoch [29/100], Iter [1400/1485] loss : 0.1049
+Retrieval : AROC = 0.884, AP = 0.395 /  Annotation : AROC = 0.924, AP = 0.660
+Average loss: 0.1464 
+
+2020-05-30 06:50:03.151712
+Learning rate : 8e-05
+
+Epoch 30/100
+------------------------------
+Learning Rate: 8e-05
+------------------------------
+Epoch [30/100], Iter [100/5943] loss : 0.1399
+Epoch [30/100], Iter [200/5943] loss : 0.1306
+Epoch [30/100], Iter [300/5943] loss : 0.1559
+Epoch [30/100], Iter [400/5943] loss : 0.1388
+Epoch [30/100], Iter [500/5943] loss : 0.1359
+Epoch [30/100], Iter [600/5943] loss : 0.1195
+Epoch [30/100], Iter [700/5943] loss : 0.1306
+Epoch [30/100], Iter [800/5943] loss : 0.1196
+Epoch [30/100], Iter [900/5943] loss : 0.1337
+Epoch [30/100], Iter [1000/5943] loss : 0.1111
+Epoch [30/100], Iter [1100/5943] loss : 0.1384
+Epoch [30/100], Iter [1200/5943] loss : 0.1456
+Epoch [30/100], Iter [1300/5943] loss : 0.1231
+Epoch [30/100], Iter [1400/5943] loss : 0.1740
+Epoch [30/100], Iter [1500/5943] loss : 0.1205
+Epoch [30/100], Iter [1600/5943] loss : 0.1705
+Epoch [30/100], Iter [1700/5943] loss : 0.1427
+Epoch [30/100], Iter [1800/5943] loss : 0.1361
+Epoch [30/100], Iter [1900/5943] loss : 0.1302
+Epoch [30/100], Iter [2000/5943] loss : 0.1258
+Epoch [30/100], Iter [2100/5943] loss : 0.1116
+Epoch [30/100], Iter [2200/5943] loss : 0.1200
+Epoch [30/100], Iter [2300/5943] loss : 0.1175
+Epoch [30/100], Iter [2400/5943] loss : 0.1321
+Epoch [30/100], Iter [2500/5943] loss : 0.1765
+Epoch [30/100], Iter [2600/5943] loss : 0.1257
+Epoch [30/100], Iter [2700/5943] loss : 0.1036
+Epoch [30/100], Iter [2800/5943] loss : 0.1326
+Epoch [30/100], Iter [2900/5943] loss : 0.1072
+Epoch [30/100], Iter [3000/5943] loss : 0.1155
+Epoch [30/100], Iter [3100/5943] loss : 0.1173
+Epoch [30/100], Iter [3200/5943] loss : 0.1146
+Epoch [30/100], Iter [3300/5943] loss : 0.1315
+Epoch [30/100], Iter [3400/5943] loss : 0.1705
+Epoch [30/100], Iter [3500/5943] loss : 0.1209
+Epoch [30/100], Iter [3600/5943] loss : 0.1233
+Epoch [30/100], Iter [3700/5943] loss : 0.1070
+Epoch [30/100], Iter [3800/5943] loss : 0.1135
+Epoch [30/100], Iter [3900/5943] loss : 0.1214
+Epoch [30/100], Iter [4000/5943] loss : 0.1450
+Epoch [30/100], Iter [4100/5943] loss : 0.1319
+Epoch [30/100], Iter [4200/5943] loss : 0.1455
+Epoch [30/100], Iter [4300/5943] loss : 0.1569
+Epoch [30/100], Iter [4400/5943] loss : 0.1575
+Epoch [30/100], Iter [4500/5943] loss : 0.1989
+Epoch [30/100], Iter [4600/5943] loss : 0.1333
+Epoch [30/100], Iter [4700/5943] loss : 0.1421
+Epoch [30/100], Iter [4800/5943] loss : 0.1497
+Epoch [30/100], Iter [4900/5943] loss : 0.1350
+Epoch [30/100], Iter [5000/5943] loss : 0.1120
+Epoch [30/100], Iter [5100/5943] loss : 0.1704
+Epoch [30/100], Iter [5200/5943] loss : 0.0973
+Epoch [30/100], Iter [5300/5943] loss : 0.1314
+Epoch [30/100], Iter [5400/5943] loss : 0.1112
+Epoch [30/100], Iter [5500/5943] loss : 0.1131
+Epoch [30/100], Iter [5600/5943] loss : 0.1430
+Epoch [30/100], Iter [5700/5943] loss : 0.1428
+Epoch [30/100], Iter [5800/5943] loss : 0.1172
+Epoch [30/100], Iter [5900/5943] loss : 0.1434
+Retrieval : AROC = 0.908, AP = 0.462 /  Annotation : AROC = 0.941, AP = 0.710
+Average loss: 0.1324 
+
+2020-05-30 08:01:13.602821
+Epoch [30/100], Iter [100/1485] loss : 0.2451
+Epoch [30/100], Iter [200/1485] loss : 0.1213
+Epoch [30/100], Iter [300/1485] loss : 0.0940
+Epoch [30/100], Iter [400/1485] loss : 0.0984
+Epoch [30/100], Iter [500/1485] loss : 0.1042
+Epoch [30/100], Iter [600/1485] loss : 0.1065
+Epoch [30/100], Iter [700/1485] loss : 0.1173
+Epoch [30/100], Iter [800/1485] loss : 0.1079
+Epoch [30/100], Iter [900/1485] loss : 0.1942
+Epoch [30/100], Iter [1000/1485] loss : 0.1456
+Epoch [30/100], Iter [1100/1485] loss : 0.0795
+Epoch [30/100], Iter [1200/1485] loss : 0.1539
+Epoch [30/100], Iter [1300/1485] loss : 0.1998
+Epoch [30/100], Iter [1400/1485] loss : 0.1016
+Retrieval : AROC = 0.885, AP = 0.395 /  Annotation : AROC = 0.926, AP = 0.663
+Average loss: 0.1450 
+
+2020-05-30 08:07:44.494086
+Learning rate : 8e-05
+
+Epoch 31/100
+------------------------------
+Learning Rate: 8e-05
+------------------------------
+Epoch [31/100], Iter [100/5943] loss : 0.1419
+Epoch [31/100], Iter [200/5943] loss : 0.1255
+Epoch [31/100], Iter [300/5943] loss : 0.1474
+Epoch [31/100], Iter [400/5943] loss : 0.1340
+Epoch [31/100], Iter [500/5943] loss : 0.1480
+Epoch [31/100], Iter [600/5943] loss : 0.1342
+Epoch [31/100], Iter [700/5943] loss : 0.1199
+Epoch [31/100], Iter [800/5943] loss : 0.1221
+Epoch [31/100], Iter [900/5943] loss : 0.1266
+Epoch [31/100], Iter [1000/5943] loss : 0.1447
+Epoch [31/100], Iter [1100/5943] loss : 0.1403
+Epoch [31/100], Iter [1200/5943] loss : 0.1509
+Epoch [31/100], Iter [1300/5943] loss : 0.1452
+Epoch [31/100], Iter [1400/5943] loss : 0.1524
+Epoch [31/100], Iter [1500/5943] loss : 0.1271
+Epoch [31/100], Iter [1600/5943] loss : 0.1232
+Epoch [31/100], Iter [1700/5943] loss : 0.1300
+Epoch [31/100], Iter [1800/5943] loss : 0.1552
+Epoch [31/100], Iter [1900/5943] loss : 0.1227
+Epoch [31/100], Iter [2000/5943] loss : 0.1221
+Epoch [31/100], Iter [2100/5943] loss : 0.1193
+Epoch [31/100], Iter [2200/5943] loss : 0.1314
+Epoch [31/100], Iter [2300/5943] loss : 0.1271
+Epoch [31/100], Iter [2400/5943] loss : 0.1476
+Epoch [31/100], Iter [2500/5943] loss : 0.1360
+Epoch [31/100], Iter [2600/5943] loss : 0.1333
+Epoch [31/100], Iter [2700/5943] loss : 0.1271
+Epoch [31/100], Iter [2800/5943] loss : 0.1079
+Epoch [31/100], Iter [2900/5943] loss : 0.1414
+Epoch [31/100], Iter [3000/5943] loss : 0.1087
+Epoch [31/100], Iter [3100/5943] loss : 0.1339
+Epoch [31/100], Iter [3200/5943] loss : 0.1522
+Epoch [31/100], Iter [3300/5943] loss : 0.1268
+Epoch [31/100], Iter [3400/5943] loss : 0.1361
+Epoch [31/100], Iter [3500/5943] loss : 0.1177
+Epoch [31/100], Iter [3600/5943] loss : 0.1113
+Epoch [31/100], Iter [3700/5943] loss : 0.1203
+Epoch [31/100], Iter [3800/5943] loss : 0.1340
+Epoch [31/100], Iter [3900/5943] loss : 0.1252
+Epoch [31/100], Iter [4000/5943] loss : 0.1425
+Epoch [31/100], Iter [4100/5943] loss : 0.1512
+Epoch [31/100], Iter [4200/5943] loss : 0.1253
+Epoch [31/100], Iter [4300/5943] loss : 0.1391
+Epoch [31/100], Iter [4400/5943] loss : 0.1189
+Epoch [31/100], Iter [4500/5943] loss : 0.1386
+Epoch [31/100], Iter [4600/5943] loss : 0.1645
+Epoch [31/100], Iter [4700/5943] loss : 0.1308
+Epoch [31/100], Iter [4800/5943] loss : 0.1045
+Epoch [31/100], Iter [4900/5943] loss : 0.1123
+Epoch [31/100], Iter [5000/5943] loss : 0.0900
+Epoch [31/100], Iter [5100/5943] loss : 0.1340
+Epoch [31/100], Iter [5200/5943] loss : 0.1406
+Epoch [31/100], Iter [5300/5943] loss : 0.1332
+Epoch [31/100], Iter [5400/5943] loss : 0.1292
+Epoch [31/100], Iter [5500/5943] loss : 0.1353
+Epoch [31/100], Iter [5600/5943] loss : 0.1198
+Epoch [31/100], Iter [5700/5943] loss : 0.1701
+Epoch [31/100], Iter [5800/5943] loss : 0.1514
+Epoch [31/100], Iter [5900/5943] loss : 0.1218
+Retrieval : AROC = 0.908, AP = 0.461 /  Annotation : AROC = 0.941, AP = 0.709
+Average loss: 0.1325 
+
+2020-05-30 09:18:56.703765
+Epoch [31/100], Iter [100/1485] loss : 0.2484
+Epoch [31/100], Iter [200/1485] loss : 0.1205
+Epoch [31/100], Iter [300/1485] loss : 0.0946
+Epoch [31/100], Iter [400/1485] loss : 0.0987
+Epoch [31/100], Iter [500/1485] loss : 0.1049
+Epoch [31/100], Iter [600/1485] loss : 0.1074
+Epoch [31/100], Iter [700/1485] loss : 0.1188
+Epoch [31/100], Iter [800/1485] loss : 0.1106
+Epoch [31/100], Iter [900/1485] loss : 0.1949
+Epoch [31/100], Iter [1000/1485] loss : 0.1484
+Epoch [31/100], Iter [1100/1485] loss : 0.0802
+Epoch [31/100], Iter [1200/1485] loss : 0.1521
+Epoch [31/100], Iter [1300/1485] loss : 0.2013
+Epoch [31/100], Iter [1400/1485] loss : 0.1036
+Retrieval : AROC = 0.884, AP = 0.394 /  Annotation : AROC = 0.924, AP = 0.660
+Average loss: 0.1457 
+
+2020-05-30 09:25:28.224679
+Learning rate : 1.6000000000000003e-05
+
+Epoch 32/100
+------------------------------
+Learning Rate: 1.6000000000000003e-05
+------------------------------
+Epoch [32/100], Iter [100/5943] loss : 0.1173
+Epoch [32/100], Iter [200/5943] loss : 0.1046
+Epoch [32/100], Iter [300/5943] loss : 0.1295
+Epoch [32/100], Iter [400/5943] loss : 0.1297
+Epoch [32/100], Iter [500/5943] loss : 0.1236
+Epoch [32/100], Iter [600/5943] loss : 0.1897
+Epoch [32/100], Iter [700/5943] loss : 0.1119
+Epoch [32/100], Iter [800/5943] loss : 0.0990
+Epoch [32/100], Iter [900/5943] loss : 0.1653
+Epoch [32/100], Iter [1000/5943] loss : 0.1493
+Epoch [32/100], Iter [1100/5943] loss : 0.1230
+Epoch [32/100], Iter [1200/5943] loss : 0.1414
+Epoch [32/100], Iter [1300/5943] loss : 0.1486
+Epoch [32/100], Iter [1400/5943] loss : 0.1565
+Epoch [32/100], Iter [1500/5943] loss : 0.1234
+Epoch [32/100], Iter [1600/5943] loss : 0.1484
+Epoch [32/100], Iter [1700/5943] loss : 0.1051
+Epoch [32/100], Iter [1800/5943] loss : 0.1313
+Epoch [32/100], Iter [1900/5943] loss : 0.1414
+Epoch [32/100], Iter [2000/5943] loss : 0.1688
+Epoch [32/100], Iter [2100/5943] loss : 0.1060
+Epoch [32/100], Iter [2200/5943] loss : 0.1169
+Epoch [32/100], Iter [2300/5943] loss : 0.1512
+Epoch [32/100], Iter [2400/5943] loss : 0.1354
+Epoch [32/100], Iter [2500/5943] loss : 0.1064
+Epoch [32/100], Iter [2600/5943] loss : 0.1433
+Epoch [32/100], Iter [2700/5943] loss : 0.1456
+Epoch [32/100], Iter [2800/5943] loss : 0.1529
+Epoch [32/100], Iter [2900/5943] loss : 0.1411
+Epoch [32/100], Iter [3000/5943] loss : 0.1157
+Epoch [32/100], Iter [3100/5943] loss : 0.1467
+Epoch [32/100], Iter [3200/5943] loss : 0.1213
+Epoch [32/100], Iter [3300/5943] loss : 0.1222
+Epoch [32/100], Iter [3400/5943] loss : 0.1096
+Epoch [32/100], Iter [3500/5943] loss : 0.1214
+Epoch [32/100], Iter [3600/5943] loss : 0.1135
+Epoch [32/100], Iter [3700/5943] loss : 0.1393
+Epoch [32/100], Iter [3800/5943] loss : 0.1400
+Epoch [32/100], Iter [3900/5943] loss : 0.0986
+Epoch [32/100], Iter [4000/5943] loss : 0.1342
+Epoch [32/100], Iter [4100/5943] loss : 0.1345
+Epoch [32/100], Iter [4200/5943] loss : 0.1064
+Epoch [32/100], Iter [4300/5943] loss : 0.1226
+Epoch [32/100], Iter [4400/5943] loss : 0.1326
+Epoch [32/100], Iter [4500/5943] loss : 0.1098
+Epoch [32/100], Iter [4600/5943] loss : 0.1466
+Epoch [32/100], Iter [4700/5943] loss : 0.1214
+Epoch [32/100], Iter [4800/5943] loss : 0.1096
+Epoch [32/100], Iter [4900/5943] loss : 0.1431
+Epoch [32/100], Iter [5000/5943] loss : 0.1654
+Epoch [32/100], Iter [5100/5943] loss : 0.1216
+Epoch [32/100], Iter [5200/5943] loss : 0.1183
+Epoch [32/100], Iter [5300/5943] loss : 0.1219
+Epoch [32/100], Iter [5400/5943] loss : 0.1505
+Epoch [32/100], Iter [5500/5943] loss : 0.1301
+Epoch [32/100], Iter [5600/5943] loss : 0.2077
+Epoch [32/100], Iter [5700/5943] loss : 0.1511
+Epoch [32/100], Iter [5800/5943] loss : 0.1308
+Epoch [32/100], Iter [5900/5943] loss : 0.1224
+Retrieval : AROC = 0.909, AP = 0.462 /  Annotation : AROC = 0.941, AP = 0.710
+Average loss: 0.1323 
+
+2020-05-30 10:36:41.626847
+Epoch [32/100], Iter [100/1485] loss : 0.2449
+Epoch [32/100], Iter [200/1485] loss : 0.1204
+Epoch [32/100], Iter [300/1485] loss : 0.0937
+Epoch [32/100], Iter [400/1485] loss : 0.0991
+Epoch [32/100], Iter [500/1485] loss : 0.1043
+Epoch [32/100], Iter [600/1485] loss : 0.1074
+Epoch [32/100], Iter [700/1485] loss : 0.1168
+Epoch [32/100], Iter [800/1485] loss : 0.1075
+Epoch [32/100], Iter [900/1485] loss : 0.2027
+Epoch [32/100], Iter [1000/1485] loss : 0.1536
+Epoch [32/100], Iter [1100/1485] loss : 0.0815
+Epoch [32/100], Iter [1200/1485] loss : 0.1542
+Epoch [32/100], Iter [1300/1485] loss : 0.1992
+Epoch [32/100], Iter [1400/1485] loss : 0.1029
+Retrieval : AROC = 0.884, AP = 0.395 /  Annotation : AROC = 0.924, AP = 0.661
+Average loss: 0.1457 
+
+2020-05-30 10:43:13.305235
+Learning rate : 1.6000000000000003e-05
+
+Epoch 33/100
+------------------------------
+Learning Rate: 1.6000000000000003e-05
+------------------------------
+Epoch [33/100], Iter [100/5943] loss : 0.1284
+Epoch [33/100], Iter [200/5943] loss : 0.1465
+Epoch [33/100], Iter [300/5943] loss : 0.1271
+Epoch [33/100], Iter [400/5943] loss : 0.1373
+Epoch [33/100], Iter [500/5943] loss : 0.1371
+Epoch [33/100], Iter [600/5943] loss : 0.1195
+Epoch [33/100], Iter [700/5943] loss : 0.1486
+Epoch [33/100], Iter [800/5943] loss : 0.1497
+Epoch [33/100], Iter [900/5943] loss : 0.1773
+Epoch [33/100], Iter [1000/5943] loss : 0.1350
+Epoch [33/100], Iter [1100/5943] loss : 0.1437
+Epoch [33/100], Iter [1200/5943] loss : 0.1139
+Epoch [33/100], Iter [1300/5943] loss : 0.1334
+Epoch [33/100], Iter [1400/5943] loss : 0.1599
+Epoch [33/100], Iter [1500/5943] loss : 0.1254
+Epoch [33/100], Iter [1600/5943] loss : 0.1298
+Epoch [33/100], Iter [1700/5943] loss : 0.1340
+Epoch [33/100], Iter [1800/5943] loss : 0.1144
+Epoch [33/100], Iter [1900/5943] loss : 0.1287
+Epoch [33/100], Iter [2000/5943] loss : 0.1368
+Epoch [33/100], Iter [2100/5943] loss : 0.1369
+Epoch [33/100], Iter [2200/5943] loss : 0.1348
+Epoch [33/100], Iter [2300/5943] loss : 0.1135
+Epoch [33/100], Iter [2400/5943] loss : 0.1325
+Epoch [33/100], Iter [2500/5943] loss : 0.1368
+Epoch [33/100], Iter [2600/5943] loss : 0.1568
+Epoch [33/100], Iter [2700/5943] loss : 0.1218
+Epoch [33/100], Iter [2800/5943] loss : 0.1265
+Epoch [33/100], Iter [2900/5943] loss : 0.1480
+Epoch [33/100], Iter [3000/5943] loss : 0.1155
+Epoch [33/100], Iter [3100/5943] loss : 0.1138
+Epoch [33/100], Iter [3200/5943] loss : 0.1231
+Epoch [33/100], Iter [3300/5943] loss : 0.1183
+Epoch [33/100], Iter [3400/5943] loss : 0.1269
+Epoch [33/100], Iter [3500/5943] loss : 0.1330
+Epoch [33/100], Iter [3600/5943] loss : 0.1199
+Epoch [33/100], Iter [3700/5943] loss : 0.1269
+Epoch [33/100], Iter [3800/5943] loss : 0.1030
+Epoch [33/100], Iter [3900/5943] loss : 0.1606
+Epoch [33/100], Iter [4000/5943] loss : 0.1520
+Epoch [33/100], Iter [4100/5943] loss : 0.1658
+Epoch [33/100], Iter [4200/5943] loss : 0.1372
+Epoch [33/100], Iter [4300/5943] loss : 0.1077
+Epoch [33/100], Iter [4400/5943] loss : 0.1641
+Epoch [33/100], Iter [4500/5943] loss : 0.1517
+Epoch [33/100], Iter [4600/5943] loss : 0.1398
+Epoch [33/100], Iter [4700/5943] loss : 0.1641
+Epoch [33/100], Iter [4800/5943] loss : 0.1440
+Epoch [33/100], Iter [4900/5943] loss : 0.1347
+Epoch [33/100], Iter [5000/5943] loss : 0.1318
+Epoch [33/100], Iter [5100/5943] loss : 0.1559
+Epoch [33/100], Iter [5200/5943] loss : 0.1609
+Epoch [33/100], Iter [5300/5943] loss : 0.1534
+Epoch [33/100], Iter [5400/5943] loss : 0.1392
+Epoch [33/100], Iter [5500/5943] loss : 0.1396
+Epoch [33/100], Iter [5600/5943] loss : 0.1240
+Epoch [33/100], Iter [5700/5943] loss : 0.1216
+Epoch [33/100], Iter [5800/5943] loss : 0.1361
+Epoch [33/100], Iter [5900/5943] loss : 0.1551
+Retrieval : AROC = 0.909, AP = 0.462 /  Annotation : AROC = 0.942, AP = 0.710
+Average loss: 0.1323 
+
+2020-05-30 11:54:25.031675
+Epoch [33/100], Iter [100/1485] loss : 0.2421
+Epoch [33/100], Iter [200/1485] loss : 0.1199
+Epoch [33/100], Iter [300/1485] loss : 0.0939
+Epoch [33/100], Iter [400/1485] loss : 0.1009
+Epoch [33/100], Iter [500/1485] loss : 0.1033
+Epoch [33/100], Iter [600/1485] loss : 0.1079
+Epoch [33/100], Iter [700/1485] loss : 0.1189
+Epoch [33/100], Iter [800/1485] loss : 0.1088
+Epoch [33/100], Iter [900/1485] loss : 0.1997
+Epoch [33/100], Iter [1000/1485] loss : 0.1524
+Epoch [33/100], Iter [1100/1485] loss : 0.0798
+Epoch [33/100], Iter [1200/1485] loss : 0.1525
+Epoch [33/100], Iter [1300/1485] loss : 0.2004
+Epoch [33/100], Iter [1400/1485] loss : 0.1037
+Retrieval : AROC = 0.885, AP = 0.396 /  Annotation : AROC = 0.925, AP = 0.664
+Average loss: 0.1450 
+
+2020-05-30 12:00:56.619534
+Learning rate : 1.6000000000000003e-05
+
+Epoch 34/100
+------------------------------
+Learning Rate: 1.6000000000000003e-05
+------------------------------
+Epoch [34/100], Iter [100/5943] loss : 0.1359
+Epoch [34/100], Iter [200/5943] loss : 0.1051
+Epoch [34/100], Iter [300/5943] loss : 0.1021
+Epoch [34/100], Iter [400/5943] loss : 0.1194
+Epoch [34/100], Iter [500/5943] loss : 0.1414
+Epoch [34/100], Iter [600/5943] loss : 0.1466
+Epoch [34/100], Iter [700/5943] loss : 0.1171
+Epoch [34/100], Iter [800/5943] loss : 0.1352
+Epoch [34/100], Iter [900/5943] loss : 0.1410
+Epoch [34/100], Iter [1000/5943] loss : 0.1182
+Epoch [34/100], Iter [1100/5943] loss : 0.1302
+Epoch [34/100], Iter [1200/5943] loss : 0.1308
+Epoch [34/100], Iter [1300/5943] loss : 0.1405
+Epoch [34/100], Iter [1400/5943] loss : 0.1264
+Epoch [34/100], Iter [1500/5943] loss : 0.1379
+Epoch [34/100], Iter [1600/5943] loss : 0.1540
+Epoch [34/100], Iter [1700/5943] loss : 0.1537
+Epoch [34/100], Iter [1800/5943] loss : 0.1409
+Epoch [34/100], Iter [1900/5943] loss : 0.1500
+Epoch [34/100], Iter [2000/5943] loss : 0.1288
+Epoch [34/100], Iter [2100/5943] loss : 0.1416
+Epoch [34/100], Iter [2200/5943] loss : 0.1378
+Epoch [34/100], Iter [2300/5943] loss : 0.1416
+Epoch [34/100], Iter [2400/5943] loss : 0.1659
+Epoch [34/100], Iter [2500/5943] loss : 0.1184
+Epoch [34/100], Iter [2600/5943] loss : 0.1507
+Epoch [34/100], Iter [2700/5943] loss : 0.1304
+Epoch [34/100], Iter [2800/5943] loss : 0.1410
+Epoch [34/100], Iter [2900/5943] loss : 0.1463
+Epoch [34/100], Iter [3000/5943] loss : 0.1458
+Epoch [34/100], Iter [3100/5943] loss : 0.1531
+Epoch [34/100], Iter [3200/5943] loss : 0.1026
+Epoch [34/100], Iter [3300/5943] loss : 0.1387
+Epoch [34/100], Iter [3400/5943] loss : 0.1286
+Epoch [34/100], Iter [3500/5943] loss : 0.1263
+Epoch [34/100], Iter [3600/5943] loss : 0.1419
+Epoch [34/100], Iter [3700/5943] loss : 0.1298
+Epoch [34/100], Iter [3800/5943] loss : 0.1057
+Epoch [34/100], Iter [3900/5943] loss : 0.1628
+Epoch [34/100], Iter [4000/5943] loss : 0.1234
+Epoch [34/100], Iter [4100/5943] loss : 0.1200
+Epoch [34/100], Iter [4200/5943] loss : 0.1371
+Epoch [34/100], Iter [4300/5943] loss : 0.1621
+Epoch [34/100], Iter [4400/5943] loss : 0.1044
+Epoch [34/100], Iter [4500/5943] loss : 0.1387
+Epoch [34/100], Iter [4600/5943] loss : 0.1529
+Epoch [34/100], Iter [4700/5943] loss : 0.1421
+Epoch [34/100], Iter [4800/5943] loss : 0.1250
+Epoch [34/100], Iter [4900/5943] loss : 0.1328
+Epoch [34/100], Iter [5000/5943] loss : 0.1734
+Epoch [34/100], Iter [5100/5943] loss : 0.1126
+Epoch [34/100], Iter [5200/5943] loss : 0.1263
+Epoch [34/100], Iter [5300/5943] loss : 0.1421
+Epoch [34/100], Iter [5400/5943] loss : 0.1535
+Epoch [34/100], Iter [5500/5943] loss : 0.1302
+Epoch [34/100], Iter [5600/5943] loss : 0.1306
+Epoch [34/100], Iter [5700/5943] loss : 0.1341
+Epoch [34/100], Iter [5800/5943] loss : 0.1222
+Epoch [34/100], Iter [5900/5943] loss : 0.1469
+Retrieval : AROC = 0.909, AP = 0.462 /  Annotation : AROC = 0.942, AP = 0.710
+Average loss: 0.1323 
+
+2020-05-30 13:12:11.991922
+Epoch [34/100], Iter [100/1485] loss : 0.2444
+Epoch [34/100], Iter [200/1485] loss : 0.1249
+Epoch [34/100], Iter [300/1485] loss : 0.0937
+Epoch [34/100], Iter [400/1485] loss : 0.0969
+Epoch [34/100], Iter [500/1485] loss : 0.1041
+Epoch [34/100], Iter [600/1485] loss : 0.1100
+Epoch [34/100], Iter [700/1485] loss : 0.1182
+Epoch [34/100], Iter [800/1485] loss : 0.1063
+Epoch [34/100], Iter [900/1485] loss : 0.1953
+Epoch [34/100], Iter [1000/1485] loss : 0.1523
+Epoch [34/100], Iter [1100/1485] loss : 0.0797
+Epoch [34/100], Iter [1200/1485] loss : 0.1584
+Epoch [34/100], Iter [1300/1485] loss : 0.2013
+Epoch [34/100], Iter [1400/1485] loss : 0.1024
+Retrieval : AROC = 0.885, AP = 0.395 /  Annotation : AROC = 0.925, AP = 0.663
+Average loss: 0.1452 
+
+2020-05-30 13:18:43.382484
+Learning rate : 3.2000000000000007e-06
+
+Epoch 35/100
+------------------------------
+Learning Rate: 3.2000000000000007e-06
+------------------------------
+Epoch [35/100], Iter [100/5943] loss : 0.1272
+Epoch [35/100], Iter [200/5943] loss : 0.1462
+Epoch [35/100], Iter [300/5943] loss : 0.1033
+Epoch [35/100], Iter [400/5943] loss : 0.1469
+Epoch [35/100], Iter [500/5943] loss : 0.1461
+Epoch [35/100], Iter [600/5943] loss : 0.1343
+Epoch [35/100], Iter [700/5943] loss : 0.1030
+Epoch [35/100], Iter [800/5943] loss : 0.1295
+Epoch [35/100], Iter [900/5943] loss : 0.1393
+Epoch [35/100], Iter [1000/5943] loss : 0.1228
+Epoch [35/100], Iter [1100/5943] loss : 0.1401
+Epoch [35/100], Iter [1200/5943] loss : 0.1106
+Epoch [35/100], Iter [1300/5943] loss : 0.1373
+Epoch [35/100], Iter [1400/5943] loss : 0.1091
+Epoch [35/100], Iter [1500/5943] loss : 0.1251
+Epoch [35/100], Iter [1600/5943] loss : 0.1244
+Epoch [35/100], Iter [1700/5943] loss : 0.1320
+Epoch [35/100], Iter [1800/5943] loss : 0.1146
+Epoch [35/100], Iter [1900/5943] loss : 0.1334
+Epoch [35/100], Iter [2000/5943] loss : 0.1406
+Epoch [35/100], Iter [2100/5943] loss : 0.1312
+Epoch [35/100], Iter [2200/5943] loss : 0.1278
+Epoch [35/100], Iter [2300/5943] loss : 0.1337
+Epoch [35/100], Iter [2400/5943] loss : 0.1340
+Epoch [35/100], Iter [2500/5943] loss : 0.1206
+Epoch [35/100], Iter [2600/5943] loss : 0.1133
+Epoch [35/100], Iter [2700/5943] loss : 0.1316
+Epoch [35/100], Iter [2800/5943] loss : 0.1571
+Epoch [35/100], Iter [2900/5943] loss : 0.1567
+Epoch [35/100], Iter [3000/5943] loss : 0.1366
+Epoch [35/100], Iter [3100/5943] loss : 0.1216
+Epoch [35/100], Iter [3200/5943] loss : 0.1322
+Epoch [35/100], Iter [3300/5943] loss : 0.1120
+Epoch [35/100], Iter [3400/5943] loss : 0.1203
+Epoch [35/100], Iter [3500/5943] loss : 0.1509
+Epoch [35/100], Iter [3600/5943] loss : 0.1505
+Epoch [35/100], Iter [3700/5943] loss : 0.1189
+Epoch [35/100], Iter [3800/5943] loss : 0.1281
+Epoch [35/100], Iter [3900/5943] loss : 0.1454
+Epoch [35/100], Iter [4000/5943] loss : 0.1247
+Epoch [35/100], Iter [4100/5943] loss : 0.1257
+Epoch [35/100], Iter [4200/5943] loss : 0.1063
+Epoch [35/100], Iter [4300/5943] loss : 0.1315
+Epoch [35/100], Iter [4400/5943] loss : 0.1254
+Epoch [35/100], Iter [4500/5943] loss : 0.1247
+Epoch [35/100], Iter [4600/5943] loss : 0.1219
+Epoch [35/100], Iter [4700/5943] loss : 0.1454
+Epoch [35/100], Iter [4800/5943] loss : 0.1362
+Epoch [35/100], Iter [4900/5943] loss : 0.1111
+Epoch [35/100], Iter [5000/5943] loss : 0.1086
+Epoch [35/100], Iter [5100/5943] loss : 0.1366
+Epoch [35/100], Iter [5200/5943] loss : 0.1357
+Epoch [35/100], Iter [5300/5943] loss : 0.1149
+Epoch [35/100], Iter [5400/5943] loss : 0.1411
+Epoch [35/100], Iter [5500/5943] loss : 0.1142
+Epoch [35/100], Iter [5600/5943] loss : 0.1172
+Epoch [35/100], Iter [5700/5943] loss : 0.1295
+Epoch [35/100], Iter [5800/5943] loss : 0.1391
+Epoch [35/100], Iter [5900/5943] loss : 0.1410
+Retrieval : AROC = 0.909, AP = 0.462 /  Annotation : AROC = 0.941, AP = 0.710
+Average loss: 0.1323 
+
+2020-05-30 14:30:00.321522
+Epoch [35/100], Iter [100/1485] loss : 0.2427
+Epoch [35/100], Iter [200/1485] loss : 0.1211
+Epoch [35/100], Iter [300/1485] loss : 0.0940
+Epoch [35/100], Iter [400/1485] loss : 0.1014
+Epoch [35/100], Iter [500/1485] loss : 0.1030
+Epoch [35/100], Iter [600/1485] loss : 0.1068
+Epoch [35/100], Iter [700/1485] loss : 0.1164
+Epoch [35/100], Iter [800/1485] loss : 0.1067
+Epoch [35/100], Iter [900/1485] loss : 0.1900
+Epoch [35/100], Iter [1000/1485] loss : 0.1449
+Epoch [35/100], Iter [1100/1485] loss : 0.0818
+Epoch [35/100], Iter [1200/1485] loss : 0.1531
+Epoch [35/100], Iter [1300/1485] loss : 0.2050
+Epoch [35/100], Iter [1400/1485] loss : 0.1002
+Retrieval : AROC = 0.884, AP = 0.395 /  Annotation : AROC = 0.924, AP = 0.661
+Average loss: 0.1459 
+
+2020-05-30 14:36:31.518786
+Learning rate : 3.2000000000000007e-06
+
+Epoch 36/100
+------------------------------
+Learning Rate: 3.2000000000000007e-06
+------------------------------
+Epoch [36/100], Iter [100/5943] loss : 0.1281
+Epoch [36/100], Iter [200/5943] loss : 0.1230
+Epoch [36/100], Iter [300/5943] loss : 0.1296
+Epoch [36/100], Iter [400/5943] loss : 0.1066
+Epoch [36/100], Iter [500/5943] loss : 0.1283
+Epoch [36/100], Iter [600/5943] loss : 0.1560
+Epoch [36/100], Iter [700/5943] loss : 0.1375
+Epoch [36/100], Iter [800/5943] loss : 0.1124
+Epoch [36/100], Iter [900/5943] loss : 0.1413
+Epoch [36/100], Iter [1000/5943] loss : 0.1404
+Epoch [36/100], Iter [1100/5943] loss : 0.1358
+Epoch [36/100], Iter [1200/5943] loss : 0.1088
+Epoch [36/100], Iter [1300/5943] loss : 0.1270
+Epoch [36/100], Iter [1400/5943] loss : 0.1301
+Epoch [36/100], Iter [1500/5943] loss : 0.1232
+Epoch [36/100], Iter [1600/5943] loss : 0.1318
+Epoch [36/100], Iter [1700/5943] loss : 0.1340
+Epoch [36/100], Iter [1800/5943] loss : 0.1163
+Epoch [36/100], Iter [1900/5943] loss : 0.1251
+Epoch [36/100], Iter [2000/5943] loss : 0.1573
+Epoch [36/100], Iter [2100/5943] loss : 0.1339
+Epoch [36/100], Iter [2200/5943] loss : 0.1174
+Epoch [36/100], Iter [2300/5943] loss : 0.1409
+Epoch [36/100], Iter [2400/5943] loss : 0.1376
+Epoch [36/100], Iter [2500/5943] loss : 0.1241
+Epoch [36/100], Iter [2600/5943] loss : 0.1565
+Epoch [36/100], Iter [2700/5943] loss : 0.1269
+Epoch [36/100], Iter [2800/5943] loss : 0.1446
+Epoch [36/100], Iter [2900/5943] loss : 0.1283
+Epoch [36/100], Iter [3000/5943] loss : 0.1503
+Epoch [36/100], Iter [3100/5943] loss : 0.1289
+Epoch [36/100], Iter [3200/5943] loss : 0.1251
+Epoch [36/100], Iter [3300/5943] loss : 0.1319
+Epoch [36/100], Iter [3400/5943] loss : 0.1060
+Epoch [36/100], Iter [3500/5943] loss : 0.1287
+Epoch [36/100], Iter [3600/5943] loss : 0.1319
+Epoch [36/100], Iter [3700/5943] loss : 0.1137
+Epoch [36/100], Iter [3800/5943] loss : 0.1392
+Epoch [36/100], Iter [3900/5943] loss : 0.1285
+Epoch [36/100], Iter [4000/5943] loss : 0.1568
+Epoch [36/100], Iter [4100/5943] loss : 0.1536
+Epoch [36/100], Iter [4200/5943] loss : 0.1272
+Epoch [36/100], Iter [4300/5943] loss : 0.1324
+Epoch [36/100], Iter [4400/5943] loss : 0.1212
+Epoch [36/100], Iter [4500/5943] loss : 0.1476
+Epoch [36/100], Iter [4600/5943] loss : 0.1232
+Epoch [36/100], Iter [4700/5943] loss : 0.1315
+Epoch [36/100], Iter [4800/5943] loss : 0.0997
+Epoch [36/100], Iter [4900/5943] loss : 0.1178
+Epoch [36/100], Iter [5000/5943] loss : 0.1342
+Epoch [36/100], Iter [5100/5943] loss : 0.1487
+Epoch [36/100], Iter [5200/5943] loss : 0.1380
+Epoch [36/100], Iter [5300/5943] loss : 0.1265
+Epoch [36/100], Iter [5400/5943] loss : 0.1426
+Epoch [36/100], Iter [5500/5943] loss : 0.1207
+Epoch [36/100], Iter [5600/5943] loss : 0.1350
+Epoch [36/100], Iter [5700/5943] loss : 0.1543
+Epoch [36/100], Iter [5800/5943] loss : 0.1137
+Epoch [36/100], Iter [5900/5943] loss : 0.1308
+Retrieval : AROC = 0.909, AP = 0.462 /  Annotation : AROC = 0.942, AP = 0.710
+Average loss: 0.1323 
+
+2020-05-30 15:47:50.129745
+Epoch [36/100], Iter [100/1485] loss : 0.2404
+Epoch [36/100], Iter [200/1485] loss : 0.1235
+Epoch [36/100], Iter [300/1485] loss : 0.0955
+Epoch [36/100], Iter [400/1485] loss : 0.0981
+Epoch [36/100], Iter [500/1485] loss : 0.1065
+Epoch [36/100], Iter [600/1485] loss : 0.1082
+Epoch [36/100], Iter [700/1485] loss : 0.1172
+Epoch [36/100], Iter [800/1485] loss : 0.1050
+Epoch [36/100], Iter [900/1485] loss : 0.2003
+Epoch [36/100], Iter [1000/1485] loss : 0.1555
+Epoch [36/100], Iter [1100/1485] loss : 0.0801
+Epoch [36/100], Iter [1200/1485] loss : 0.1567
+Epoch [36/100], Iter [1300/1485] loss : 0.1961
+Epoch [36/100], Iter [1400/1485] loss : 0.1015
+Retrieval : AROC = 0.885, AP = 0.396 /  Annotation : AROC = 0.926, AP = 0.663
+Average loss: 0.1446 
+
+2020-05-30 15:54:21.224592
+Learning rate : 3.2000000000000007e-06
+
+Epoch 37/100
+------------------------------
+Learning Rate: 3.2000000000000007e-06
+------------------------------
+Epoch [37/100], Iter [100/5943] loss : 0.1368
+Epoch [37/100], Iter [200/5943] loss : 0.1640
+Epoch [37/100], Iter [300/5943] loss : 0.0967
+Epoch [37/100], Iter [400/5943] loss : 0.1176
+Epoch [37/100], Iter [500/5943] loss : 0.1314
+Epoch [37/100], Iter [600/5943] loss : 0.1136
+Epoch [37/100], Iter [700/5943] loss : 0.1462
+Epoch [37/100], Iter [800/5943] loss : 0.1230
+Epoch [37/100], Iter [900/5943] loss : 0.1739
+Epoch [37/100], Iter [1000/5943] loss : 0.1197
+Epoch [37/100], Iter [1100/5943] loss : 0.1499
+Epoch [37/100], Iter [1200/5943] loss : 0.1380
+Epoch [37/100], Iter [1300/5943] loss : 0.1619
+Epoch [37/100], Iter [1400/5943] loss : 0.1264
+Epoch [37/100], Iter [1500/5943] loss : 0.1338
+Epoch [37/100], Iter [1600/5943] loss : 0.1132
+Epoch [37/100], Iter [1700/5943] loss : 0.1373
+Epoch [37/100], Iter [1800/5943] loss : 0.1281
+Epoch [37/100], Iter [1900/5943] loss : 0.1377
+Epoch [37/100], Iter [2000/5943] loss : 0.1322
+Epoch [37/100], Iter [2100/5943] loss : 0.1430
+Epoch [37/100], Iter [2200/5943] loss : 0.1338
+Epoch [37/100], Iter [2300/5943] loss : 0.0960
+Epoch [37/100], Iter [2400/5943] loss : 0.1456
+Epoch [37/100], Iter [2500/5943] loss : 0.1217
+Epoch [37/100], Iter [2600/5943] loss : 0.1242
+Epoch [37/100], Iter [2700/5943] loss : 0.1238
+Epoch [37/100], Iter [2800/5943] loss : 0.1330
+Epoch [37/100], Iter [2900/5943] loss : 0.1328
+Epoch [37/100], Iter [3000/5943] loss : 0.0863
+Epoch [37/100], Iter [3100/5943] loss : 0.1119
+Epoch [37/100], Iter [3200/5943] loss : 0.1267
+Epoch [37/100], Iter [3300/5943] loss : 0.1167
+Epoch [37/100], Iter [3400/5943] loss : 0.1009
+Epoch [37/100], Iter [3500/5943] loss : 0.1155
+Epoch [37/100], Iter [3600/5943] loss : 0.1575
+Epoch [37/100], Iter [3700/5943] loss : 0.1076
+Epoch [37/100], Iter [3800/5943] loss : 0.1187
+Epoch [37/100], Iter [3900/5943] loss : 0.1153
+Epoch [37/100], Iter [4000/5943] loss : 0.1157
+Epoch [37/100], Iter [4100/5943] loss : 0.1736
+Epoch [37/100], Iter [4200/5943] loss : 0.1440
+Epoch [37/100], Iter [4300/5943] loss : 0.1386
+Epoch [37/100], Iter [4400/5943] loss : 0.0986
+Epoch [37/100], Iter [4500/5943] loss : 0.1257
+Epoch [37/100], Iter [4600/5943] loss : 0.1068
+Epoch [37/100], Iter [4700/5943] loss : 0.1448
+Epoch [37/100], Iter [4800/5943] loss : 0.1452
+Epoch [37/100], Iter [4900/5943] loss : 0.1328
+Epoch [37/100], Iter [5000/5943] loss : 0.1513
+Epoch [37/100], Iter [5100/5943] loss : 0.1265
+Epoch [37/100], Iter [5200/5943] loss : 0.1369
+Epoch [37/100], Iter [5300/5943] loss : 0.1429
+Epoch [37/100], Iter [5400/5943] loss : 0.1516
+Epoch [37/100], Iter [5500/5943] loss : 0.1347
+Epoch [37/100], Iter [5600/5943] loss : 0.1595
+Epoch [37/100], Iter [5700/5943] loss : 0.1374
+Epoch [37/100], Iter [5800/5943] loss : 0.1283
+Epoch [37/100], Iter [5900/5943] loss : 0.1602
+Retrieval : AROC = 0.909, AP = 0.462 /  Annotation : AROC = 0.942, AP = 0.710
+Average loss: 0.1322 
+
+2020-05-30 17:05:34.938586
+Epoch [37/100], Iter [100/1485] loss : 0.2392
+Epoch [37/100], Iter [200/1485] loss : 0.1211
+Epoch [37/100], Iter [300/1485] loss : 0.0939
+Epoch [37/100], Iter [400/1485] loss : 0.1003
+Epoch [37/100], Iter [500/1485] loss : 0.1032
+Epoch [37/100], Iter [600/1485] loss : 0.1083
+Epoch [37/100], Iter [700/1485] loss : 0.1165
+Epoch [37/100], Iter [800/1485] loss : 0.1084
+Epoch [37/100], Iter [900/1485] loss : 0.1996
+Epoch [37/100], Iter [1000/1485] loss : 0.1545
+Epoch [37/100], Iter [1100/1485] loss : 0.0808
+Epoch [37/100], Iter [1200/1485] loss : 0.1533
+Epoch [37/100], Iter [1300/1485] loss : 0.1965
+Epoch [37/100], Iter [1400/1485] loss : 0.1024
+Retrieval : AROC = 0.885, AP = 0.396 /  Annotation : AROC = 0.926, AP = 0.664
+Average loss: 0.1447 
+
+2020-05-30 17:12:07.099331
+Learning rate : 3.2000000000000007e-06
+
+Epoch 38/100
+------------------------------
+Learning Rate: 3.2000000000000007e-06
+------------------------------
+Epoch [38/100], Iter [100/5943] loss : 0.1298
+Epoch [38/100], Iter [200/5943] loss : 0.1275
+Epoch [38/100], Iter [300/5943] loss : 0.1313
+Epoch [38/100], Iter [400/5943] loss : 0.1480
+Epoch [38/100], Iter [500/5943] loss : 0.1431
+Epoch [38/100], Iter [600/5943] loss : 0.1534
+Epoch [38/100], Iter [700/5943] loss : 0.1288
+Epoch [38/100], Iter [800/5943] loss : 0.1216
+Epoch [38/100], Iter [900/5943] loss : 0.1252
+Epoch [38/100], Iter [1000/5943] loss : 0.1165
+Epoch [38/100], Iter [1100/5943] loss : 0.1354
+Epoch [38/100], Iter [1200/5943] loss : 0.1233
+Epoch [38/100], Iter [1300/5943] loss : 0.1148
+Epoch [38/100], Iter [1400/5943] loss : 0.1219
+Epoch [38/100], Iter [1500/5943] loss : 0.1233
+Epoch [38/100], Iter [1600/5943] loss : 0.1011
+Epoch [38/100], Iter [1700/5943] loss : 0.1317
+Epoch [38/100], Iter [1800/5943] loss : 0.1144
+Epoch [38/100], Iter [1900/5943] loss : 0.1299
+Epoch [38/100], Iter [2000/5943] loss : 0.1274
+Epoch [38/100], Iter [2100/5943] loss : 0.1322
+Epoch [38/100], Iter [2200/5943] loss : 0.1462
+Epoch [38/100], Iter [2300/5943] loss : 0.1345
+Epoch [38/100], Iter [2400/5943] loss : 0.1252
+Epoch [38/100], Iter [2500/5943] loss : 0.1227
+Epoch [38/100], Iter [2600/5943] loss : 0.1416
+Epoch [38/100], Iter [2700/5943] loss : 0.1398
+Epoch [38/100], Iter [2800/5943] loss : 0.1372
+Epoch [38/100], Iter [2900/5943] loss : 0.1417
+Epoch [38/100], Iter [3000/5943] loss : 0.1241
+Epoch [38/100], Iter [3100/5943] loss : 0.1328
+Epoch [38/100], Iter [3200/5943] loss : 0.1192
+Epoch [38/100], Iter [3300/5943] loss : 0.1265
+Epoch [38/100], Iter [3400/5943] loss : 0.1135
+Epoch [38/100], Iter [3500/5943] loss : 0.1261
+Epoch [38/100], Iter [3600/5943] loss : 0.1287
+Epoch [38/100], Iter [3700/5943] loss : 0.1183
+Epoch [38/100], Iter [3800/5943] loss : 0.1438
+Epoch [38/100], Iter [3900/5943] loss : 0.1393
+Epoch [38/100], Iter [4000/5943] loss : 0.1195
+Epoch [38/100], Iter [4100/5943] loss : 0.1142
+Epoch [38/100], Iter [4200/5943] loss : 0.1031
+Epoch [38/100], Iter [4300/5943] loss : 0.1588
+Epoch [38/100], Iter [4400/5943] loss : 0.1351
+Epoch [38/100], Iter [4500/5943] loss : 0.1879
+Epoch [38/100], Iter [4600/5943] loss : 0.1308
+Epoch [38/100], Iter [4700/5943] loss : 0.1431
+Epoch [38/100], Iter [4800/5943] loss : 0.1445
+Epoch [38/100], Iter [4900/5943] loss : 0.1242
+Epoch [38/100], Iter [5000/5943] loss : 0.1493
+Epoch [38/100], Iter [5100/5943] loss : 0.1164
+Epoch [38/100], Iter [5200/5943] loss : 0.1333
+Epoch [38/100], Iter [5300/5943] loss : 0.1235
+Epoch [38/100], Iter [5400/5943] loss : 0.1208
+Epoch [38/100], Iter [5500/5943] loss : 0.1158
+Epoch [38/100], Iter [5600/5943] loss : 0.1047
+Epoch [38/100], Iter [5700/5943] loss : 0.1456
+Epoch [38/100], Iter [5800/5943] loss : 0.1479
+Epoch [38/100], Iter [5900/5943] loss : 0.1512
+Retrieval : AROC = 0.909, AP = 0.462 /  Annotation : AROC = 0.941, AP = 0.710
+Average loss: 0.1323 
+
+2020-05-30 18:23:25.483094
+Epoch [38/100], Iter [100/1485] loss : 0.2454
+Epoch [38/100], Iter [200/1485] loss : 0.1220
+Epoch [38/100], Iter [300/1485] loss : 0.0943
+Epoch [38/100], Iter [400/1485] loss : 0.0985
+Epoch [38/100], Iter [500/1485] loss : 0.1026
+Epoch [38/100], Iter [600/1485] loss : 0.1101
+Epoch [38/100], Iter [700/1485] loss : 0.1175
+Epoch [38/100], Iter [800/1485] loss : 0.1078
+Epoch [38/100], Iter [900/1485] loss : 0.1926
+Epoch [38/100], Iter [1000/1485] loss : 0.1465
+Epoch [38/100], Iter [1100/1485] loss : 0.0801
+Epoch [38/100], Iter [1200/1485] loss : 0.1541
+Epoch [38/100], Iter [1300/1485] loss : 0.1999
+Epoch [38/100], Iter [1400/1485] loss : 0.1046
+Retrieval : AROC = 0.884, AP = 0.396 /  Annotation : AROC = 0.925, AP = 0.663
+Average loss: 0.1447 
+
+2020-05-30 18:29:56.781758
+Learning rate : 3.2000000000000007e-06
+
+Epoch 39/100
+------------------------------
+Learning Rate: 3.2000000000000007e-06
+------------------------------
+Epoch [39/100], Iter [100/5943] loss : 0.1485
+Epoch [39/100], Iter [200/5943] loss : 0.1647
+Epoch [39/100], Iter [300/5943] loss : 0.1043
+Epoch [39/100], Iter [400/5943] loss : 0.1422
+Epoch [39/100], Iter [500/5943] loss : 0.1270
+Epoch [39/100], Iter [600/5943] loss : 0.1272
+Epoch [39/100], Iter [700/5943] loss : 0.1302
+Epoch [39/100], Iter [800/5943] loss : 0.1070
+Epoch [39/100], Iter [900/5943] loss : 0.1179
+Epoch [39/100], Iter [1000/5943] loss : 0.1180
+Epoch [39/100], Iter [1100/5943] loss : 0.1300
+Epoch [39/100], Iter [1200/5943] loss : 0.1333
+Epoch [39/100], Iter [1300/5943] loss : 0.1236
+Epoch [39/100], Iter [1400/5943] loss : 0.1007
+Epoch [39/100], Iter [1500/5943] loss : 0.1462
+Epoch [39/100], Iter [1600/5943] loss : 0.1001
+Epoch [39/100], Iter [1700/5943] loss : 0.1222
+Epoch [39/100], Iter [1800/5943] loss : 0.1458
+Epoch [39/100], Iter [1900/5943] loss : 0.1411
+Epoch [39/100], Iter [2000/5943] loss : 0.1308
+Epoch [39/100], Iter [2100/5943] loss : 0.1413
+Epoch [39/100], Iter [2200/5943] loss : 0.1098
+Epoch [39/100], Iter [2300/5943] loss : 0.1129
+Epoch [39/100], Iter [2400/5943] loss : 0.1422
+Epoch [39/100], Iter [2500/5943] loss : 0.1514
+Epoch [39/100], Iter [2600/5943] loss : 0.1514
+Epoch [39/100], Iter [2700/5943] loss : 0.1336
+Epoch [39/100], Iter [2800/5943] loss : 0.1304
+Epoch [39/100], Iter [2900/5943] loss : 0.1803
+Epoch [39/100], Iter [3000/5943] loss : 0.1618
+Epoch [39/100], Iter [3100/5943] loss : 0.1289
+Epoch [39/100], Iter [3200/5943] loss : 0.1272
+Epoch [39/100], Iter [3300/5943] loss : 0.1293
+Epoch [39/100], Iter [3400/5943] loss : 0.1188
+Epoch [39/100], Iter [3500/5943] loss : 0.1112
+Epoch [39/100], Iter [3600/5943] loss : 0.1512
+Epoch [39/100], Iter [3700/5943] loss : 0.1703
+Epoch [39/100], Iter [3800/5943] loss : 0.1107
+Epoch [39/100], Iter [3900/5943] loss : 0.1604
+Epoch [39/100], Iter [4000/5943] loss : 0.1185
+Epoch [39/100], Iter [4100/5943] loss : 0.1227
+Epoch [39/100], Iter [4200/5943] loss : 0.1447
+Epoch [39/100], Iter [4300/5943] loss : 0.1453
+Epoch [39/100], Iter [4400/5943] loss : 0.1500
+Epoch [39/100], Iter [4500/5943] loss : 0.1398
+Epoch [39/100], Iter [4600/5943] loss : 0.1167
+Epoch [39/100], Iter [4700/5943] loss : 0.1104
+Epoch [39/100], Iter [4800/5943] loss : 0.1308
+Epoch [39/100], Iter [4900/5943] loss : 0.1097
+Epoch [39/100], Iter [5000/5943] loss : 0.1155
+Epoch [39/100], Iter [5100/5943] loss : 0.1188
+Epoch [39/100], Iter [5200/5943] loss : 0.1341
+Epoch [39/100], Iter [5300/5943] loss : 0.1110
+Epoch [39/100], Iter [5400/5943] loss : 0.1407
+Epoch [39/100], Iter [5500/5943] loss : 0.1201
+Epoch [39/100], Iter [5600/5943] loss : 0.1495
+Epoch [39/100], Iter [5700/5943] loss : 0.1373
+Epoch [39/100], Iter [5800/5943] loss : 0.1352
+Epoch [39/100], Iter [5900/5943] loss : 0.1373
+Retrieval : AROC = 0.909, AP = 0.462 /  Annotation : AROC = 0.941, AP = 0.709
+Average loss: 0.1323 
+
+2020-05-30 19:41:07.017747
+Epoch [39/100], Iter [100/1485] loss : 0.2405
+Epoch [39/100], Iter [200/1485] loss : 0.1221
+Epoch [39/100], Iter [300/1485] loss : 0.0955
+Epoch [39/100], Iter [400/1485] loss : 0.0988
+Epoch [39/100], Iter [500/1485] loss : 0.1034
+Epoch [39/100], Iter [600/1485] loss : 0.1079
+Epoch [39/100], Iter [700/1485] loss : 0.1164
+Epoch [39/100], Iter [800/1485] loss : 0.1111
+Epoch [39/100], Iter [900/1485] loss : 0.1931
+Epoch [39/100], Iter [1000/1485] loss : 0.1475
+Epoch [39/100], Iter [1100/1485] loss : 0.0796
+Epoch [39/100], Iter [1200/1485] loss : 0.1513
+Epoch [39/100], Iter [1300/1485] loss : 0.2013
+Epoch [39/100], Iter [1400/1485] loss : 0.1008
+Retrieval : AROC = 0.885, AP = 0.396 /  Annotation : AROC = 0.926, AP = 0.663
+Average loss: 0.1447 
+
+2020-05-30 19:47:37.532510
+Learning rate : 6.400000000000002e-07
+
+Epoch 40/100
+------------------------------
+Learning Rate: 6.400000000000002e-07
+------------------------------
+Epoch [40/100], Iter [100/5943] loss : 0.1191
+Epoch [40/100], Iter [200/5943] loss : 0.1225
+Epoch [40/100], Iter [300/5943] loss : 0.1251
+Epoch [40/100], Iter [400/5943] loss : 0.1492
+Epoch [40/100], Iter [500/5943] loss : 0.1097
+Epoch [40/100], Iter [600/5943] loss : 0.1350
+Epoch [40/100], Iter [700/5943] loss : 0.1573
+Epoch [40/100], Iter [800/5943] loss : 0.0897
+Epoch [40/100], Iter [900/5943] loss : 0.1205
+Epoch [40/100], Iter [1000/5943] loss : 0.1353
+Epoch [40/100], Iter [1100/5943] loss : 0.1390
+Epoch [40/100], Iter [1200/5943] loss : 0.1400
+Epoch [40/100], Iter [1300/5943] loss : 0.1368
+Epoch [40/100], Iter [1400/5943] loss : 0.1352
+Epoch [40/100], Iter [1500/5943] loss : 0.1161
+Epoch [40/100], Iter [1600/5943] loss : 0.1208
+Epoch [40/100], Iter [1700/5943] loss : 0.1247
+Epoch [40/100], Iter [1800/5943] loss : 0.1259
+Epoch [40/100], Iter [1900/5943] loss : 0.1120
+Epoch [40/100], Iter [2000/5943] loss : 0.1322
+Epoch [40/100], Iter [2100/5943] loss : 0.1278
+Epoch [40/100], Iter [2200/5943] loss : 0.1129
+Epoch [40/100], Iter [2300/5943] loss : 0.1429
+Epoch [40/100], Iter [2400/5943] loss : 0.1279
+Epoch [40/100], Iter [2500/5943] loss : 0.1908
+Epoch [40/100], Iter [2600/5943] loss : 0.1271
+Epoch [40/100], Iter [2700/5943] loss : 0.1354
+Epoch [40/100], Iter [2800/5943] loss : 0.1304
+Epoch [40/100], Iter [2900/5943] loss : 0.1441
+Epoch [40/100], Iter [3000/5943] loss : 0.1435
+Epoch [40/100], Iter [3100/5943] loss : 0.1213
+Epoch [40/100], Iter [3200/5943] loss : 0.1456
+Epoch [40/100], Iter [3300/5943] loss : 0.1352
+Epoch [40/100], Iter [3400/5943] loss : 0.1408
+Epoch [40/100], Iter [3500/5943] loss : 0.1413
+Epoch [40/100], Iter [3600/5943] loss : 0.1545
+Epoch [40/100], Iter [3700/5943] loss : 0.1253
+Epoch [40/100], Iter [3800/5943] loss : 0.1316
+Epoch [40/100], Iter [3900/5943] loss : 0.1350
+Epoch [40/100], Iter [4000/5943] loss : 0.1399
+Epoch [40/100], Iter [4100/5943] loss : 0.1490
+Epoch [40/100], Iter [4200/5943] loss : 0.1440
+Epoch [40/100], Iter [4300/5943] loss : 0.1312
+Epoch [40/100], Iter [4400/5943] loss : 0.1303
+Epoch [40/100], Iter [4500/5943] loss : 0.1286
+Epoch [40/100], Iter [4600/5943] loss : 0.1073
+Epoch [40/100], Iter [4700/5943] loss : 0.1208
+Epoch [40/100], Iter [4800/5943] loss : 0.1200
+Epoch [40/100], Iter [4900/5943] loss : 0.1121
+Epoch [40/100], Iter [5000/5943] loss : 0.1190
+Epoch [40/100], Iter [5100/5943] loss : 0.1431
+Epoch [40/100], Iter [5200/5943] loss : 0.1289
+Epoch [40/100], Iter [5300/5943] loss : 0.1313
+Epoch [40/100], Iter [5400/5943] loss : 0.1115
+Epoch [40/100], Iter [5500/5943] loss : 0.1177
+Epoch [40/100], Iter [5600/5943] loss : 0.1495
+Epoch [40/100], Iter [5700/5943] loss : 0.1419
+Epoch [40/100], Iter [5800/5943] loss : 0.1458
+Epoch [40/100], Iter [5900/5943] loss : 0.1166
+Retrieval : AROC = 0.908, AP = 0.462 /  Annotation : AROC = 0.941, AP = 0.710
+Average loss: 0.1323 
+
+2020-05-30 20:58:49.315159
+Epoch [40/100], Iter [100/1485] loss : 0.2471
+Epoch [40/100], Iter [200/1485] loss : 0.1223
+Epoch [40/100], Iter [300/1485] loss : 0.0928
+Epoch [40/100], Iter [400/1485] loss : 0.0972
+Epoch [40/100], Iter [500/1485] loss : 0.1032
+Epoch [40/100], Iter [600/1485] loss : 0.1076
+Epoch [40/100], Iter [700/1485] loss : 0.1192
+Epoch [40/100], Iter [800/1485] loss : 0.1087
+Epoch [40/100], Iter [900/1485] loss : 0.1974
+Epoch [40/100], Iter [1000/1485] loss : 0.1466
+Epoch [40/100], Iter [1100/1485] loss : 0.0804
+Epoch [40/100], Iter [1200/1485] loss : 0.1560
+Epoch [40/100], Iter [1300/1485] loss : 0.2008
+Epoch [40/100], Iter [1400/1485] loss : 0.1040
+Retrieval : AROC = 0.884, AP = 0.394 /  Annotation : AROC = 0.924, AP = 0.660
+Average loss: 0.1459 
+
+2020-05-30 21:05:18.998120
+Learning rate : 6.400000000000002e-07
+
+Epoch 41/100
+------------------------------
+Learning Rate: 6.400000000000002e-07
+------------------------------
+Epoch [41/100], Iter [100/5943] loss : 0.1289
+Epoch [41/100], Iter [200/5943] loss : 0.1713
+Epoch [41/100], Iter [300/5943] loss : 0.1490
+Epoch [41/100], Iter [400/5943] loss : 0.1268
+Epoch [41/100], Iter [500/5943] loss : 0.1289
+Epoch [41/100], Iter [600/5943] loss : 0.1068
+Epoch [41/100], Iter [700/5943] loss : 0.1225
+Epoch [41/100], Iter [800/5943] loss : 0.1755
+Epoch [41/100], Iter [900/5943] loss : 0.1659
+Epoch [41/100], Iter [1000/5943] loss : 0.1285
+Epoch [41/100], Iter [1100/5943] loss : 0.1599
+Epoch [41/100], Iter [1200/5943] loss : 0.1587
+Epoch [41/100], Iter [1300/5943] loss : 0.1299
+Epoch [41/100], Iter [1400/5943] loss : 0.1840
+Epoch [41/100], Iter [1500/5943] loss : 0.1344
+Epoch [41/100], Iter [1600/5943] loss : 0.1057
+Epoch [41/100], Iter [1700/5943] loss : 0.1488
+Epoch [41/100], Iter [1800/5943] loss : 0.1385
+Epoch [41/100], Iter [1900/5943] loss : 0.1119
+Epoch [41/100], Iter [2000/5943] loss : 0.1301
+Epoch [41/100], Iter [2100/5943] loss : 0.1204
+Epoch [41/100], Iter [2200/5943] loss : 0.1121
+Epoch [41/100], Iter [2300/5943] loss : 0.1236
+Epoch [41/100], Iter [2400/5943] loss : 0.1161
+Epoch [41/100], Iter [2500/5943] loss : 0.1574
+Epoch [41/100], Iter [2600/5943] loss : 0.1206
+Epoch [41/100], Iter [2700/5943] loss : 0.1301
+Epoch [41/100], Iter [2800/5943] loss : 0.1194
+Epoch [41/100], Iter [2900/5943] loss : 0.1408
+Epoch [41/100], Iter [3000/5943] loss : 0.1142
+Epoch [41/100], Iter [3100/5943] loss : 0.1240
+Epoch [41/100], Iter [3200/5943] loss : 0.1293
+Epoch [41/100], Iter [3300/5943] loss : 0.1348
+Epoch [41/100], Iter [3400/5943] loss : 0.1489
+Epoch [41/100], Iter [3500/5943] loss : 0.1333
+Epoch [41/100], Iter [3600/5943] loss : 0.1394
+Epoch [41/100], Iter [3700/5943] loss : 0.1514
+Epoch [41/100], Iter [3800/5943] loss : 0.1378
+Epoch [41/100], Iter [3900/5943] loss : 0.1307
+Epoch [41/100], Iter [4000/5943] loss : 0.1120
+Epoch [41/100], Iter [4100/5943] loss : 0.1237
+Epoch [41/100], Iter [4200/5943] loss : 0.1238
+Epoch [41/100], Iter [4300/5943] loss : 0.1302
+Epoch [41/100], Iter [4400/5943] loss : 0.1169
+Epoch [41/100], Iter [4500/5943] loss : 0.1209
+Epoch [41/100], Iter [4600/5943] loss : 0.1337
+Epoch [41/100], Iter [4700/5943] loss : 0.1265
+Epoch [41/100], Iter [4800/5943] loss : 0.1180
+Epoch [41/100], Iter [4900/5943] loss : 0.1438
+Epoch [41/100], Iter [5000/5943] loss : 0.1190
+Epoch [41/100], Iter [5100/5943] loss : 0.1216
+Epoch [41/100], Iter [5200/5943] loss : 0.1268
+Epoch [41/100], Iter [5300/5943] loss : 0.1077
+Epoch [41/100], Iter [5400/5943] loss : 0.1412
+Epoch [41/100], Iter [5500/5943] loss : 0.1467
+Epoch [41/100], Iter [5600/5943] loss : 0.1163
+Epoch [41/100], Iter [5700/5943] loss : 0.1431
+Epoch [41/100], Iter [5800/5943] loss : 0.1368
+Epoch [41/100], Iter [5900/5943] loss : 0.1253
+Retrieval : AROC = 0.909, AP = 0.463 /  Annotation : AROC = 0.941, AP = 0.709
+Average loss: 0.1323 
+
+2020-05-30 22:16:23.832096
+Epoch [41/100], Iter [100/1485] loss : 0.2463
+Epoch [41/100], Iter [200/1485] loss : 0.1211
+Epoch [41/100], Iter [300/1485] loss : 0.0956
+Epoch [41/100], Iter [400/1485] loss : 0.0994
+Epoch [41/100], Iter [500/1485] loss : 0.1049
+Epoch [41/100], Iter [600/1485] loss : 0.1031
+Epoch [41/100], Iter [700/1485] loss : 0.1143
+Epoch [41/100], Iter [800/1485] loss : 0.1066
+Epoch [41/100], Iter [900/1485] loss : 0.1914
+Epoch [41/100], Iter [1000/1485] loss : 0.1510
+Epoch [41/100], Iter [1100/1485] loss : 0.0811
+Epoch [41/100], Iter [1200/1485] loss : 0.1528
+Epoch [41/100], Iter [1300/1485] loss : 0.2010
+Epoch [41/100], Iter [1400/1485] loss : 0.0957
+Retrieval : AROC = 0.885, AP = 0.396 /  Annotation : AROC = 0.926, AP = 0.663
+Average loss: 0.1448 
+
+2020-05-30 22:22:53.306214
+Learning rate : 6.400000000000002e-07
+
+Epoch 42/100
+------------------------------
+Learning Rate: 6.400000000000002e-07
+------------------------------
+Epoch [42/100], Iter [100/5943] loss : 0.1315
+Epoch [42/100], Iter [200/5943] loss : 0.1431
+Epoch [42/100], Iter [300/5943] loss : 0.1357
+Epoch [42/100], Iter [400/5943] loss : 0.1266
+Epoch [42/100], Iter [500/5943] loss : 0.1230
+Epoch [42/100], Iter [600/5943] loss : 0.1054
+Epoch [42/100], Iter [700/5943] loss : 0.1413
+Epoch [42/100], Iter [800/5943] loss : 0.1548
+Epoch [42/100], Iter [900/5943] loss : 0.1365
+Epoch [42/100], Iter [1000/5943] loss : 0.1365
+Epoch [42/100], Iter [1100/5943] loss : 0.1065
+Epoch [42/100], Iter [1200/5943] loss : 0.1388
+Epoch [42/100], Iter [1300/5943] loss : 0.1178
+Epoch [42/100], Iter [1400/5943] loss : 0.1345
+Epoch [42/100], Iter [1500/5943] loss : 0.1794
+Epoch [42/100], Iter [1600/5943] loss : 0.1017
+Epoch [42/100], Iter [1700/5943] loss : 0.1511
+Epoch [42/100], Iter [1800/5943] loss : 0.1207
+Epoch [42/100], Iter [1900/5943] loss : 0.1392
+Epoch [42/100], Iter [2000/5943] loss : 0.1253
+Epoch [42/100], Iter [2100/5943] loss : 0.1762
+Epoch [42/100], Iter [2200/5943] loss : 0.1157
+Epoch [42/100], Iter [2300/5943] loss : 0.1196
+Epoch [42/100], Iter [2400/5943] loss : 0.0970
+Epoch [42/100], Iter [2500/5943] loss : 0.1264
+Epoch [42/100], Iter [2600/5943] loss : 0.1307
+Epoch [42/100], Iter [2700/5943] loss : 0.1691
+Epoch [42/100], Iter [2800/5943] loss : 0.1425
+Epoch [42/100], Iter [2900/5943] loss : 0.1430
+Epoch [42/100], Iter [3000/5943] loss : 0.1371
+Epoch [42/100], Iter [3100/5943] loss : 0.1712
+Epoch [42/100], Iter [3200/5943] loss : 0.1082
+Epoch [42/100], Iter [3300/5943] loss : 0.1258
+Epoch [42/100], Iter [3400/5943] loss : 0.1425
+Epoch [42/100], Iter [3500/5943] loss : 0.1404
+Epoch [42/100], Iter [3600/5943] loss : 0.1365
+Epoch [42/100], Iter [3700/5943] loss : 0.1265
+Epoch [42/100], Iter [3800/5943] loss : 0.1228
+Epoch [42/100], Iter [3900/5943] loss : 0.1304
+Epoch [42/100], Iter [4000/5943] loss : 0.1355
+Epoch [42/100], Iter [4100/5943] loss : 0.1233
+Epoch [42/100], Iter [4200/5943] loss : 0.1606
+Epoch [42/100], Iter [4300/5943] loss : 0.1469
+Epoch [42/100], Iter [4400/5943] loss : 0.1187
+Epoch [42/100], Iter [4500/5943] loss : 0.1407
+Epoch [42/100], Iter [4600/5943] loss : 0.1827
+Epoch [42/100], Iter [4700/5943] loss : 0.1209
+Epoch [42/100], Iter [4800/5943] loss : 0.1503
+Epoch [42/100], Iter [4900/5943] loss : 0.1191
+Epoch [42/100], Iter [5000/5943] loss : 0.1347
+Epoch [42/100], Iter [5100/5943] loss : 0.1233
+Epoch [42/100], Iter [5200/5943] loss : 0.1314
+Epoch [42/100], Iter [5300/5943] loss : 0.1168
+Epoch [42/100], Iter [5400/5943] loss : 0.1138
+Epoch [42/100], Iter [5500/5943] loss : 0.1122
+Epoch [42/100], Iter [5600/5943] loss : 0.1007
+Epoch [42/100], Iter [5700/5943] loss : 0.1244
+Epoch [42/100], Iter [5800/5943] loss : 0.1266
+Epoch [42/100], Iter [5900/5943] loss : 0.1453
+Retrieval : AROC = 0.908, AP = 0.461 /  Annotation : AROC = 0.941, AP = 0.709
+Average loss: 0.1325 
+
+2020-05-30 23:33:57.873355
+Epoch [42/100], Iter [100/1485] loss : 0.2433
+Epoch [42/100], Iter [200/1485] loss : 0.1215
+Epoch [42/100], Iter [300/1485] loss : 0.0945
+Epoch [42/100], Iter [400/1485] loss : 0.0999
+Epoch [42/100], Iter [500/1485] loss : 0.1046
+Epoch [42/100], Iter [600/1485] loss : 0.1081
+Epoch [42/100], Iter [700/1485] loss : 0.1155
+Epoch [42/100], Iter [800/1485] loss : 0.1086
+Epoch [42/100], Iter [900/1485] loss : 0.1981
+Epoch [42/100], Iter [1000/1485] loss : 0.1529
+Epoch [42/100], Iter [1100/1485] loss : 0.0808
+Epoch [42/100], Iter [1200/1485] loss : 0.1553
+Epoch [42/100], Iter [1300/1485] loss : 0.1939
+Epoch [42/100], Iter [1400/1485] loss : 0.1021
+Retrieval : AROC = 0.885, AP = 0.396 /  Annotation : AROC = 0.926, AP = 0.664
+Average loss: 0.1444 
+
+2020-05-30 23:40:29.234492
+Learning rate : 6.400000000000002e-07
+
+Epoch 43/100
+------------------------------
+Learning Rate: 6.400000000000002e-07
+------------------------------
+Epoch [43/100], Iter [100/5943] loss : 0.1216
+Epoch [43/100], Iter [200/5943] loss : 0.1236
+Epoch [43/100], Iter [300/5943] loss : 0.1113
+Epoch [43/100], Iter [400/5943] loss : 0.1420
+Epoch [43/100], Iter [500/5943] loss : 0.1369
+Epoch [43/100], Iter [600/5943] loss : 0.1492
+Epoch [43/100], Iter [700/5943] loss : 0.1519
+Epoch [43/100], Iter [800/5943] loss : 0.1216
+Epoch [43/100], Iter [900/5943] loss : 0.1287
+Epoch [43/100], Iter [1000/5943] loss : 0.1190
+Epoch [43/100], Iter [1100/5943] loss : 0.1338
+Epoch [43/100], Iter [1200/5943] loss : 0.1130
+Epoch [43/100], Iter [1300/5943] loss : 0.1593
+Epoch [43/100], Iter [1400/5943] loss : 0.0992
+Epoch [43/100], Iter [1500/5943] loss : 0.1500
+Epoch [43/100], Iter [1600/5943] loss : 0.1393
+Epoch [43/100], Iter [1700/5943] loss : 0.1153
+Epoch [43/100], Iter [1800/5943] loss : 0.1606
+Epoch [43/100], Iter [1900/5943] loss : 0.1570
+Epoch [43/100], Iter [2000/5943] loss : 0.1183
+Epoch [43/100], Iter [2100/5943] loss : 0.1552
+Epoch [43/100], Iter [2200/5943] loss : 0.1385
+Epoch [43/100], Iter [2300/5943] loss : 0.1350
+Epoch [43/100], Iter [2400/5943] loss : 0.1206
+Epoch [43/100], Iter [2500/5943] loss : 0.1143
+Epoch [43/100], Iter [2600/5943] loss : 0.1138
+Epoch [43/100], Iter [2700/5943] loss : 0.1239
+Epoch [43/100], Iter [2800/5943] loss : 0.1126
+Epoch [43/100], Iter [2900/5943] loss : 0.1240
+Epoch [43/100], Iter [3000/5943] loss : 0.1386
+Epoch [43/100], Iter [3100/5943] loss : 0.1431
+Epoch [43/100], Iter [3200/5943] loss : 0.1104
+Epoch [43/100], Iter [3300/5943] loss : 0.1190
+Epoch [43/100], Iter [3400/5943] loss : 0.1018
+Epoch [43/100], Iter [3500/5943] loss : 0.1494
+Epoch [43/100], Iter [3600/5943] loss : 0.1102
+Epoch [43/100], Iter [3700/5943] loss : 0.1460
+Epoch [43/100], Iter [3800/5943] loss : 0.1442
+Epoch [43/100], Iter [3900/5943] loss : 0.1167
+Epoch [43/100], Iter [4000/5943] loss : 0.1429
+Epoch [43/100], Iter [4100/5943] loss : 0.1392
+Epoch [43/100], Iter [4200/5943] loss : 0.1057
+Epoch [43/100], Iter [4300/5943] loss : 0.1303
+Epoch [43/100], Iter [4400/5943] loss : 0.1416
+Epoch [43/100], Iter [4500/5943] loss : 0.1002
+Epoch [43/100], Iter [4600/5943] loss : 0.1011
+Epoch [43/100], Iter [4700/5943] loss : 0.1287
+Epoch [43/100], Iter [4800/5943] loss : 0.1136
+Epoch [43/100], Iter [4900/5943] loss : 0.1292
+Epoch [43/100], Iter [5000/5943] loss : 0.1371
+Epoch [43/100], Iter [5100/5943] loss : 0.1534
+Epoch [43/100], Iter [5200/5943] loss : 0.1395
+Epoch [43/100], Iter [5300/5943] loss : 0.1258
+Epoch [43/100], Iter [5400/5943] loss : 0.1240
+Epoch [43/100], Iter [5500/5943] loss : 0.1259
+Epoch [43/100], Iter [5600/5943] loss : 0.1469
+Epoch [43/100], Iter [5700/5943] loss : 0.1300
+Epoch [43/100], Iter [5800/5943] loss : 0.1329
+Epoch [43/100], Iter [5900/5943] loss : 0.1481
+Retrieval : AROC = 0.909, AP = 0.463 /  Annotation : AROC = 0.941, AP = 0.710
+Average loss: 0.1323 
+
+2020-05-31 00:51:47.273071
+Epoch [43/100], Iter [100/1485] loss : 0.2493
+Epoch [43/100], Iter [200/1485] loss : 0.1235
+Epoch [43/100], Iter [300/1485] loss : 0.0943
+Epoch [43/100], Iter [400/1485] loss : 0.0966
+Epoch [43/100], Iter [500/1485] loss : 0.1043
+Epoch [43/100], Iter [600/1485] loss : 0.1081
+Epoch [43/100], Iter [700/1485] loss : 0.1184
+Epoch [43/100], Iter [800/1485] loss : 0.1111
+Epoch [43/100], Iter [900/1485] loss : 0.1964
+Epoch [43/100], Iter [1000/1485] loss : 0.1505
+Epoch [43/100], Iter [1100/1485] loss : 0.0802
+Epoch [43/100], Iter [1200/1485] loss : 0.1536
+Epoch [43/100], Iter [1300/1485] loss : 0.2059
+Epoch [43/100], Iter [1400/1485] loss : 0.1042
+Retrieval : AROC = 0.884, AP = 0.394 /  Annotation : AROC = 0.924, AP = 0.659
+Average loss: 0.1461 
+
+2020-05-31 00:58:19.726881
+Learning rate : 6.400000000000002e-07
+
+Epoch 44/100
+------------------------------
+Learning Rate: 6.400000000000002e-07
+------------------------------
+Epoch [44/100], Iter [100/5943] loss : 0.1495
+Epoch [44/100], Iter [200/5943] loss : 0.1524
+Epoch [44/100], Iter [300/5943] loss : 0.1350
+Epoch [44/100], Iter [400/5943] loss : 0.1273
+Epoch [44/100], Iter [500/5943] loss : 0.1266
+Epoch [44/100], Iter [600/5943] loss : 0.1329
+Epoch [44/100], Iter [700/5943] loss : 0.1695
+Epoch [44/100], Iter [800/5943] loss : 0.1519
+Epoch [44/100], Iter [900/5943] loss : 0.1507
+Epoch [44/100], Iter [1000/5943] loss : 0.1141
+Epoch [44/100], Iter [1100/5943] loss : 0.1308
+Epoch [44/100], Iter [1200/5943] loss : 0.1259
+Epoch [44/100], Iter [1300/5943] loss : 0.1072
+Epoch [44/100], Iter [1400/5943] loss : 0.1418
+Epoch [44/100], Iter [1500/5943] loss : 0.1446
+Epoch [44/100], Iter [1600/5943] loss : 0.1395
+Epoch [44/100], Iter [1700/5943] loss : 0.1189
+Epoch [44/100], Iter [1800/5943] loss : 0.1253
+Epoch [44/100], Iter [1900/5943] loss : 0.1189
+Epoch [44/100], Iter [2000/5943] loss : 0.1316
+Epoch [44/100], Iter [2100/5943] loss : 0.1186
+Epoch [44/100], Iter [2200/5943] loss : 0.1394
+Epoch [44/100], Iter [2300/5943] loss : 0.1199
+Epoch [44/100], Iter [2400/5943] loss : 0.1110
+Epoch [44/100], Iter [2500/5943] loss : 0.1143
+Epoch [44/100], Iter [2600/5943] loss : 0.1207
+Epoch [44/100], Iter [2700/5943] loss : 0.1037
+Epoch [44/100], Iter [2800/5943] loss : 0.1203
+Epoch [44/100], Iter [2900/5943] loss : 0.1432
+Epoch [44/100], Iter [3000/5943] loss : 0.1181
+Epoch [44/100], Iter [3100/5943] loss : 0.1435
+Epoch [44/100], Iter [3200/5943] loss : 0.1257
+Epoch [44/100], Iter [3300/5943] loss : 0.1330
+Epoch [44/100], Iter [3400/5943] loss : 0.1295
+Epoch [44/100], Iter [3500/5943] loss : 0.1435
+Epoch [44/100], Iter [3600/5943] loss : 0.1500
+Epoch [44/100], Iter [3700/5943] loss : 0.1283
+Epoch [44/100], Iter [3800/5943] loss : 0.1586
+Epoch [44/100], Iter [3900/5943] loss : 0.1464
+Epoch [44/100], Iter [4000/5943] loss : 0.1274
+Epoch [44/100], Iter [4100/5943] loss : 0.1555
+Epoch [44/100], Iter [4200/5943] loss : 0.1301
+Epoch [44/100], Iter [4300/5943] loss : 0.1748
+Epoch [44/100], Iter [4400/5943] loss : 0.1102
+Epoch [44/100], Iter [4500/5943] loss : 0.1173
+Epoch [44/100], Iter [4600/5943] loss : 0.1572
+Epoch [44/100], Iter [4700/5943] loss : 0.1462
+Epoch [44/100], Iter [4800/5943] loss : 0.1663
+Epoch [44/100], Iter [4900/5943] loss : 0.1078
+Epoch [44/100], Iter [5000/5943] loss : 0.1254
+Epoch [44/100], Iter [5100/5943] loss : 0.1280
+Epoch [44/100], Iter [5200/5943] loss : 0.1706
+Epoch [44/100], Iter [5300/5943] loss : 0.1419
+Epoch [44/100], Iter [5400/5943] loss : 0.1287
+Epoch [44/100], Iter [5500/5943] loss : 0.1295
+Epoch [44/100], Iter [5600/5943] loss : 0.1642
+Epoch [44/100], Iter [5700/5943] loss : 0.1029
+Epoch [44/100], Iter [5800/5943] loss : 0.1485
+Epoch [44/100], Iter [5900/5943] loss : 0.1226
+Retrieval : AROC = 0.908, AP = 0.461 /  Annotation : AROC = 0.941, AP = 0.710
+Average loss: 0.1324 
+
+2020-05-31 02:09:44.033663
+Epoch [44/100], Iter [100/1485] loss : 0.2435
+Epoch [44/100], Iter [200/1485] loss : 0.1206
+Epoch [44/100], Iter [300/1485] loss : 0.0935
+Epoch [44/100], Iter [400/1485] loss : 0.0980
+Epoch [44/100], Iter [500/1485] loss : 0.1035
+Epoch [44/100], Iter [600/1485] loss : 0.1087
+Epoch [44/100], Iter [700/1485] loss : 0.1186
+Epoch [44/100], Iter [800/1485] loss : 0.1092
+Epoch [44/100], Iter [900/1485] loss : 0.1983
+Epoch [44/100], Iter [1000/1485] loss : 0.1527
+Epoch [44/100], Iter [1100/1485] loss : 0.0803
+Epoch [44/100], Iter [1200/1485] loss : 0.1564
+Epoch [44/100], Iter [1300/1485] loss : 0.1967
+Epoch [44/100], Iter [1400/1485] loss : 0.1025
+Retrieval : AROC = 0.884, AP = 0.395 /  Annotation : AROC = 0.925, AP = 0.662
+Average loss: 0.1453 
+
+2020-05-31 02:16:16.522364
+Learning rate : 6.400000000000002e-07
+
+Epoch 45/100
+------------------------------
+Learning Rate: 6.400000000000002e-07
+------------------------------
+Epoch [45/100], Iter [100/5943] loss : 0.1370
+Epoch [45/100], Iter [200/5943] loss : 0.1446
+Epoch [45/100], Iter [300/5943] loss : 0.1257
+Epoch [45/100], Iter [400/5943] loss : 0.1181
+Epoch [45/100], Iter [500/5943] loss : 0.1606
+Epoch [45/100], Iter [600/5943] loss : 0.0916
+Epoch [45/100], Iter [700/5943] loss : 0.1457
+Epoch [45/100], Iter [800/5943] loss : 0.1297
+Epoch [45/100], Iter [900/5943] loss : 0.1264
+Epoch [45/100], Iter [1000/5943] loss : 0.1536
+Epoch [45/100], Iter [1100/5943] loss : 0.1059
+Epoch [45/100], Iter [1200/5943] loss : 0.1388
+Epoch [45/100], Iter [1300/5943] loss : 0.1021
+Epoch [45/100], Iter [1400/5943] loss : 0.1323
+Epoch [45/100], Iter [1500/5943] loss : 0.1433
+Epoch [45/100], Iter [1600/5943] loss : 0.1497
+Epoch [45/100], Iter [1700/5943] loss : 0.1113
+Epoch [45/100], Iter [1800/5943] loss : 0.1308
+Epoch [45/100], Iter [1900/5943] loss : 0.1280
+Epoch [45/100], Iter [2000/5943] loss : 0.1109
+Epoch [45/100], Iter [2100/5943] loss : 0.1425
+Epoch [45/100], Iter [2200/5943] loss : 0.1253
+Epoch [45/100], Iter [2300/5943] loss : 0.1117
+Epoch [45/100], Iter [2400/5943] loss : 0.1277
+Epoch [45/100], Iter [2500/5943] loss : 0.1280
+Epoch [45/100], Iter [2600/5943] loss : 0.1249
+Epoch [45/100], Iter [2700/5943] loss : 0.1315
+Epoch [45/100], Iter [2800/5943] loss : 0.1070
+Epoch [45/100], Iter [2900/5943] loss : 0.1509
+Epoch [45/100], Iter [3000/5943] loss : 0.1175
+Epoch [45/100], Iter [3100/5943] loss : 0.1245
+Epoch [45/100], Iter [3200/5943] loss : 0.1209
+Epoch [45/100], Iter [3300/5943] loss : 0.1394
+Epoch [45/100], Iter [3400/5943] loss : 0.1162
+Epoch [45/100], Iter [3500/5943] loss : 0.1085
+Epoch [45/100], Iter [3600/5943] loss : 0.1284
+Epoch [45/100], Iter [3700/5943] loss : 0.1222
+Epoch [45/100], Iter [3800/5943] loss : 0.1191
+Epoch [45/100], Iter [3900/5943] loss : 0.1078
+Epoch [45/100], Iter [4000/5943] loss : 0.1236
+Epoch [45/100], Iter [4100/5943] loss : 0.1447
+Epoch [45/100], Iter [4200/5943] loss : 0.1135
+Epoch [45/100], Iter [4300/5943] loss : 0.1048
+Epoch [45/100], Iter [4400/5943] loss : 0.1788
+Epoch [45/100], Iter [4500/5943] loss : 0.1219
+Epoch [45/100], Iter [4600/5943] loss : 0.1396
+Epoch [45/100], Iter [4700/5943] loss : 0.1192
+Epoch [45/100], Iter [4800/5943] loss : 0.1216
+Epoch [45/100], Iter [4900/5943] loss : 0.1589
+Epoch [45/100], Iter [5000/5943] loss : 0.1239
+Epoch [45/100], Iter [5100/5943] loss : 0.1224
+Epoch [45/100], Iter [5200/5943] loss : 0.1180
+Epoch [45/100], Iter [5300/5943] loss : 0.1104
+Epoch [45/100], Iter [5400/5943] loss : 0.1120
+Epoch [45/100], Iter [5500/5943] loss : 0.1346
+Epoch [45/100], Iter [5600/5943] loss : 0.1352
+Epoch [45/100], Iter [5700/5943] loss : 0.1665
+Epoch [45/100], Iter [5800/5943] loss : 0.1314
+Epoch [45/100], Iter [5900/5943] loss : 0.1339
+Retrieval : AROC = 0.908, AP = 0.462 /  Annotation : AROC = 0.942, AP = 0.710
+Average loss: 0.1324 
+
+2020-05-31 03:27:56.127315
+Epoch [45/100], Iter [100/1485] loss : 0.2464
+Epoch [45/100], Iter [200/1485] loss : 0.1229
+Epoch [45/100], Iter [300/1485] loss : 0.0954
+Epoch [45/100], Iter [400/1485] loss : 0.0992
+Epoch [45/100], Iter [500/1485] loss : 0.1045
+Epoch [45/100], Iter [600/1485] loss : 0.1087
+Epoch [45/100], Iter [700/1485] loss : 0.1177
+Epoch [45/100], Iter [800/1485] loss : 0.1105
+Epoch [45/100], Iter [900/1485] loss : 0.1893
+Epoch [45/100], Iter [1000/1485] loss : 0.1490
+Epoch [45/100], Iter [1100/1485] loss : 0.0782
+Epoch [45/100], Iter [1200/1485] loss : 0.1543
+Epoch [45/100], Iter [1300/1485] loss : 0.2000
+Epoch [45/100], Iter [1400/1485] loss : 0.0999
+Retrieval : AROC = 0.885, AP = 0.396 /  Annotation : AROC = 0.926, AP = 0.664
+Average loss: 0.1444 
+
+2020-05-31 03:34:33.887887
+Learning rate : 1.2800000000000006e-07
+
+Epoch 46/100
+------------------------------
+Learning Rate: 1.2800000000000006e-07
+------------------------------
+Epoch [46/100], Iter [100/5943] loss : 0.1229
+Epoch [46/100], Iter [200/5943] loss : 0.1563
+Epoch [46/100], Iter [300/5943] loss : 0.0994
+Epoch [46/100], Iter [400/5943] loss : 0.1090
+Epoch [46/100], Iter [500/5943] loss : 0.1393
+Epoch [46/100], Iter [600/5943] loss : 0.1203
+Epoch [46/100], Iter [700/5943] loss : 0.1189
+Epoch [46/100], Iter [800/5943] loss : 0.1176
+Epoch [46/100], Iter [900/5943] loss : 0.1141
+Epoch [46/100], Iter [1000/5943] loss : 0.1317
+Epoch [46/100], Iter [1100/5943] loss : 0.1514
+Epoch [46/100], Iter [1200/5943] loss : 0.1249
+Epoch [46/100], Iter [1300/5943] loss : 0.1046
+Epoch [46/100], Iter [1400/5943] loss : 0.1259
+Epoch [46/100], Iter [1500/5943] loss : 0.1302
+Epoch [46/100], Iter [1600/5943] loss : 0.1381
+Epoch [46/100], Iter [1700/5943] loss : 0.1448
+Epoch [46/100], Iter [1800/5943] loss : 0.1233
+Epoch [46/100], Iter [1900/5943] loss : 0.1297
+Epoch [46/100], Iter [2000/5943] loss : 0.1234
+Epoch [46/100], Iter [2100/5943] loss : 0.1319
+Epoch [46/100], Iter [2200/5943] loss : 0.1364
+Epoch [46/100], Iter [2300/5943] loss : 0.1632
+Epoch [46/100], Iter [2400/5943] loss : 0.1486
+Epoch [46/100], Iter [2500/5943] loss : 0.1224
+Epoch [46/100], Iter [2600/5943] loss : 0.1090
+Epoch [46/100], Iter [2700/5943] loss : 0.1168
+Epoch [46/100], Iter [2800/5943] loss : 0.1525
+Epoch [46/100], Iter [2900/5943] loss : 0.1212
+Epoch [46/100], Iter [3000/5943] loss : 0.1516
+Epoch [46/100], Iter [3100/5943] loss : 0.1305
+Epoch [46/100], Iter [3200/5943] loss : 0.1586
+Epoch [46/100], Iter [3300/5943] loss : 0.1233
+Epoch [46/100], Iter [3400/5943] loss : 0.1238
+Epoch [46/100], Iter [3500/5943] loss : 0.1362
+Epoch [46/100], Iter [3600/5943] loss : 0.1246
+Epoch [46/100], Iter [3700/5943] loss : 0.1429
+Epoch [46/100], Iter [3800/5943] loss : 0.1548
+Epoch [46/100], Iter [3900/5943] loss : 0.1163
+Epoch [46/100], Iter [4000/5943] loss : 0.1448
+Epoch [46/100], Iter [4100/5943] loss : 0.1210
+Epoch [46/100], Iter [4200/5943] loss : 0.1246
+Epoch [46/100], Iter [4300/5943] loss : 0.1102
+Epoch [46/100], Iter [4400/5943] loss : 0.1279
+Epoch [46/100], Iter [4500/5943] loss : 0.1270
+Epoch [46/100], Iter [4600/5943] loss : 0.1366
+Epoch [46/100], Iter [4700/5943] loss : 0.1230
+Epoch [46/100], Iter [4800/5943] loss : 0.1355
+Epoch [46/100], Iter [4900/5943] loss : 0.0997
+Epoch [46/100], Iter [5000/5943] loss : 0.1343
+Epoch [46/100], Iter [5100/5943] loss : 0.1566
+Epoch [46/100], Iter [5200/5943] loss : 0.1128
+Epoch [46/100], Iter [5300/5943] loss : 0.1358
+Epoch [46/100], Iter [5400/5943] loss : 0.1780
+Epoch [46/100], Iter [5500/5943] loss : 0.1199
+Epoch [46/100], Iter [5600/5943] loss : 0.1451
+Epoch [46/100], Iter [5700/5943] loss : 0.1121
+Epoch [46/100], Iter [5800/5943] loss : 0.1323
+Epoch [46/100], Iter [5900/5943] loss : 0.1374
+Retrieval : AROC = 0.909, AP = 0.462 /  Annotation : AROC = 0.941, AP = 0.710
+Average loss: 0.1322 
+
+2020-05-31 04:47:56.837548
+Epoch [46/100], Iter [100/1485] loss : 0.2420
+Epoch [46/100], Iter [200/1485] loss : 0.1196
+Epoch [46/100], Iter [300/1485] loss : 0.0931
+Epoch [46/100], Iter [400/1485] loss : 0.1003
+Epoch [46/100], Iter [500/1485] loss : 0.1031
+Epoch [46/100], Iter [600/1485] loss : 0.1067
+Epoch [46/100], Iter [700/1485] loss : 0.1157
+Epoch [46/100], Iter [800/1485] loss : 0.1091
+Epoch [46/100], Iter [900/1485] loss : 0.1976
+Epoch [46/100], Iter [1000/1485] loss : 0.1513
+Epoch [46/100], Iter [1100/1485] loss : 0.0811
+Epoch [46/100], Iter [1200/1485] loss : 0.1539
+Epoch [46/100], Iter [1300/1485] loss : 0.1991
+Epoch [46/100], Iter [1400/1485] loss : 0.1010
+Retrieval : AROC = 0.885, AP = 0.396 /  Annotation : AROC = 0.926, AP = 0.663
+Average loss: 0.1448 
+
+2020-05-31 04:54:34.023445
+Learning rate : 1.2800000000000006e-07
+
+Epoch 47/100
+------------------------------
+Learning Rate: 1.2800000000000006e-07
+------------------------------
+Epoch [47/100], Iter [100/5943] loss : 0.1342
+Epoch [47/100], Iter [200/5943] loss : 0.1445
+Epoch [47/100], Iter [300/5943] loss : 0.1439
+Epoch [47/100], Iter [400/5943] loss : 0.1455
+Epoch [47/100], Iter [500/5943] loss : 0.1384
+Epoch [47/100], Iter [600/5943] loss : 0.1239
+Epoch [47/100], Iter [700/5943] loss : 0.1357
+Epoch [47/100], Iter [800/5943] loss : 0.1290
+Epoch [47/100], Iter [900/5943] loss : 0.1350
+Epoch [47/100], Iter [1000/5943] loss : 0.1236
+Epoch [47/100], Iter [1100/5943] loss : 0.1095
+Epoch [47/100], Iter [1200/5943] loss : 0.1629
+Epoch [47/100], Iter [1300/5943] loss : 0.1273
+Epoch [47/100], Iter [1400/5943] loss : 0.1242
+Epoch [47/100], Iter [1500/5943] loss : 0.1129
+Epoch [47/100], Iter [1600/5943] loss : 0.1398
+Epoch [47/100], Iter [1700/5943] loss : 0.1219
+Epoch [47/100], Iter [1800/5943] loss : 0.1946
+Epoch [47/100], Iter [1900/5943] loss : 0.1353
+Epoch [47/100], Iter [2000/5943] loss : 0.1226
+Epoch [47/100], Iter [2100/5943] loss : 0.1178
+Epoch [47/100], Iter [2200/5943] loss : 0.1267
+Epoch [47/100], Iter [2300/5943] loss : 0.1031
+Epoch [47/100], Iter [2400/5943] loss : 0.1214
+Epoch [47/100], Iter [2500/5943] loss : 0.1390
+Epoch [47/100], Iter [2600/5943] loss : 0.1186
+Epoch [47/100], Iter [2700/5943] loss : 0.1249
+Epoch [47/100], Iter [2800/5943] loss : 0.1318
+Epoch [47/100], Iter [2900/5943] loss : 0.1246
+Epoch [47/100], Iter [3000/5943] loss : 0.1236
+Epoch [47/100], Iter [3100/5943] loss : 0.1520
+Epoch [47/100], Iter [3200/5943] loss : 0.1317
+Epoch [47/100], Iter [3300/5943] loss : 0.1473
+Epoch [47/100], Iter [3400/5943] loss : 0.1308
+Epoch [47/100], Iter [3500/5943] loss : 0.1574
+Epoch [47/100], Iter [3600/5943] loss : 0.1244
+Epoch [47/100], Iter [3700/5943] loss : 0.1558
+Epoch [47/100], Iter [3800/5943] loss : 0.1030
+Epoch [47/100], Iter [3900/5943] loss : 0.1260
+Epoch [47/100], Iter [4000/5943] loss : 0.1518
+Epoch [47/100], Iter [4100/5943] loss : 0.1599
+Epoch [47/100], Iter [4200/5943] loss : 0.1160
+Epoch [47/100], Iter [4300/5943] loss : 0.1128
+Epoch [47/100], Iter [4400/5943] loss : 0.1426
+Epoch [47/100], Iter [4500/5943] loss : 0.1468
+Epoch [47/100], Iter [4600/5943] loss : 0.0982
+Epoch [47/100], Iter [4700/5943] loss : 0.1231
+Epoch [47/100], Iter [4800/5943] loss : 0.1300
+Epoch [47/100], Iter [4900/5943] loss : 0.1090
+Epoch [47/100], Iter [5000/5943] loss : 0.1055
+Epoch [47/100], Iter [5100/5943] loss : 0.1369
+Epoch [47/100], Iter [5200/5943] loss : 0.1407
+Epoch [47/100], Iter [5300/5943] loss : 0.1294
+Epoch [47/100], Iter [5400/5943] loss : 0.1363
+Epoch [47/100], Iter [5500/5943] loss : 0.1200
+Epoch [47/100], Iter [5600/5943] loss : 0.1305
+Epoch [47/100], Iter [5700/5943] loss : 0.1142
+Epoch [47/100], Iter [5800/5943] loss : 0.1259
+Epoch [47/100], Iter [5900/5943] loss : 0.1478
+Retrieval : AROC = 0.909, AP = 0.462 /  Annotation : AROC = 0.941, AP = 0.710
+Average loss: 0.1323 
+
+2020-05-31 06:07:56.041324
+Epoch [47/100], Iter [100/1485] loss : 0.2512
+Epoch [47/100], Iter [200/1485] loss : 0.1221
+Epoch [47/100], Iter [300/1485] loss : 0.0941
+Epoch [47/100], Iter [400/1485] loss : 0.0954
+Epoch [47/100], Iter [500/1485] loss : 0.1046
+Epoch [47/100], Iter [600/1485] loss : 0.1090
+Epoch [47/100], Iter [700/1485] loss : 0.1185
+Epoch [47/100], Iter [800/1485] loss : 0.1076
+Epoch [47/100], Iter [900/1485] loss : 0.1991
+Epoch [47/100], Iter [1000/1485] loss : 0.1494
+Epoch [47/100], Iter [1100/1485] loss : 0.0805
+Epoch [47/100], Iter [1200/1485] loss : 0.1568
+Epoch [47/100], Iter [1300/1485] loss : 0.1959
+Epoch [47/100], Iter [1400/1485] loss : 0.1020
+Retrieval : AROC = 0.885, AP = 0.395 /  Annotation : AROC = 0.926, AP = 0.662
+Average loss: 0.1450 
+
+2020-05-31 06:14:33.194683
+Learning rate : 1.2800000000000006e-07
+
+Epoch 48/100
+------------------------------
+Learning Rate: 1.2800000000000006e-07
+------------------------------
+Epoch [48/100], Iter [100/5943] loss : 0.1258
+Epoch [48/100], Iter [200/5943] loss : 0.1031
+Epoch [48/100], Iter [300/5943] loss : 0.1301
+Epoch [48/100], Iter [400/5943] loss : 0.1297
+Epoch [48/100], Iter [500/5943] loss : 0.1287
+Epoch [48/100], Iter [600/5943] loss : 0.1142
+Epoch [48/100], Iter [700/5943] loss : 0.1342
+Epoch [48/100], Iter [800/5943] loss : 0.1251
+Epoch [48/100], Iter [900/5943] loss : 0.1183
+Epoch [48/100], Iter [1000/5943] loss : 0.1416
+Epoch [48/100], Iter [1100/5943] loss : 0.1253
+Epoch [48/100], Iter [1200/5943] loss : 0.1491
+Epoch [48/100], Iter [1300/5943] loss : 0.1067
+Epoch [48/100], Iter [1400/5943] loss : 0.1583
+Epoch [48/100], Iter [1500/5943] loss : 0.1351
+Epoch [48/100], Iter [1600/5943] loss : 0.1485
+Epoch [48/100], Iter [1700/5943] loss : 0.1509
+Epoch [48/100], Iter [1800/5943] loss : 0.1112
+Epoch [48/100], Iter [1900/5943] loss : 0.1157
+Epoch [48/100], Iter [2000/5943] loss : 0.1204
+Epoch [48/100], Iter [2100/5943] loss : 0.1227
+Epoch [48/100], Iter [2200/5943] loss : 0.1074
+Epoch [48/100], Iter [2300/5943] loss : 0.1114
+Epoch [48/100], Iter [2400/5943] loss : 0.1827
+Epoch [48/100], Iter [2500/5943] loss : 0.1616
+Epoch [48/100], Iter [2600/5943] loss : 0.1186
+Epoch [48/100], Iter [2700/5943] loss : 0.1420
+Epoch [48/100], Iter [2800/5943] loss : 0.0965
+Epoch [48/100], Iter [2900/5943] loss : 0.1421
+Epoch [48/100], Iter [3000/5943] loss : 0.1350
+Epoch [48/100], Iter [3100/5943] loss : 0.1321
+Epoch [48/100], Iter [3200/5943] loss : 0.1320
+Epoch [48/100], Iter [3300/5943] loss : 0.1253
+Epoch [48/100], Iter [3400/5943] loss : 0.1454
+Epoch [48/100], Iter [3500/5943] loss : 0.0982
+Epoch [48/100], Iter [3600/5943] loss : 0.1459
+Epoch [48/100], Iter [3700/5943] loss : 0.1362
+Epoch [48/100], Iter [3800/5943] loss : 0.1202
+Epoch [48/100], Iter [3900/5943] loss : 0.1514
+Epoch [48/100], Iter [4000/5943] loss : 0.1256
+Epoch [48/100], Iter [4100/5943] loss : 0.1158
+Epoch [48/100], Iter [4200/5943] loss : 0.1484
+Epoch [48/100], Iter [4300/5943] loss : 0.1870
+Epoch [48/100], Iter [4400/5943] loss : 0.1634
+Epoch [48/100], Iter [4500/5943] loss : 0.1343
+Epoch [48/100], Iter [4600/5943] loss : 0.1265
+Epoch [48/100], Iter [4700/5943] loss : 0.1610
+Epoch [48/100], Iter [4800/5943] loss : 0.1532
+Epoch [48/100], Iter [4900/5943] loss : 0.1421
+Epoch [48/100], Iter [5000/5943] loss : 0.1362
+Epoch [48/100], Iter [5100/5943] loss : 0.1098
+Epoch [48/100], Iter [5200/5943] loss : 0.1338
+Epoch [48/100], Iter [5300/5943] loss : 0.1166
+Epoch [48/100], Iter [5400/5943] loss : 0.1448
+Epoch [48/100], Iter [5500/5943] loss : 0.1341
+Epoch [48/100], Iter [5600/5943] loss : 0.1652
+Epoch [48/100], Iter [5700/5943] loss : 0.1533
+Epoch [48/100], Iter [5800/5943] loss : 0.1027
+Epoch [48/100], Iter [5900/5943] loss : 0.1255
+Retrieval : AROC = 0.909, AP = 0.462 /  Annotation : AROC = 0.941, AP = 0.710
+Average loss: 0.1323 
+
+2020-05-31 07:27:49.330021
+Epoch [48/100], Iter [100/1485] loss : 0.2407
+Epoch [48/100], Iter [200/1485] loss : 0.1211
+Epoch [48/100], Iter [300/1485] loss : 0.0936
+Epoch [48/100], Iter [400/1485] loss : 0.0991
+Epoch [48/100], Iter [500/1485] loss : 0.1042
+Epoch [48/100], Iter [600/1485] loss : 0.1083
+Epoch [48/100], Iter [700/1485] loss : 0.1159
+Epoch [48/100], Iter [800/1485] loss : 0.1098
+Epoch [48/100], Iter [900/1485] loss : 0.1944
+Epoch [48/100], Iter [1000/1485] loss : 0.1457
+Epoch [48/100], Iter [1100/1485] loss : 0.0804
+Epoch [48/100], Iter [1200/1485] loss : 0.1541
+Epoch [48/100], Iter [1300/1485] loss : 0.1997
+Epoch [48/100], Iter [1400/1485] loss : 0.1032
+Retrieval : AROC = 0.885, AP = 0.396 /  Annotation : AROC = 0.925, AP = 0.663
+Average loss: 0.1449 
+
+2020-05-31 07:34:26.595727
+Learning rate : 2.5600000000000014e-08
+Early stopping
+Testing ...
+Retrieval : AROC = 0.897, AP = 0.397 /  Annotation : AROC = 0.942, AP = 0.722
+Average loss: 0.1319 
+
+cp: cannot stat '/scratch/experiments/MagnaTagATune/saved/*': No such file or directory

@@ -11,5 +11,3 @@ eerie/nn/functional/sconv.py
 experiments/UrbanSound8K/data/*
 experiments/UrbanSound8K/saved/*
 experiments/MagnaTagATune/data/
-experiments/MagnaTagATune/saved/*
-experiments/MagnaTagATune/model/*
