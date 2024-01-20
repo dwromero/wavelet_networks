@@ -1,8 +1,8 @@
-## Wavelet Networks: Scale Equivariant Learning From Raw Waveforms
+## Wavelet Networks: Scale Equivariant Learning From Raw Time-Series
 
 This repository contains the source code accompanying the paper:
  
-[Wavelet Networks: Scale Equivariant Learning From Raw Waveforms](https://arxiv.org/abs/2006.05259) <br/>**David W. Romero, Erik J. Bekkers, Jakub M. Tomczak & Mark Hoogendoorn**. 
+[Wavelet Networks: Scale Equivariant Learning From Raw Time-Series](https://arxiv.org/abs/2006.05259) <br/>**David W. Romero, Erik J. Bekkers, Jakub M. Tomczak & Mark Hoogendoorn**. 
 
 *Inducing symmetry equivariance in deep neural architectures has resolved into improved data efficiency and generalization. In this work, we utilize the concept 
 of scale and translation equivariance to tackle the problem of learning on time-series from raw waveforms. As a result, we obtain representations that largely 
